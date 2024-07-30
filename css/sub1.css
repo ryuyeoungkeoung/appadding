@@ -1,0 +1,173 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Noto Sans KR", "Poppins", sans-serif;
+  height: fit-content;
+  overflow: hidden;
+}
+/* 처음이자 마지막 섹션 */
+.baby {
+  width: 100%;
+  height: 1100px;
+  background-color: #a1dce2;
+  position: relative;
+  /* z-index: -2; */
+}
+/* 디데이 */
+.date {
+  position: absolute;
+  width: 340px;
+  height: 147px;
+  right: 122px;
+  top: 113px;
+  z-index: 3;
+}
+h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 800;
+  /* text-shadow: 0.3px 0.3px rgba(0, 0, 0, 0.8); */
+}
+span {
+  font-size: 100px;
+  color: #1b8bff;
+  font-weight: 800;
+}
+/* 아기 이미지 */
+.baby_wrap {
+  display: flex;
+  position: absolute;
+  animation: slinder 2s infinite ease;
+  animation-duration: 30s;
+}
+.baby_wrap > div {
+  width: 1920px;
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-image: url(/img/SUB2/baby1.png);
+  margin: 0 auto;
+  background-position: 500px 30px;
+  margin: 0 auto;
+}
+.baby_wrap > div:nth-child(2) {
+  background-image: url(/img/SUB2/baby2.png);
+}
+.baby_wrap > div:nth-child(3) {
+  background-image: url(/img/SUB2/baby3.png);
+}
+/* 애니메이션 */
+@keyframes slinder {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-25%);
+  }
+  38% {
+    transform: translateX(-25%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  68% {
+    transform: translateX(-50%);
+  }
+  75% {
+    transform: translateX(-75%);
+  }
+  88% {
+    transform: translateX(-75%);
+  }
+  100% {
+    transform: translateX(-75%);
+  }
+}
+/*  */
+/* 텍스트박스 */
+.te_xt {
+  width: 1274px;
+  height: 399px;
+  background-color: rgba(79, 172, 255, 0.9);
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 307px;
+  left: 323px;
+}
+.x {
+  color: #ffffff;
+  font-size: 25px;
+  display: flex;
+  justify-content: end;
+  margin-right: 33px;
+}
+.te_xt > h3 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+.te_xt > p {
+  font-size: 20px;
+  color: #fff;
+  line-height: 35px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 50px;
+}
+.te_xt > .more {
+  display: block;
+  width: 218px;
+  height: 56px;
+  font-size: 25px;
+  font-weight: 800;
+  color: #1b8bff;
+  background-color: #fff;
+  border: 1px solid #1b8bff;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 56px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  opacity: 1;
+  overflow: hidden;
+}
+/* .te_xt > .more:hover {
+  color: #00448d;
+  background-color: #b9b9b9;
+} */
+/* div 액션 */
+.action {
+  width: 218px;
+  height: 56px;
+  border-radius: 10px;
+  margin-left: 104px;
+  display: block;
+  color: #3497ff;
+  text-align: center;
+  line-height: 52px;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 105px;
+  background-color: #1b8bff;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  z-index: -999;
+  overflow: hidden;
+}
+.more:hover .action {
+  top: -105px;
+  left: 0px;
+  opacity: 1;
+  transition: 0.3s;
+  z-index: 999;
+  overflow: hidden;
+  color: #fff;
+}
+.btn_sub:hover {
+  color: #f9f9f9;
+}

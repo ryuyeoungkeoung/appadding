@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>헬프닥터</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/basic.css" />
+    <link rel="stylesheet" href="./css/sub03.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header>
+      <h1>
+        <a href="index.html"
+          ><img src="./img/SUB/logo_grey.png" alt="로고"
+        /></a>
+      </h1>
+      <nav>
+        <ul class="gnb">
+          <li class="gnb1">
+            <a href="sub_cal.html">캘린더</a>
+            <ul class="submenu1">
+              <li><a href="#">엄마는</a></li>
+              <li><a href="#">애기는</a></li>
+            </ul>
+          </li>
+          <li class="gnb2">
+            <a href="sub02.html" class="point">자료 & 상담</a>
+            <ul class="submenu2">
+              <li><a href="#">전체</a></li>
+              <li><a href="#">육아</a></li>
+              <li><a href="#">부모</a></li>
+            </ul>
+          </li>
+          <li class="gnb3">
+            <a href="sub03.html">헬프닥터</a>
+            <ul class="submenu3">
+              <li><a href="#">닥터추천</a></li>
+              <li><a href="#">헬프</a></li>
+            </ul>
+          </li>
+          <li class="gnb4">
+            <a href="sub04.html">커뮤니티</a>
+            <ul class="submenu4">
+              <li><a href="#">육아수다</a></li>
+              <li><a href="#">아빠띵수다</a></li>
+            </ul>
+          </li>
+          <li><a href="#">로그인</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="blu_box"></div>
+      <!-- 섹션1 -->
+      <section_1>
+        <h3 class="par">아내를 위한 선택 <span class="help">헬프닥터</span></h3>
+        <!-- 플로팅 버튼2  업버튼-->
+        <a href="#" class="f_btn2"><div class="height"></div></a>
+        <!-- 인풋 -->
+        <div class="input_tag">
+          <input type="text" placeholder="지역 혹은 병원명을 입력하여주세요." />
+          <div class="search"></div>
+        </div>
+      </section_1>
+      <!-- 섹션2 -->
+      <section>
+        <div class="con_2">
+          <!-- 산후조리원 -->
+          <h4># 용산점</h4>
+          <!-- 묶어주는 div -->
+          <div class="back_wrap">
+            <!-- 이미지 -->
+            <div class="back_baby"></div>
+            <!-- 이ㅣ미지 텍스트 영역 -->
+            <div class="back_txt">
+              <h3>서울드래곤시티</h3>
+              <p>
+                산후조리 노하우와 최고 호텔이 하나로 만나다. <br />
+                국내최초 산후조리 & 호텔 멀티서비스
+              </p>
+              <p>
+                서울시 용산구 청파로20길 95 <br />
+                서울 드래곤시티 39F
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 동그라미 -->
+      <!-- <div id="app">
+        <div class="button active"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+      </div> -->
+      <!-- 섹션3 -->
+      <section class="sc_3">
+        <div class="bar_wrap">
+          <div><p>닥터추천</p></div>
+          <div><p>헬프</p></div>
+        </div>
+      </section>
+      <!-- 섹션4 -->
+      <section class="se_4">
+        
+          
+        </div>
+        <!-- 의사1 -->
+        <div class="con_wraper">
+          <div class="con_wrap">
+            <div class="left__img"></div>
+            <div class="right_txt">
+              <h3>이정원</h3>
+              <p>
+                평생 건강을 책임지는 산부인과 의사가 되겠습니다. <br />
+                임신 전 상담, 임신 중 관리(임신성 고혈압, 조기 진통, 임신성
+                당뇨)
+              </p>
+              <!-- 버튼1 -->
+              <div class="btn_group">
+                <div class="btn_wrap flatpickr1">
+                  <input type="text" placeholder="날짜 선택" data-input />
+                  <!-- input is mandatory -->
+                  <a id="reservation2" class="btn1" title="toggle" data-toggle>
+                    진료예약
+                  </a>
+                </div>
+                <div class="btn_wrap flatpickr2">
+                  <input type="text" placeholder="날짜 선택" data-input />
+                  <!-- input is mandatory -->
+                  <a id="counseling2" class="btn2" title="toggle" data-toggle>
+                    상담예약
+                  </a>
+                </div>
+              </div>
+              <!-- 해시태그1 영역 -->
+              <div class="sm">
+                <div class="date1"><p>#안양 #의왕</p></div>
+                <div class="date2">2024.07.09</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 의사2 -->
+        <!-- 의사1 -->
+        <div class="con_wraper">
+          <div class="con_wrap">
+            <div class="left__img2"></div>
+            <div class="right_txt">
+              <h3>임선정</h3>
+              <p>
+                공감하는 진료를 우선으로 하겠습니다. <br />
+                임신 전 상담, 임신 중 관리(임신성 고혈압, 조기 진통, 임신성
+                당뇨)
+              </p>
+              <!-- 버튼1 -->
+              <div class="btn_group">
+                <div class="btn_wrap flatpickr3">
+                  <input type="text" placeholder="날짜 선택" data-input />
+                  <!-- input is mandatory -->
+                  <a id="reservation2" class="btn1" title="toggle" data-toggle>
+                    진료예약
+                  </a>
+                </div>
+                <div class="btn_wrap flatpickr4">
+                  <input type="text" placeholder="날짜 선택" data-input />
+                  <!-- input is mandatory -->
+                  <a id="counseling2" class="btn2" title="toggle" data-toggle>
+                    상담예약
+                  </a>
+                </div>
+              </div>
+
+              <!-- <div class="btn_wrap">
+                <input
+                  type="button"
+                  id="reservation2"
+                  class="btn1"
+                  value="진료예약"
+                />
+              </div>
+              <div class="btn_wrap">
+                <input
+                  type="button"
+                  id="counseling2"
+                  class="btn2"
+                  value="상담예약"
+                />
+              </div> -->
+              <!-- 해시태그1 영역 -->
+              <div class="sm">
+                <div class="date1"><p>#의정부 #동두천</p></div>
+                <div class="date2">2024.07.01</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 마무리 버튼 -->
+      <a href="#" class="btn_sub"
+        >MORE
+        <div class="action"></div>
+      </a>
+    </main>
+  </body>
+  <!-- 풋터 -->
+  <footer class="foot">
+    <div class="list">
+      <ul class="dangerous">
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">렌탈계약약관</a></li>
+        <li><a href="#" class="last">기업고객문의</a></li>
+      </ul>
+      <!-- 아이콘 -->
+      <div class="icon_wrapper">
+        <div class="fa"><a href="#"></a></div>
+        <div class="in"><a href="#"></a></div>
+        <div class="tw"><a href="#"></a></div>
+        <div class="ut"><a href="#"></a></div>
+      </div>
+    </div>
+    <!-- 마지막로고 -->
+    <div class="footer_logo">
+      <div class="appa">
+        <div class="logo_last"></div>
+        <p>&commat;Copyright appadding corp.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ko.js"></script>
+  <script src="./js/common.js"></script>
+  
+</html>

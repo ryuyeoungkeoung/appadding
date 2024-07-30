@@ -1,0 +1,385 @@
+@charset "utf-8";
+body {
+  height: 100%;
+  margin: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  /* background-color: #e91e63; */
+}
+main {
+  height: 2300px;
+  width: 100%;
+}
+.section_1 {
+  width: 100%;
+  height: fit-content;
+}
+
+/* 헬프닥터 섹션1 */
+.par {
+  font-size: 30px;
+  color: #2d2d2d;
+  text-align: center;
+  margin-top: 171px;
+  font-weight: 500;
+}
+.help {
+  font-size: 40px;
+  color: #1b8bff;
+  font-weight: bold;
+}
+/*업버튼 */
+.f_btn2 {
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
+  position: absolute;
+  top: 988px;
+  right: 76px;
+  z-index: 999;
+  position: fixed;
+  border: none;
+  border: 0.3px solid rgba(255, 255, 255, 0.5);
+}
+.height {
+  width: 30px;
+  height: 30px;
+  background-image: url(/img/SUB/arrow.png);
+  background-repeat: no-repeat;
+  margin-left: 18px;
+  margin-top: 14px;
+}
+/* 인풋 */
+.input_tag {
+  width: 828px;
+  height: 44px;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  margin-top: 64px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  padding-left: 42px;
+}
+input {
+  width: 80%;
+  height: 100%;
+  font-size: 17px;
+  border: 0;
+  outline: none;
+  /* padding-left: 10px; */
+  background-color: #f9f9f9;
+  /* padding-left: 76px; */
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search {
+  width: 40px;
+  height: 100%;
+  background-image: url(/img/SUB/Result.png);
+  /* background-color: antiquewhite; */
+  background-position: -548px 13px;
+  margin: 0px 63px;
+  cursor: pointer;
+}
+/* 섹션2 */
+section {
+  width: 100%;
+  /* background-color: #2d2d2d; */
+}
+.con_2 {
+  width: 1400px;
+  height: 450px;
+  /* background-color: #1b8bff; */
+  box-sizing: border-box;
+
+  margin: 0 auto;
+}
+/* 산후조리원 */
+.con_2 > h4 {
+  color: #898989;
+  text-align: start;
+
+  margin: 0 216px;
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+/* 묶어주는 div */
+.back_wrap {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.back_baby {
+  width: 620px;
+  height: 326px;
+  background-repeat: no-repeat;
+  background-image: url(/img/SUB/picture.png);
+}
+/* 이미지 텍스트 영역 */
+.back_txt > h3 {
+  font-size: 30px;
+
+  margin-bottom: 50px;
+}
+.back_txt > p {
+  font-size: 16px;
+  color: #999999;
+  line-height: 25px;
+}
+.back_txt > p:nth-last-child(1) {
+  margin-top: 30px;
+}
+/* 동그라미 */
+/* #app {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  width: 180px;
+  height: 20px;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease width;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button.active {
+  width: 60px;
+  cursor: auto;
+} */
+
+/* 섹션3 */
+.sc_3 {
+  width: 100%;
+  height: 100px;
+  /* background-color: #8ec4ff; */
+  margin-top: 50px;
+}
+/* 메뉴바 */
+.bar_wrap {
+  display: flex;
+  width: 353px;
+  height: 53px;
+  line-height: 53px;
+  margin: 0 auto;
+}
+.bar_wrap > div {
+  border-bottom: 1px solid rgb(1, 99, 198);
+  width: 117px;
+  height: 100%;
+  text-align: center;
+  color: rgb(1, 99, 198);
+}
+/* 메뉴 색 */
+.bar_wrap > div > p {
+  font-size: 16px;
+}
+/* 메뉴 색 */
+.bar_wrap > div:hover > p {
+  border-bottom: 3px solid rgb(1, 99, 198);
+  transition: 0.3s;
+  color: rgb(3, 0, 202);
+}
+/* 섹션4 */
+.se_4 {
+  margin: 0 auto;
+  width: 1230px;
+  height: 1038px;
+  position: relative;
+  /* background-color: antiquewhite; */
+}
+
+/* 닥터1 */
+.con_mo_wrap {
+  background-color: #000b69;
+  width: 1295px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+}
+.con_wrap {
+  padding-top: 100px;
+  display: flex;
+  width: 100%;
+  height: 328px;
+  /* background-color: #1b8bff; */
+  gap: 20px;
+}
+/* 이미지 1 */
+.left__img {
+  width: 402px;
+  height: 100%;
+  background-color: #ffdddd;
+  position: relative;
+  background: url(../img/SUB/doctor2.png) no-repeat;
+}
+.right_txt {
+  width: 67.4%;
+  height: 328px;
+  /* background-color: aqua; */
+}
+/* 해시태그 */
+.sm {
+  display: flex;
+}
+/* 닥터 텍스트 꾸미기1 */
+/* 꾸미기 */
+.right_txt > h3 {
+  font-size: 25px;
+  font-weight: 600;
+  /* background-color: #1b8bff; */
+}
+.right_txt > p {
+  font-size: 16px;
+  color: #999999;
+  line-height: 30px;
+  margin-top: 80px;
+  /* background-color: #000b69; */
+}
+/* 해시태그 영역 */
+.sm {
+  color: #898989;
+  line-height: 52px;
+  /* background-color: #1b8bff; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-top: 1px solid rgba(107, 107, 107, 0.5);
+  border-bottom: 1px solid rgba(107, 107, 107, 0.5);
+}
+.date1 {
+  font-size: 15px;
+  /* background-color: #003369; */
+
+  text-align: center;
+}
+.date2 {
+  font-size: 15px;
+  /* background-color: #ab0fc0; */
+  text-align: center;
+}
+/* 버튼1 */
+.btn_group {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.btn_wrap {
+  display: flex;
+  align-items: center;
+}
+.btn_wrap > input {
+  width: 1px;
+  height: 60px;
+  opacity: 0;
+}
+.btn1 {
+  display: block;
+  width: 120px;
+  height: 46px;
+  background-color: #0163c6;
+  color: aliceblue;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 46px;
+}
+.btn2 {
+  display: block;
+  width: 120px;
+  height: 46px;
+  background-color: #5c5858;
+  line-height: 46px;
+  color: aliceblue;
+  border-radius: 5px;
+  text-align: center;
+}
+/* 버튼 호버 */
+.btn1:hover {
+  color: #000b69;
+  background-color: #8ec4ff;
+}
+.btn2:hover {
+  color: #202020;
+  background-color: #898989;
+}
+/* 의사2 */
+.left__img2 {
+  width: 402px;
+  height: 100%;
+  background-image: url(/img/SUB/doctor.png);
+  background-repeat: no-repeat;
+}
+/* 마무리 버튼 */
+.btn_sub {
+  width: 200px;
+  height: 56px;
+  border-radius: 10px;
+  margin-left: 104px;
+  display: block;
+  color: #3497ff;
+  text-align: center;
+  line-height: 52px;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 60px;
+  border: 1px solid #3497ff;
+  position: relative;
+  overflow: hidden;
+}
+/* div 액션 */
+.action {
+  width: 200px;
+  height: 56px;
+  border-radius: 10px;
+  margin-left: 104px;
+  display: block;
+  color: #3497ff;
+  text-align: center;
+  line-height: 52px;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 105px;
+  background-color: #1b8bff;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+.btn_sub:hover .action {
+  top: -105px;
+  left: 0px;
+  opacity: 1;
+  transition: 0.3s;
+  z-index: -999;
+}
+.btn_sub:hover {
+  color: #f9f9f9;
+}

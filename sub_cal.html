@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>캘린더</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/basic.css" />
+    <link rel="stylesheet" href="./css/sub_cal.css" />
+  </head>
+  <body>
+    <!-- 헤더부분 -->
+    <header>
+      <h1>
+        <a href="index.html"
+          ><img src="./img/SUB/logo_grey.png" alt="로고"
+        /></a>
+      </h1>
+      <nav>
+        <ul class="gnb">
+          <li class="gnb1">
+            <a href="sub_cal.html">캘린더</a>
+            <ul class="submenu1">
+              <li><a href="#">엄마는</a></li>
+              <li><a href="#">애기는</a></li>
+            </ul>
+          </li>
+          <li class="gnb2">
+            <a href="sub02.html">자료 & 상담</a>
+            <ul class="submenu2">
+              <li><a href="#">전체</a></li>
+              <li><a href="#">육아</a></li>
+              <li><a href="#">부모</a></li>
+            </ul>
+          </li>
+          <li class="gnb3">
+            <a href="sub03.html">헬프닥터</a>
+            <ul class="submenu3">
+              <li><a href="#">닥터추천</a></li>
+              <li><a href="#">헬프</a></li>
+            </ul>
+          </li>
+          <li class="gnb4">
+            <a href="sub04.html">커뮤니티</a>
+            <ul class="submenu4">
+              <li><a href="#">육아수다</a></li>
+              <li><a href="#">아빠띵수다</a></li>
+            </ul>
+          </li>
+          <li><a href="#">로그인</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- 메인 -->
+    <main>
+      <div class="main">
+        <div class="content-wrap">
+          <div class="content-left">
+            <!-- 회원창 -->
+            <div class="img_huwrap">
+              <div class="img1"></div>
+              <h3>000님</h3>
+            </div>
+            <h3 class="people"><a href="#">- 참석자 추가 -</a></h3>
+            <!-- 친구 -->
+            <div class="img_huwrap2">
+              <div class="img2"></div>
+              <a href="#">사용자 검색</a>
+            </div>
+            <div class="main-wrap">
+              <div id="main-day" class="main-day"></div>
+              <div id="main-date" class="main-date"></div>
+            </div>
+            <div class="todo-wrap">
+              <div class="todo-title">Todo List</div>
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  placeholder="please write here!!"
+                  id="input-box"
+                  class="input-box"
+                />
+                <button type="button" id="input-data" class="input-data">
+                  기록하기
+                </button>
+                <div id="input-list" class="input-list"></div>
+              </div>
+            </div>
+          </div>
+          <div class="content-right">
+            <table id="calendar" align="center">
+              <thead>
+                <tr class="btn-wrap clearfix">
+                  <td>
+                    <label id="prev"> &#60; </label>
+                  </td>
+                  <td align="center" id="current-year-month" colspan="5"></td>
+                  <td>
+                    <label id="next"> &#62; </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="sun" align="center">Sun</td>
+                  <td align="center">Mon</td>
+                  <td align="center">Tue</td>
+                  <td align="center">Wed</td>
+                  <td align="center">Thu</td>
+                  <td align="center">Fri</td>
+                  <td class="sat" align="center">Sat</td>
+                </tr>
+              </thead>
+              <tbody id="calendar-body" class="calendar-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/common02.js"></script>
+  </body>
+</html>
