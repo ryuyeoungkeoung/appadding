@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+body {
+  scroll-behavior: smooth;
+}
+ul li {
+  list-style: none;
+}
+/* 파란박스 */
+/* 서브용 박스 */
+.blu_box {
+  width: 100%;
+  height: 123px;
+  background-image: url(../img/SUB/background.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.public {
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-left: 55px;
+}
+.public2 {
+  width: 100%;
+  height: 123px;
+  display: flex;
+  /* background-color: #03c75a; */
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  position: relative;
+  animation: slinder 10s infinite forwards;
+  margin-top: 0;
+  margin-left: 8px;
+}
+/* 애니메이션 */
+@keyframes slinder {
+  0% {
+    transform: translateY(-300%);
+  }
+  30% {
+    transform: translateY(-200%);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+
+  70% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+/* 슬라이드 파란박스 글씨들  */
+.public p {
+  width: 500px;
+  text-align: center;
+  color: #ffffff;
+}
+.public2 > div {
+  color: #4d4d4d;
+  width: 80px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  border-radius: 12px;
+  line-height: 39px;
+}
+#public3 {
+  color: #5c5c5c;
+  width: 131px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  border-radius: 12px;
+  line-height: 39px;
+}
+
+.par {
+  font-size: 20px;
+  color: #2d2d2d;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #818181;
+}
+.help {
+  color: #1b8bff;
+  font-weight: bold;
+  font-size: 50px;
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  /* background-color: aqua; */
+  text-align: center;
+  margin: 10px auto;
+}
+.fi {
+  margin-left: 60px;
+  filter: brightness(0.5);
+  display: none;
+}
+
+.keoung {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/movie.mp4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(0, 0, 0); */
+}
+body {
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.house {
+  background-image: none;
+  position: absolute;
+  top: -18px;
+}
+
+.wrapper H1 {
+  color: aliceblue;
+  text-align: center;
+}
+.wrapper {
+  width: fit-content;
+  height: 405px;
+  /* background: #3d3d3d; */
+  /* border-radius: 30px; */
+  padding: 30px 40px;
+  /* backdrop-filter: blur(20px); */
+  /* margin-top: 100px; */
+  margin-bottom: 34px;
+}
+
+.wrapper .input_box {
+  width: fit-content;
+  height: 50px;
+  /* background-color: brown; */
+  margin: 30px 0;
+}
+.input_box input {
+  width: 550px;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(186 186 186 / 78%);
+  /* border-radius: 40px; */
+  box-sizing: border-box;
+  padding: 20px 45px 20px 20px;
+}
+
+.input_box input::placeholder {
+  color: rgb(73, 73, 73);
+}
+.remember_forget {
+  /* display: flex;
+  justify-content: space-between; */
+
+  /* background-color: rgb(187, 30, 255); */
+  font-size: 15px;
+  /* margin: -15px 0 15px; */
+}
+.remember_forget a {
+  float: right;
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.remember_forget a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
+/* dlwek */
+.for {
+  color: rgb(102, 102, 102);
+  margin-top: 3px;
+}
+/* 로그인 텍스트 */
+.tit_wrap {
+  margin-bottom: 32px;
+}
+.tit_wrap .tit_area {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.tit_wrap .tit {
+  overflow: hidden;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #111;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  margin-left: 219px;
+}
+@media (max-width: 767px) {
+  .tit_wrap .tit {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+.tit_wrap .tit_area:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+/* 버튼 묶음 */
+.btn_wrap {
+  display: flex;
+
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+  height: 47px;
+
+  padding: 20px;
+}
+.btn1 {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 16px;
+  background-image: url(../img/login/naver.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 15px;
+  background-color: #00b81f;
+}
+.btn2 {
+  width: 60px;
+  height: 60px;
+  background-color: #1a57ff;
+  cursor: pointer;
+  background-image: url(../img/login/facebook.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 21px 13px;
+}
+.btn3 {
+  width: 60px;
+  height: 60px;
+  background-color: #fee500;
+  cursor: pointer;
+  background-image: url(../img/login/kakao.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 11px 13px;
+}
+button {
+  width: 100%;
+  height: 45px;
+  background-color: #1b8bff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+/* 버튼 호버 */
+button:active {
+  color: black;
+}
+.register-link {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+/* 왜 p태그 안 바뀜?*/
+.register-link p,
+a {
+  color: rgb(154 154 154);
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+/* 사진 */
+.fi_img {
+  background-color: #03c75a;
+  width: 550px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}

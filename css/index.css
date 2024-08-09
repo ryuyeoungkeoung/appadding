@@ -3,7 +3,18 @@
 html {
   scroll-behavior: smooth;
 }
-
+/* 스크롤 모양 */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-image: linear-gradient(-225deg, #ffffff 0%, #ffffff 100%);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #3ea7fdda;
+}
 body {
   font-family: "Noto Sans KR", "Poppins", sans-serif;
   height: fit-content;
@@ -14,26 +25,38 @@ body {
 /* 헤더 */
 header {
   width: 100%;
-  height: 113px;
-  /* background-color: rgb(255, 5, 5); */
+  height: 80px;
+  background-color: rgb(0 123 252);
   display: flex;
   box-sizing: border-box;
   padding: 20px 50px;
   justify-content: space-between;
   position: absolute;
   z-index: 999;
+  transition: 0.3s;
+}
+header:hover {
+  background-color: #ffffff;
+}
+header nav:hover > .gnb > li {
+  color: #004997;
 }
 /* 로고 */
 h1 {
   width: 200px;
   height: 80px;
   margin-top: -23px;
+
   /* background-color: aqua; */
 }
 /* h1:active a {
   background-color: #004789;
 } */
 /* 네비 */
+/*h1호버 */
+header:hover h1 {
+  filter: brightness(0.1);
+}
 
 .gnb {
   width: 100%;
@@ -49,8 +72,11 @@ li {
   color: #ffff;
   font-size: 17px;
   font-weight: normal;
+  transition: 0.3s;
 }
-
+header:hover nav > .gnb > li > a {
+  color: #000000;
+}
 .gnb > li:hover > a {
   color: #8d8d8d;
   font-weight: bold;
@@ -85,7 +111,7 @@ nav > .gnb > .gnb1:hover .submenu1 {
 
 /* 2차 메뉴2 */
 .submenu2 {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   border-radius: 5px;
   line-height: 40px;
   height: 0;
@@ -101,7 +127,7 @@ nav > .gnb > .gnb2:hover .submenu2 {
 }
 /* 2차 메뉴3 */
 .submenu3 {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   border-radius: 5px;
   line-height: 40px;
   height: 0;
@@ -115,23 +141,22 @@ nav > .gnb > .gnb3:hover .submenu3 {
 .submenu3 > li > a {
   color: #000000;
 }
-/* 2차 메뉴4 */
-.submenu4 {
-  background-color: #caddff;
-  border-radius: 5px;
-  line-height: 40px;
-  height: 0;
-  overflow: hidden;
-  transition: 0.3s;
-}
 
 nav > .gab > .gnb4:hover .submenu4 {
   height: 80px;
 }
 .submenu4 > li > a {
   color: #000000;
+  margin-top: 80px;
 }
+
 /* 2차메뉴 호버1 */
+nav > .gnb > .gnb1 > .submenu1 a:hover {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: underline;
+  /* background-color: #000; */
+}
 nav > .gnb > .gnb1 > .submenu1 a:hover {
   color: #000000;
   font-weight: bold;
@@ -192,6 +217,7 @@ video {
   /* background-color: rgba(255, 255, 255, 0.8); */
   position: absolute;
   top: 0;
+  filter: brightness(0.5);
 }
 .float {
   width: 100%;
@@ -202,25 +228,18 @@ video {
   top: 12px;
 }
 
-/* 메인 섹션 애니메이션*/
-/* @keyframes slid {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-/*  */
 .main_poto2 {
-  background-image: url(/img/mom.png);
+  background-image: url(../img/mom.png);
   background-repeat: no-repeat;
   height: 800px;
   width: 100%;
 }
-
+/* 첫번째 */
+.sce_1 {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
 .container > h2 {
   font-family: "Poppins", sans-serif;
   font-size: 205px;
@@ -257,7 +276,7 @@ video {
   height: 400px;
   position: absolute;
   z-index: 999;
-  background-image: url(/img/hand.jpg);
+  background-image: url(../img/hand.jpg);
   background-size: 487px;
   background-repeat: no-repeat;
   right: 198px;
@@ -323,8 +342,8 @@ video {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 100%;
   position: absolute;
-  top: 988px;
-  right: 76px;
+  top: 888px;
+  right: 81px;
   z-index: 999;
   position: fixed;
   border: none;
@@ -333,7 +352,7 @@ video {
 .height {
   width: 30px;
   height: 30px;
-  background-image: url(/img/SUB/arrow.png);
+  background-image: url(../img/SUB/arrow.png);
   background-repeat: no-repeat;
   margin-left: 18px;
   margin-top: 14px;
@@ -341,7 +360,7 @@ video {
 /* 두번째 섹션 */
 .con_2 {
   width: 100%;
-  height: 850px;
+  height: 1000px;
   background-color: #f9f9f9;
 }
 .wrap {
@@ -383,7 +402,7 @@ video {
   overflow: hidden;
   /* background-color: #004789; */
   box-sizing: border-box;
-  padding-top: 95px;
+  padding-top: 220px;
   display: flex;
   gap: 104px;
   padding-left: 80px;
@@ -475,7 +494,7 @@ video {
 .spc {
   width: 517px;
   height: 390px;
-  background-image: url(/img/“.png);
+  background-image: url(../img/“.png);
   background-repeat: no-repeat;
   background-position: top;
   position: absolute;
@@ -502,7 +521,7 @@ video {
 .img_2 {
   width: 517px;
   height: 390px;
-  background-image: url(/img/main1.png);
+  background-image: url(../img/main1.png);
   background-repeat: no-repeat;
 }
 
@@ -518,7 +537,7 @@ video {
 .img_3 {
   width: 680px;
   height: 390px;
-  background-image: url(/img/main2.png);
+  background-image: url(../img/main2.png);
   background-repeat: no-repeat;
   /* background-color: aqua; */
   /* position: relative;
@@ -536,7 +555,7 @@ video {
 .spc2 {
   width: 50px;
   height: 50px;
-  background-image: url(/img/+.png);
+  background-image: url(../img/+.png);
   background-repeat: no-repeat;
   margin-top: 150px;
   margin-left: 250px;
@@ -698,21 +717,21 @@ h2 {
   margin-left: 40px;
 }
 .pic_1 {
-  background-image: url(/img/hueman1.png);
+  background-image: url(../img/hueman1.png);
   width: 145px;
   height: 200px;
   position: absolute;
   right: 5px;
 }
 .pic_2 {
-  background-image: url(/img/hueman2.png);
+  background-image: url(../img/hueman2.png);
   width: 145px;
   height: 200px;
   position: absolute;
   right: 5px;
 }
 .pic_3 {
-  background-image: url(/img/hueman3.png);
+  background-image: url(../img/hueman3.png);
   width: 145px;
   height: 200px;
   position: absolute;
@@ -740,7 +759,7 @@ h2 {
   font-weight: 500;
 }
 .sp {
-  background-image: url(/img/css_sprites.png);
+  background-image: url(../img/css_sprites.png);
   background-repeat: no-repeat;
   width: 17px;
   height: 32px;
@@ -751,7 +770,7 @@ h2 {
   background-position: -145px -68px;
 }
 .pic_2 {
-  background-image: url(/img/hueman2.png);
+  background-image: url(../img/hueman2.png);
   width: 145px;
   height: 200px;
   position: absolute;
@@ -759,7 +778,7 @@ h2 {
   background-repeat: no-repeat;
 }
 .pic_3 {
-  background-image: url(/img/hueman3.png);
+  background-image: url(../img/hueman3.png);
   width: 145px;
   height: 200px;
   position: absolute;
@@ -792,7 +811,7 @@ h2 {
   margin-top: 30px;
 }
 .sec_fo {
-  height: 678px;
+  height: 757px;
   width: 100%;
   background-color: #ffffff;
   position: relative;
@@ -803,7 +822,7 @@ h2 {
   /* background-color: #e42121; */
 
   box-sizing: border-box;
-  padding-top: 137px;
+  padding-top: 160px;
 }
 .right_con > div {
   width: 516px;
@@ -811,13 +830,16 @@ h2 {
   background-color: #f8f8f8;
   border-radius: 10px;
   border-right: 5px solid #007bfc;
-  margin-top: 34px;
+  margin-top: 42px;
   box-shadow: 0 4px 5.6px rgba(0, 0, 0, 0.08);
   margin-left: 242px;
 }
 .right_con > div:hover {
   transition: 0.3s;
   border-right: 30px solid #007bfc;
+}
+.right_con > div:hover p {
+  display: block;
 }
 /* 박스1 */
 .right_con > div > a > h2 {
@@ -826,7 +848,7 @@ h2 {
   text-align: center;
   color: #515151;
   box-sizing: border-box;
-  padding-top: 34px;
+  padding-top: 40px;
 }
 .right_con > div > a > p {
   font-size: 15px;
@@ -834,14 +856,21 @@ h2 {
   color: #000000;
   margin-top: 10px;
   text-align: center;
+  display: none;
+  transition: 0.3s;
+}
+.right_con > div:hover > a > h2 {
+  color: #004997;
+  text-decoration: underline;
 }
 .infomation {
   width: 148px;
   height: 148px;
-  background-image: url(/img/icons8-정보-48\ 1.png);
+  background-image: url(../img/icons8-정보-48\ 1.png);
   position: absolute;
-  top: 222px;
-  right: 694px;
+  top: 57px;
+  right: 721px;
+  filter: invert(1);
 }
 /* 오른쪽 div */
 .info_wrap {
@@ -857,7 +886,7 @@ h2 {
   font-weight: 400;
   text-align: center;
   box-sizing: border-box;
-  padding-top: 306px;
+  padding-top: 94px;
   line-height: 35px;
 }
 .info_wrap > p > span {
@@ -869,6 +898,69 @@ h2 {
 }
 .se2 {
   color: #007bfc;
+}
+/* 섹션 파란 호버하면 나오는 거 1 */
+.local {
+  width: 339px;
+  height: 311px;
+  background-image: url(../img/main1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 324px;
+  top: 365px;
+  opacity: 0;
+}
+.box1:hover .local {
+  display: block;
+  right: 324px;
+  top: 304px;
+  transition: 0.3s;
+  opacity: 1;
+}
+/* 섹션 파란 호버하면 나오는 거 2 */
+.local2 {
+  width: 339px;
+  height: 311px;
+  background-image: url(../img/main1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 324px;
+  top: 365px;
+  opacity: 0;
+}
+.box2:hover .local2 {
+  display: block;
+  right: 324px;
+  top: 304px;
+  transition: 0.3s;
+  opacity: 1;
+}
+/* 섹션 파란 호버하면 나오는 거 3 */
+.local3 {
+  width: 339px;
+  height: 311px;
+  background-image: url(../img/main1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 324px;
+  top: 365px;
+  opacity: 0;
+}
+.box3:hover .local3 {
+  display: block;
+  right: 324px;
+  top: 304px;
+  transition: 0.3s;
+  opacity: 1;
+}
+/*  */
+.ho_div {
+  width: 500px;
+  height: 387px;
+  background-color: #86c8ffda;
+  margin: 0 auto;
+  border-radius: 100px 100px 0 0;
+  margin-top: 65px;
 }
 /* 다섯번째 섹션 */
 .sec_5 {
@@ -941,7 +1033,7 @@ h2 {
 .face1 {
   width: 54px;
   height: 54px;
-  background-image: url(/img/main_human1.png);
+  background-image: url(../img/main_human1.png);
   z-index: 999;
   margin-left: 27px;
   box-sizing: border-box;
@@ -971,7 +1063,7 @@ h2 {
 .face2 {
   width: 54px;
   height: 54px;
-  background-image: url(/img/main_human2.png);
+  background-image: url(../img/main_human2.png);
   z-index: 999;
   margin-left: 27px;
   box-sizing: border-box;
@@ -1014,7 +1106,7 @@ h2 {
 .face3 {
   width: 54px;
   height: 54px;
-  background-image: url(/img/main_human3.png);
+  background-image: url(../img/main_human3.png);
   z-index: 999;
   margin-left: 27px;
   box-sizing: border-box;
@@ -1044,7 +1136,7 @@ h2 {
 .face4 {
   width: 54px;
   height: 54px;
-  background-image: url(/img/main_human4.png);
+  background-image: url(../img/main_human4.png);
   z-index: 999;
   margin-left: 27px;
   box-sizing: border-box;

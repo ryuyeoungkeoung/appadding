@@ -6,9 +6,10 @@
     <title>appadding</title>
     <!-- 초기화 링크 -->
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/basic.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
     <!-- css연결 -->
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
     <!-- 헤더부분 -->
@@ -43,12 +44,8 @@
           </li>
           <li class="gnb4">
             <a href="sub04.html">커뮤니티</a>
-            <ul class="submenu4">
-              <li><a href="#">육아수다</a></li>
-              <li><a href="#">아빠띵수다</a></li>
-            </ul>
           </li>
-          <li class="gnb5"><a href="#">로그인</a></li>
+          <li class="gnb5"><a href="login.html">로그인</a></li>
         </ul>
       </nav>
     </header>
@@ -56,13 +53,14 @@
     <!-- 메인 -->
     <main>
       <!-- 첫번쨰 섹션 메인부분부터 -->
-      <section>
+      <section class="sce_1">
         <div class="main_poto">
           <video muted autoplay loop>
+            이 비디오는 해당 브라우저를 지원하지 않습니다.
             <source src="./img/movie.mp4" type="video/mp4" />
           </video>
           <!-- <video src="./img/movie.mp4" autoplay loop></video> -->
-          <div class="float"></div>
+
           <div class="float2">
             <p class="amo">
               Your journey through pregnancy embodies the ultimate beauty of
@@ -295,6 +293,8 @@
             건강관리<br />
             지역 병원 및 커뮤니티 서비스를 알려드립니다.
           </p>
+          <!--  -->
+          <div class="ho_div"></div>
         </div>
         <div class="right_con">
           <!-- 박스1 위에 래프트임-->
@@ -305,6 +305,8 @@
                 전문적이고 정확한 지역 병원 및 커뮤니티 서비스를 알려드립니다.
               </p></a
             >
+            <!-- 섹션 파란 호버하면 나오는 거 -->
+            <div class="local"></div>
           </div>
           <!-- 박스1 -->
           <div class="box2">
@@ -314,6 +316,8 @@
                 공공기관에서 지원하는 육아 건강 관리 서비스 를 알려드립니다.
               </p></a
             >
+            <!-- 섹션 파란 호버하면 나오는 거 -->
+            <div class="local2"></div>
           </div>
           <!-- 박스1 -->
           <div class="box3">
@@ -321,6 +325,8 @@
               <h2>지역아동 돌봄교실</h2>
               <p>지역아동 돌봄 교실에 관한 서비스를 알려드립니다.</p>
             </a>
+            <!-- 섹션 파란 호버하면 나오는 거 -->
+            <div class="local3"></div>
           </div>
         </div>
       </section>
@@ -387,29 +393,91 @@
       </section>
     </main>
     <!-- 풋터 -->
-    <footer class="foot">
-      <div class="list">
-        <ul class="dangerous">
-          <li><a href="#">이용약관</a></li>
-          <li><a href="#">개인정보처리방침</a></li>
-          <li><a href="#">렌탈계약약관</a></li>
-          <li><a href="#" class="last">기업고객문의</a></li>
-        </ul>
-        <!-- 아이콘 -->
-        <div class="icon_wrapper">
-          <div class="fa"><a href="#"></a></div>
-          <div class="in"><a href="#"></a></div>
-          <div class="tw"><a href="#"></a></div>
-          <div class="ut"><a href="#"></a></div>
+
+    <footer>
+      <div class="last_num">
+        <div class="how">
+          <p>고객센터</p>
+          <h2>1425-6451</h2>
+          <div class="flex_wraper">
+            <div class="flex_wrap">
+              <p>상담가능시간</p>
+              <p>평일 09:00 ~ 18:00</p>
+              <p>점심시간 12:30 ~ 13:30</p>
+            </div>
+            <div class="flex_wrap">
+              <p>대표메일</p>
+              <p>yok1812@naver.com</p>
+            </div>
+            <div class="flex_wrap">
+              <p>문의사항</p>
+              <p>yok1812@naver.com</p>
+            </div>
+          </div>
+          <div class="faq_wrap">
+            <a href="#" class="a_faq">FAQ </a>
+            <a href="#" class="a_faq">1대 1 상담 </a>
+          </div>
+        </div>
+        <div class="la_ri">
+          <nav>
+            <ul>
+              <li>
+                <!-- 1차메뉴 -->
+                <a href="#" class="ma">아빠띵</a>
+                <ul class="la_sub">
+                  <!-- 2차메뉴 -->
+                  <li><a href="#">회사소개</a></li>
+                  <li><a href="#">띵드림</a></li>
+                  <li><a href="#">앱안내</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <!-- 1차메뉴 -->
+                <a href="#" class="ma">비즈니스</a>
+                <ul class="la_sub">
+                  <!-- 2차메뉴 -->
+                  <li><a href="#">띵검색</a></li>
+                  <li><a href="#">회원등급 혜택</a></li>
+                  <li><a href="#">앱안내</a></li>
+                  <li><a href="#">헬프닥터소개</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <!-- 1차메뉴 -->
+                <a href="#" class="ma">고객센터</a>
+                <ul class="la_sub">
+                  <!-- 2차메뉴 -->
+                  <li><a href="#">1:1고객상담</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">공지사항</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
       <!-- 마지막로고 -->
-      <div class="footer_logo">
-        <div class="appa">
-          <div class="logo_last"></div>
-          <p>&commat;Copyright appadding corp.</p>
+      <div class="la_log">
+        <div class="logo_last"></div>
+        <div class="logo_txt">
+          <ul class="dangerous">
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">렌탈계약약관</a></li>
+            <li><a href="#" class="last">기업고객문의</a></li>
+          </ul>
+        </div>
+        <div class="btn_wrap1">
+          <a href="#"><img src="./img/google_play.svg" alt="paly store" /></a>
+          <a href="#"><img src="./img/app_store.svg" alt="app store" /></a>
         </div>
       </div>
     </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>

@@ -3,12 +3,26 @@
 html,
 body {
   background-color: #ffffff;
+  scroll-behavior: smooth;
 }
 main {
   border-top: 1px solid #0b0809;
+  border-top: 1px solid #0b0809;
+  position: relative;
+  top: 80px;
 }
 tr {
   line-height: 50px;
+}
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px 50px;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 999;
 }
 .main {
   width: 100%;
@@ -167,7 +181,7 @@ tr {
   }
   /* 회원창 안 사람 프로필 */
   .img1 {
-    background-image: url(/img/SUB3/human2.png);
+    background-image: url(../img/SUB3/human2.png);
     background-repeat: no-repeat;
     width: 56px;
     height: 56px;
@@ -215,7 +229,6 @@ tr {
     color: #0c81fb;
   }
   .img2 {
-    background-image: url(/img/SUB3/friend.png);
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;

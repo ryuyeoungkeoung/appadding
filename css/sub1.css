@@ -5,6 +5,8 @@ body {
   font-family: "Noto Sans KR", "Poppins", sans-serif;
   height: fit-content;
   overflow: hidden;
+
+  scroll-behavior: smooth;
 }
 /* 처음이자 마지막 섹션 */
 .baby {
@@ -45,16 +47,16 @@ span {
   width: 1920px;
   height: 1200px;
   background-repeat: no-repeat;
-  background-image: url(/img/SUB2/baby1.png);
+  background-image: url(../img/SUB2/baby1.png);
   margin: 0 auto;
   background-position: 500px 30px;
   margin: 0 auto;
 }
 .baby_wrap > div:nth-child(2) {
-  background-image: url(/img/SUB2/baby2.png);
+  background-image: url(../img/SUB2/baby2.png);
 }
 .baby_wrap > div:nth-child(3) {
-  background-image: url(/img/SUB2/baby3.png);
+  background-image: url(../img/SUB2/baby3.png);
 }
 /* 애니메이션 */
 @keyframes slinder {

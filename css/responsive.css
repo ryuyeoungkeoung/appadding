@@ -1,0 +1,7 @@
+/* 모바일 large */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* 헤더 */
+  header {
+    max-width: ;
+  }
+}

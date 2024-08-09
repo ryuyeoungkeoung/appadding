@@ -1,3 +1,4 @@
+"use strict";
 var currentTitle = document.getElementById("current-year-month");
 var calendarBody = document.getElementById("calendar-body");
 let mainTodayDay = document.querySelector("#main-day");

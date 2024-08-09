@@ -6,7 +6,7 @@
     <title>자료&상담</title>
     <!-- 초기화 링크 -->
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/basic.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
     <link rel="stylesheet" href="./css/sub02.css" />
   </head>
   <body>
@@ -26,6 +26,7 @@
               <li><a href="#">애기는</a></li>
             </ul>
           </li>
+
           <li class="gnb2">
             <a href="sub02.html" class="point">자료 & 상담</a>
             <ul class="submenu2">
@@ -43,37 +44,60 @@
           </li>
           <li class="gnb4">
             <a href="sub04.html">커뮤니티</a>
-            <ul class="submenu4">
-              <li><a href="#">육아수다</a></li>
-              <li><a href="#">아빠띵수다</a></li>
-            </ul>
           </li>
-          <li><a href="#">로그인</a></li>
+          <li><a href="login.html">로그인</a></li>
         </ul>
       </nav>
     </header>
     <!-- 메인 -->
     <main>
+      <!-- 따라오는 박스 -->
+      <div class="quickmenu">
+        <ul>
+          <li><a href="#" class="a_fi">회원가입</a></li>
+          <li><a href="#" class="a_fi2">전화하기</a></li>
+          <li><a href="#" class="a_fi3">신청서</a></li>
+          <li><a href="#" class="a_fi4">육아</a></li>
+          <li><a href="#" class="a_la" id="a_la">회사소개</a></li>
+        </ul>
+      </div>
       <section1>
         <!-- 파란박스 -->
-        <div class="blu_box">
-          <!-- 2차메뉴 -->
-          <div class="bar_wrap">
-            <div><p>전체</p></div>
-            <div><p>육아</p></div>
-            <div><p>부모</p></div>
-          </div>
+        <div class="blu_box_noting">
+          <img src="./img/sub_card/card.png" alt="doctor" />
+        </div>
+        <div class="float2">
+          <p>당신이 우리 아이에게 준 사랑</p>
+          <span>더 잘 살기 위한 카드뉴스</span>
+        </div>
+        <!-- 메뉴바  -->
+        <div class="ddi">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><</li>
+            <li>자료 & 상담</li>
+          </ul>
         </div>
         <!-- 플로팅 버튼2  업버튼-->
         <a href="#" class="f_btn2"><div class="height"></div></a>
-        <!-- 인풋 -->
-        <div class="input_tag">
-          <input type="text" placeholder="내용을 입력해주세요." />
-          <div class="search"></div>
-        </div>
+        <!-- <div class="bar_wrap">
+          <div><p>전체</p></div>
+          <div><p>육아</p></div>
+          <div><p>부모</p></div>
+        </div> -->
       </section1>
       <!-- 섹션2 -->
+      <!-- 인풋 -->
+      <!-- <div class="input_tag">
+        <input type="text" placeholder="내용을 입력해주세요." />
+        <div class="search"></div>
+      </div> -->
       <section class="sec_2">
+        <div class="bar_wrap">
+          <div><p>전체</p></div>
+          <div><p>육아</p></div>
+          <div><p>부모</p></div>
+        </div>
         <!-- 묶어주는 컨텐츠1  -->
         <div class="con_wraper">
           <div class="left">
@@ -83,6 +107,7 @@
               emotional impact
             </h2>
           </div>
+
           <div class="right">
             <h4>한 눈에 보는 카드 뉴스</h4>
             <p>
@@ -92,6 +117,7 @@
             </p>
           </div>
         </div>
+
         <div class="con_mo_wrap">
           <!-- 이미지 박스 컨텐츠1-1 -->
           <div class="con_wrap">
@@ -195,27 +221,94 @@
       </section>
     </main>
     <!-- 풋터 -->
-    <footer class="foot">
-      <div class="list">
-        <ul class="dangerous">
-          <li><a href="#">이용약관</a></li>
-          <li><a href="#">개인정보처리방침</a></li>
-          <li><a href="#">렌탈계약약관</a></li>
-          <li><a href="#" class="last">기업고객문의</a></li>
-        </ul>
-        <!-- 아이콘 -->
-        <div class="icon_wrapper">
-          <div class="fa"><a href="#"></a></div>
-          <div class="in"><a href="#"></a></div>
-          <div class="tw"><a href="#"></a></div>
-          <div class="ut"><a href="#"></a></div>
+
+    <footer>
+      <div class="last_num">
+        <div class="how">
+          <p>고객센터</p>
+          <h2>1425-6451</h2>
+          <div class="flex_wraper">
+            <div class="flex_wrap">
+              <p>상담가능시간</p>
+              <p>평일 09:00 ~ 18:00</p>
+              <p>점심시간 12:30 ~ 13:30</p>
+            </div>
+            <div class="flex_wrap">
+              <p>대표메일</p>
+              <p>yok1812@naver.com</p>
+            </div>
+            <div class="flex_wrap">
+              <p>문의사항</p>
+              <p>yok1812@naver.com</p>
+            </div>
+          </div>
+          <div class="faq_wrap">
+            <a href="#" class="a_faq">FAQ </a>
+            <a href="#" class="a_faq">1대 1 상담 </a>
+          </div>
+        </div>
+        <div class="la_ri">
+          <nav>
+            <ul>
+              <li>
+                <!-- 1차메뉴 -->
+                <a href="#" class="ma">아빠띵</a>
+                <ul class="la_sub">
+                  <!-- 2차메뉴 -->
+                  <li><a href="#">회사소개</a></li>
+                  <li><a href="#">띵드림</a></li>
+                  <li><a href="#">앱안내</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <!-- 1차메뉴 -->
+                <a href="#" class="ma">비즈니스</a>
+                <ul class="la_sub">
+                  <!-- 2차메뉴 -->
+                  <li><a href="#">띵검색</a></li>
+                  <li><a href="#">회원등급 혜택</a></li>
+                  <li><a href="#">앱안내</a></li>
+                  <li><a href="#">헬프닥터소개</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <!-- 1차메뉴 -->
+                <a href="#" class="ma">고객센터</a>
+                <ul class="la_sub">
+                  <!-- 2차메뉴 -->
+                  <li><a href="#">1:1고객상담</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">공지사항</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
       <!-- 마지막로고 -->
-      <div class="footer_logo">
-        <div class="appa">
-          <div class="logo_last"></div>
-          <p>&commat;Copyright appadding corp.</p>
+      <div class="la_log">
+        <div class="logo_last"></div>
+        <div class="logo_txt">
+          <ul class="dangerous">
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">렌탈계약약관</a></li>
+            <li><a href="#" class="last">기업고객문의</a></li>
+          </ul>
+
+          <!-- <div>
+            <p>사업자 등록번호</p>
+            <p>사업자정보확인</p>
+            <p>통신판매등록번호</p>
+          </div> -->
+        </div>
+        <div class="btn_wrap1">
+          <a href="#"><img src="./img/google_play.svg" alt="paly store" /></a>
+          <a href="#"><img src="./img/app_store.svg" alt="app store" /></a>
         </div>
       </div>
     </footer>

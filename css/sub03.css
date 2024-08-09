@@ -4,15 +4,229 @@ body {
   margin: 0;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
-  /* background-color: #e91e63; */
+  scroll-behavior: smooth;
 }
 main {
-  height: 2300px;
+  height: fit-content;
   width: 100%;
 }
+/* 떠다니는 메뉴 */
+div,
+ul,
+li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.quickmenu {
+  width: 130px;
+  top: 45%;
+  margin-top: -50px;
+  left: 1729px;
+  position: absolute;
+  /* position: sticky; */
+  position: fixed;
+  border-radius: 15px;
+  background-color: rgba(78, 78, 78, 0.8);
+  z-index: 3;
+}
+.quickmenu ul {
+  position: relative;
+  width: 100%;
+  display: inline;
+  border-radius: 15px;
+}
+.quickmenu ul li {
+  float: left;
+  width: 100%;
+  text-align: center;
+  display: inline;
+  height: 80px;
+}
+
+.quickmenu ul li a {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12pt;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  transform: translateX(0px);
+  transition: 0.3s;
+}
+.quickmenu ul li a:hover {
+  color: #000;
+  background-color: #9b9b9b;
+  border-radius: 15px 15px 0 0;
+  transform: translateY(-20px);
+}
+.a_fi:hover {
+  background-color: #9b9b9b;
+  border-radius: 15px 15px 0 0;
+  transform: translateY(-20px);
+}
+#a_la:hover {
+  border-radius: 15px;
+  height: 102px;
+}
+.a_fi::before {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  content: "fk";
+  background-repeat: no-repeat;
+  background-image: url(../img/menu_2/nu1.png);
+  position: absolute;
+  top: 0;
+  font-size: 0;
+  margin-left: 10px;
+}
+.a_fi2::before {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  content: "fk";
+  background-repeat: no-repeat;
+  background-image: url(../img/menu_2/nu2.png);
+  position: absolute;
+  top: 0;
+  font-size: 0;
+}
+.a_fi3::before {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  content: "fk";
+  background-repeat: no-repeat;
+  background-image: url(../img/menu_2/nu3.png);
+  position: absolute;
+  top: 0;
+  font-size: 0;
+  margin-left: 10px;
+}
+.a_fi4::before {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  content: "fk";
+  background-repeat: no-repeat;
+  background-image: url(../img/menu_2/nu4.png);
+  position: absolute;
+  top: 0;
+  font-size: 0;
+}
+.a_la::before {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  content: "fk";
+  background-repeat: no-repeat;
+  background-image: url(../img/menu_2/nu5.png);
+  position: absolute;
+  top: 19px;
+  font-size: 0;
+}
+.blu_box_noting {
+  width: 100%;
+  width: 100%;
+  height: 800px;
+  background-color: #1b8bff;
+  overflow: hidden;
+}
+/* 메뉴바 */
+.ddi {
+  width: 100%;
+  height: 80px;
+  background-color: #007adb;
+  box-sizing: border-box;
+  padding: 0px 400px 0px 400px;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.ddi > ul {
+  display: flex;
+  justify-content: end;
+}
+.ddi > ul > li {
+  width: fit-content;
+  line-height: 80px;
+  margin-left: 10px;
+  color: #f8f8f8;
+}
+.ddi > ul > li > a {
+  color: #f8f8f8;
+}
+.ddi > ul > li:nth-child(1) {
+  font-size: 15px;
+}
+.ddi > ul > li:nth-child(3) {
+  font-size: 25px;
+
+  font-weight: 900;
+}
+/*  */
 .section_1 {
   width: 100%;
   height: fit-content;
+}
+/* 플로팅 사진 */
+.float2 {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  z-index: 999;
+  background-size: 487px;
+  background-repeat: no-repeat;
+  left: 310px;
+  top: 670px;
+  animation: slinder 1s ease;
+  animation-duration: 3s;
+}
+/* 애니메이션 */
+@keyframes slinder {
+  0% {
+    opacity: 0;
+    left: 0px;
+  }
+
+  100% {
+    opacity: 1;
+    right: 198px;
+  }
+}
+.bar_wrap {
+  display: flex;
+  width: 353px;
+  height: 53px;
+  line-height: 53px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.float2 > p {
+  font-size: 35px;
+  color: #9a9a9a;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.float2 > span {
+  font-size: 50px;
+  color: #1b8bff;
+  font-weight: bold;
 }
 
 /* 헬프닥터 섹션1 */
@@ -20,8 +234,17 @@ main {
   font-size: 30px;
   color: #2d2d2d;
   text-align: center;
-  margin-top: 171px;
+  margin-top: 100px;
   font-weight: 500;
+  margin-bottom: 100px;
+}
+.img_float {
+  width: 1250px;
+  height: 500px;
+  background-image: url(../img/mom.png);
+  margin-bottom: 50px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 .help {
   font-size: 40px;
@@ -36,8 +259,8 @@ main {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 100%;
   position: absolute;
-  top: 988px;
-  right: 76px;
+  top: 888px;
+  right: 81px;
   z-index: 999;
   position: fixed;
   border: none;
@@ -46,7 +269,7 @@ main {
 .height {
   width: 30px;
   height: 30px;
-  background-image: url(/img/SUB/arrow.png);
+  background-image: url(../img/SUB/arrow.png);
   background-repeat: no-repeat;
   margin-left: 18px;
   margin-top: 14px;
@@ -70,21 +293,22 @@ input {
   font-size: 17px;
   border: 0;
   outline: none;
-  /* padding-left: 10px; */
+
   background-color: #f9f9f9;
-  /* padding-left: 76px; */
+
   color: rgba(0, 0, 0, 0.3);
 }
 
 .search {
   width: 40px;
   height: 100%;
-  background-image: url(/img/SUB/Result.png);
+  background-image: url(../img/SUB/Result.png);
   /* background-color: antiquewhite; */
   background-position: -548px 13px;
   margin: 0px 63px;
   cursor: pointer;
 }
+
 /* 섹션2 */
 section {
   width: 100%;
@@ -118,7 +342,7 @@ section {
   width: 620px;
   height: 326px;
   background-repeat: no-repeat;
-  background-image: url(/img/SUB/picture.png);
+  background-image: url(../img/SUB/picture.png);
 }
 /* 이미지 텍스트 영역 */
 .back_txt > h3 {
@@ -206,7 +430,9 @@ section {
   width: 1230px;
   height: 1038px;
   position: relative;
-  /* background-color: antiquewhite; */
+  gap: 51px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* 닥터1 */
@@ -225,16 +451,15 @@ section {
   padding-top: 100px;
   display: flex;
   width: 100%;
-  height: 328px;
+  height: fit-content;
   /* background-color: #1b8bff; */
   gap: 20px;
 }
 /* 이미지 1 */
 .left__img {
   width: 402px;
-  height: 100%;
+  height: 315px;
   background-color: #ffdddd;
-  position: relative;
   background: url(../img/SUB/doctor2.png) no-repeat;
 }
 .right_txt {
@@ -267,7 +492,7 @@ section {
   /* background-color: #1b8bff; */
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+
   border-top: 1px solid rgba(107, 107, 107, 0.5);
   border-bottom: 1px solid rgba(107, 107, 107, 0.5);
 }
@@ -319,6 +544,12 @@ section {
   border-radius: 5px;
   text-align: center;
 }
+#reservation2 {
+  height: 48px;
+}
+#counseling2 {
+  height: 48px;
+}
 /* 버튼 호버 */
 .btn1:hover {
   color: #000b69;
@@ -331,8 +562,8 @@ section {
 /* 의사2 */
 .left__img2 {
   width: 402px;
-  height: 100%;
-  background-image: url(/img/SUB/doctor.png);
+  height: 315px;
+  background-image: url(../img/SUB/doctor.png);
   background-repeat: no-repeat;
 }
 /* 마무리 버튼 */
@@ -345,7 +576,7 @@ section {
   color: #3497ff;
   text-align: center;
   line-height: 52px;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 600;
   margin: 0 auto;
   margin-top: 60px;
