@@ -6,18 +6,27 @@
     <title>appadding</title>
     <!-- 초기화 링크 -->
     <link rel="stylesheet" href="./css/reset.css" />
+    <!-- 풋터,헤더 고정 css -->
     <link rel="stylesheet" href="./css/layout.css" />
     <!-- css연결 -->
     <link rel="stylesheet" href="./css/index.css" />
+    <!-- 반응형 헤더 풋터 css -->
+    <link rel="stylesheet" href="./css/responsive_layout.css" />
+    <!-- 반응형 -->
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
     <!-- 헤더부분 -->
 
     <header>
-      <h1>
-        <a href="index.html"><img src="./img/logo_white2.png" alt="로고" /></a>
-      </h1>
+      <div>
+        <a href="./login.html"><div class="mob_"></div></a>
+        <h1>
+          <a href="index.html"
+            ><img src="./img/logo_white2.png" alt="로고"
+          /></a>
+        </h1>
+      </div>
       <nav>
         <ul class="gnb">
           <li class="gnb1">
@@ -55,18 +64,17 @@
       <!-- 첫번쨰 섹션 메인부분부터 -->
       <section class="sce_1">
         <div class="main_poto">
-          <video muted autoplay loop>
+          <video muted loop>
             이 비디오는 해당 브라우저를 지원하지 않습니다.
             <source src="./img/movie.mp4" type="video/mp4" />
           </video>
           <!-- <video src="./img/movie.mp4" autoplay loop></video> -->
-
-          <div class="float2">
-            <p class="amo">
-              Your journey through pregnancy embodies the ultimate beauty of
-              creation and love.
-            </p>
-          </div>
+        </div>
+        <div class="float2">
+          <p class="amo">
+            Your journey through pregnancy embodies the ultimate beauty of
+            creation and love.
+          </p>
         </div>
         <div class="main_potp2"></div>
         <div class="container">
@@ -78,51 +86,45 @@
             of ''<span class="n1">motherhood.</span>''
           </p>
         </div>
-        <!-- 플로팅 버튼 1-->
-        <div class="f_btn">
-          <a href="sub1.html">click me !</a>
-        </div>
-        <!-- 플로팅 버튼2  업버튼-->
-        <a href="#" class="f_btn2"><div class="height"></div></a>
       </section>
       <!-- 두번째 섹션 -->
       <section class="con_2">
-        <div class="wrap">
-          <div class="txt_box">
-            <p>최고의 고객 신뢰를 실천하기 위해</p>
-            <h2>여러 <span id="story">이야기</span>를 담고 있습니다.</h2>
-          </div>
-          <!-- 1전체영역 -->
-          <div class="boxs">
-            <div class="div_wr">
-              <h2>01</h2>
+        <!-- <div class="wrap"> -->
+        <div class="txt_box">
+          <p>최고의 고객 신뢰를 실천하기 위해</p>
+          <h2>여러 <span id="story">이야기</span>를 담고 있습니다.</h2>
+        </div>
+        <!-- 1전체영역 -->
+        <div class="boxs">
+          <div>
+            <h2>01</h2>
 
-              <h3>전문적인 솔루션</h3>
-              <p>
-                전문가들이 임신에 대한 서비스를 제공합니다. <br />
-                이를 통해 임산부를 돌보는 방법, 출산준비, <br />
-                부모의 역할에 대해 지원을 받을 수 있습니다.
-              </p>
-            </div>
-            <div>
-              <h2>02</h2>
-              <h3>편리한 제공</h3>
-              <p>
-                정보 교환과 경험 공유를 <br />
-                할 수 있는 온라인 커뮤니티를 운영합니다. <br />
-                이를 통해 서로 격려하고 지원할 수 있습니다.
-              </p>
-            </div>
-            <div>
-              <h2>03</h2>
-              <h3>원활한 소통</h3>
-              <p>
-                임신 중에 무엇이 진행되고 있는지에<br />
-                대해 호기심을 표현하고, 질문을 하여 임산부의<br />
-                경험을 더 잘 이해할 수 있습니다.
-              </p>
-            </div>
+            <h3>전문적인 솔루션</h3>
+            <p>
+              전문가들이 임신에 대한 서비스를 제공합니다. <br />
+              이를 통해 임산부를 돌보는 방법, 출산준비, <br />
+              부모의 역할에 대해 지원을 받을 수 있습니다.
+            </p>
           </div>
+          <div>
+            <h2>02</h2>
+            <h3>편리한 제공</h3>
+            <p>
+              정보 교환과 경험 공유를 <br />
+              할 수 있는 온라인 커뮤니티를 운영합니다. <br />
+              이를 통해 서로 격려하고 지원할 수 있습니다.
+            </p>
+          </div>
+          <div>
+            <h2>03</h2>
+            <h3>원활한 소통</h3>
+            <p>
+              임신 중에 무엇이 진행되고 있는지에<br />
+              대해 호기심을 표현하고, 질문을 하여 임산부의<br />
+              경험을 더 잘 이해할 수 있습니다.
+            </p>
+          </div>
+          <!-- </div> -->
         </div>
       </section>
       <!-- 세번째 섹션 -->
@@ -283,50 +285,55 @@
 
       <!-- 네번째 섹션 -->
       <section class="sec_fo">
-        <!-- 오른쪽 div -->
-        <div class="info_wrap">
-          <div class="infomation"></div>
-          <p>
-            <!-- 글씨 스판 -->
-            <span class="se1">종합적인</span>
-            <span class="se2">정보와 지원</span>을 제공하는 온라인 자원과 육아
-            건강관리<br />
-            지역 병원 및 커뮤니티 서비스를 알려드립니다.
-          </p>
-          <!--  -->
-          <div class="ho_div"></div>
-        </div>
-        <div class="right_con">
-          <!-- 박스1 위에 래프트임-->
-          <div class="box1">
-            <a href="moo.html">
-              <h2>지역 사회 센터</h2>
-              <p>
-                전문적이고 정확한 지역 병원 및 커뮤니티 서비스를 알려드립니다.
-              </p></a
-            >
-            <!-- 섹션 파란 호버하면 나오는 거 -->
-            <div class="local"></div>
+        <div class="fo_wrap">
+          <!-- 오른쪽 div -->
+          <div class="info_wrap">
+            <div class="infomation"></div>
+            <p>
+              <!-- 글씨 스판 -->
+              <span class="se1">종합적인</span>
+              <span class="se2">정보와 지원</span>을 제공하는 온라인 자원과 육아
+              건강관리<br />
+              지역 병원 및 커뮤니티 서비스를 알려드립니다.
+            </p>
+            <!---->
+            <div class="stay_wrap">
+              <div class="ho_div"></div>
+              <div class="stay"></div>
+            </div>
           </div>
-          <!-- 박스1 -->
-          <div class="box2">
-            <a href="moo.html">
-              <h2>육아 건강 관리 서비스</h2>
-              <p>
-                공공기관에서 지원하는 육아 건강 관리 서비스 를 알려드립니다.
-              </p></a
-            >
-            <!-- 섹션 파란 호버하면 나오는 거 -->
-            <div class="local2"></div>
-          </div>
-          <!-- 박스1 -->
-          <div class="box3">
-            <a href="moo.html">
-              <h2>지역아동 돌봄교실</h2>
-              <p>지역아동 돌봄 교실에 관한 서비스를 알려드립니다.</p>
-            </a>
-            <!-- 섹션 파란 호버하면 나오는 거 -->
-            <div class="local3"></div>
+          <div class="right_con">
+            <!-- 박스1 위에 래프트임-->
+            <div class="box1 box">
+              <a href="moo.html">
+                <h2>지역 사회 센터</h2>
+                <p>
+                  전문적이고 정확한 지역 병원 및 커뮤니티 서비스를 알려드립니다.
+                </p></a
+              >
+              <!-- 섹션 파란 호버하면 나오는 거 -->
+              <div class="local local1"></div>
+            </div>
+            <!-- 박스1 -->
+            <div class="box2">
+              <a href="moo.html">
+                <h2>육아 건강 관리 서비스</h2>
+                <p>
+                  공공기관에서 지원하는 육아 건강 관리 서비스 를 알려드립니다.
+                </p></a
+              >
+              <!-- 섹션 파란 호버하면 나오는 거 -->
+              <div class="local2"></div>
+            </div>
+            <!-- 박스1 -->
+            <div class="box3">
+              <a href="moo.html">
+                <h2>지역아동 돌봄교실</h2>
+                <p>지역아동 돌봄 교실에 관한 서비스를 알려드립니다.</p>
+              </a>
+              <!-- 섹션 파란 호버하면 나오는 거 -->
+              <div class="local3"></div>
+            </div>
           </div>
         </div>
       </section>
@@ -391,6 +398,12 @@
         <!-- 로그인 버튼 -->
         <a href="moo.html" class="log">JOIN US</a>
       </section>
+      <!-- 플로팅 버튼 1-->
+      <div class="f_btn">
+        <a href="sub1.html">click me !</a>
+      </div>
+      <!-- 플로팅 버튼2  업버튼-->
+      <a href="#" class="f_btn2"><div class="height"></div></a>
     </main>
     <!-- 풋터 -->
 
@@ -463,7 +476,9 @@
       </div>
       <!-- 마지막로고 -->
       <div class="la_log">
-        <div class="logo_last"></div>
+        <div class="logo_last">
+          <img src="./img/logo_white2.png" alt="" />
+        </div>
         <div class="logo_txt">
           <ul class="dangerous">
             <li><a href="#">이용약관</a></li>
@@ -478,6 +493,5 @@
         </div>
       </div>
     </footer>
-    <script src="./js/index.js"></script>
   </body>
 </html>

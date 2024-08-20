@@ -222,7 +222,7 @@ a {
   color: #1b8bff;
 }
 /*업버튼 */
-.f_btn2 {
+/* .f_btn2 {
   display: block;
   height: 60px;
   width: 60px;
@@ -235,7 +235,7 @@ a {
   position: fixed;
   border: none;
   border: 0.3px solid rgba(255, 255, 255, 0.5);
-}
+} */
 .height {
   width: 30px;
   height: 30px;
@@ -325,6 +325,10 @@ input {
   display: flex;
   justify-content: center;
 }
+.con_wraper:hover .hov_box {
+  display: flex;
+  justify-content: center;
+}
 
 .img_float {
   width: 1350px;
@@ -333,7 +337,7 @@ input {
   margin-bottom: 50px;
 }
 .right {
-  width: 802px;
+  width: 60%;
   height: 328px;
   /* background-color: #541414; */
 }
@@ -350,6 +354,7 @@ input {
   text-align: left;
   display: flex;
   align-items: center;
+  width: 40%;
 }
 /* 오른쪽 */
 .right > h4 {
@@ -374,15 +379,16 @@ input {
 
 /* 첫번째 */
 .con_mo_wrap {
-  /* background-color: #000b69; */
   width: 1295px;
   box-sizing: border-box;
-  padding: 0 30px;
+  padding: 64px 30px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   gap: 50px;
   flex-direction: column;
+  /* border-bottom: 2px dotted #ababab; */
+  border-top: 2px dotted #dddddd;
 }
 .con_wrap {
   display: flex;
@@ -533,6 +539,7 @@ a:hover {
   position: relative;
   overflow: hidden;
   font-size: 15px;
+  margin-bottom: 50px;
 }
 /* div 액션 */
 .action {

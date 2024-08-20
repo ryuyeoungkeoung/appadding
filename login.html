@@ -4,18 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>회원가입 창 만들기</title>
+    <!-- 초기화 css -->
     <link rel="stylesheet" href="./css/reset.css" />
+    <!-- 헤더 풋터 고정 css -->
     <link rel="stylesheet" href="./css/layout.css" />
+    <!-- css연결 -->
     <link rel="stylesheet" href="./css/login.css" />
+    <!-- 반응형 헤더 풋터 css -->
+    <link rel="stylesheet" href="./css/responsive_layout.css" />
+    <!-- 반응형 css-->
+    <link rel="stylesheet" href="./css/responsive_login.css" />
   </head>
   <body>
     <!-- 헤더부분 -->
     <header>
-      <h1>
-        <a href="index.html"
-          ><img src="./img/SUB/logo_grey.png" alt="로고"
-        /></a>
-      </h1>
+      <div>
+        <a href="./login.html"><div class="mob_"></div></a>
+        <h1>
+          <a href="index.html"
+            ><img src="./img/SUB/logo_grey.png" alt="로고"
+          /></a>
+        </h1>
+      </div>
       <nav>
         <ul class="gnb">
           <li class="gnb1">
@@ -43,7 +53,7 @@
           <li class="gnb4">
             <a href="sub04.html">커뮤니티</a>
           </li>
-          <li><a href="#">로그인</a></li>
+          <li class="gnb5"><a href="#">로그인</a></li>
         </ul>
       </nav>
     </header>
@@ -53,17 +63,17 @@
         <div>
           <div class="public">
             <a href="./sub02.html" class="public2"
-              ><div>D-1</div>
+              ><div><h2>D-1</h2></div>
               <p>주택청약 임박 기간</p>
               <div id="public3">2024.07.23</div>
             </a>
             <a href="./sub02.html" class="public2"
-              ><div>D-50</div>
+              ><div><h2>D-50</h2></div>
               <p>규제혁신 대표 사례</p>
               <div id="public3">2024.07.29</div>
             </a>
             <a href="./sub02.html" class="public2"
-              ><div>D-87</div>
+              ><div><h2>D-87</h2></div>
               <p>안전공동 육아 나눔터 실시 기간</p>
               <div id="public3">2024.08.03</div>
             </a>
@@ -190,7 +200,9 @@
       </div>
       <!-- 마지막로고 -->
       <div class="la_log">
-        <div class="logo_last"></div>
+        <div class="logo_last">
+          <img src="./img/logo_white2.png" alt="footer_logo" />
+        </div>
         <div class="logo_txt">
           <ul class="dangerous">
             <li><a href="#">이용약관</a></li>
@@ -198,12 +210,6 @@
             <li><a href="#">렌탈계약약관</a></li>
             <li><a href="#" class="last">기업고객문의</a></li>
           </ul>
-
-          <!-- <div>
-            <p>사업자 등록번호</p>
-            <p>사업자정보확인</p>
-            <p>통신판매등록번호</p>
-          </div> -->
         </div>
         <div class="btn_wrap1">
           <a href="#"><img src="./img/google_play.svg" alt="paly store" /></a>

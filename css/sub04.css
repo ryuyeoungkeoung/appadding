@@ -244,7 +244,7 @@ a {
   font-weight: bold;
 }
 /*업버튼 */
-.f_btn2 {
+/* .f_btn2 {
   display: block;
   height: 60px;
   width: 60px;
@@ -257,7 +257,7 @@ a {
   position: fixed;
   border: none;
   border: 0.3px solid rgba(255, 255, 255, 0.5);
-}
+} */
 .height {
   width: 30px;
   height: 30px;
@@ -370,17 +370,21 @@ input {
 .bar_wrap {
   display: flex;
   width: 353px;
-  height: 53px;
-  line-height: 53px;
-  margin: 0 auto;
+  height: 70px;
   padding-top: 12px;
+  justify-content: center;
+  margin: 0 auto;
 }
 .bar_wrap > div {
-  border-bottom: 1px solid rgb(1, 99, 198);
+  border-bottom: 1px solid #1b8bff;
   width: 117px;
   height: 100%;
   text-align: center;
-  color: rgb(1, 99, 198);
+  color: #1b8bff;
+}
+.bar_wrap > div:hover {
+  border-bottom: 3px solid #1b8bff;
+  transition: 0.3s;
 }
 /* 메뉴 색 */
 .bar_wrap > div > p {
@@ -388,9 +392,8 @@ input {
 }
 /* 메뉴 색 */
 .bar_wrap > div:hover > p {
-  border-bottom: 3px solid rgb(1, 99, 198);
   transition: 0.3s;
-  color: rgb(3, 0, 202);
+  color: #1b8bff;
 }
 /* 공지바 */
 .best {
@@ -572,20 +575,19 @@ input {
   margin: 0 auto;
   width: 1200px;
   height: 1497px;
-  border-top: 2px solid #000000;
-  border-bottom: 2px solid #000000;
-  /* background-color: #999999; */
+  border-top: 2px solid #b5b5b5;
+  border-bottom: 2px solid #b5b5b5;
 }
 /* 안 div */
 .co_wrap {
   width: 100%;
   height: 300px;
-  /* background-color: #006399; */
+
   box-sizing: border-box;
   padding-top: 35px;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #efefef;
 }
 .co_wrap:hover {
   background-color: #f8f8f8;
@@ -595,32 +597,108 @@ input {
   width: 204px;
   height: 216px;
   background-image: url(../img/SUB3/food.png);
-  /* background-color: firebrick; */
+  background-size: 204px;
+  height: 216px;
+  background-repeat: no-repeat;
   border-radius: 10px;
 }
+
 .al2 {
   width: 204px;
   height: 216px;
-  background-image: url(../img/SUB3/baby.png);
-  /* background-color: firebrick; */
+  background-image: url(../img/SUB3/daily.jpg);
+  background-position: center;
+  border-radius: 10px;
+}
+/* 사진3 */
+.al_1 {
+  width: 204px;
+  height: 216px;
+  /* background-image: url(../img/SUB3/trip.jpg); */
+  background-size: 400px;
+  height: 216px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-color: #000;
+}
+.al2_1 {
+  width: 204px;
+  height: 216px;
+  background-color: #000;
+  background-size: 400px;
+  height: 216px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.al_122 {
+  width: 204px;
+  height: 216px;
+  background-image: url(../img/SUB3/trip.jpg);
+  background-size: 400px;
+  height: 216px;
+  background-repeat: no-repeat;
   border-radius: 10px;
 }
 /* 텍스트 영역 */
 .al_txt {
   width: 956px;
   height: 215px;
-  /* background-color: yellowgreen; */
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 /* 사람1 */
+.hit_box {
+  display: flex;
+  /* justify-content: space-between; */
+  /* justify-items: center; */
+  gap: 20px;
+}
+
+.hit {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 15px;
+  margin-right: 0px;
+}
+/* hit애니 */
+.mi {
+  display: block;
+}
+
+.mi:not(.light) {
+  opacity: 0;
+  animation: flashText 1s ease-out alternate infinite;
+}
+
+.mi .light {
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 20;
+  }
+}
+
+@keyframes flashText {
+  100% {
+    opacity: 15;
+  }
+}
+/* 사람 디스플ㄹ레이 논 반응형에서 풀기*/
+
 .la_hu {
   width: 56px;
   height: 56px;
   background-image: url(../img/SUB3/human1.png);
   background-repeat: no-repeat;
   background-size: 56px;
+  display: none;
+  /* display: block; */
 }
 .la_hu2 {
   width: 56px;
@@ -628,6 +706,7 @@ input {
   background-image: url(../img/SUB3/human2.png);
   background-repeat: no-repeat;
   background-size: 56px;
+  display: none;
 }
 .la_hu3 {
   width: 56px;
@@ -635,7 +714,25 @@ input {
   background-image: url(../img/SUB3/human3.png);
   background-repeat: no-repeat;
   background-size: 56px;
+  display: none;
 }
+.la_hu4 {
+  width: 56px;
+  height: 56px;
+  background-image: url(../img/SUB3/human2.png);
+  background-repeat: no-repeat;
+  background-size: 56px;
+  display: none;
+}
+.la_hu5 {
+  width: 56px;
+  height: 56px;
+  background-image: url(../img/SUB3/human2.png);
+  background-repeat: no-repeat;
+  background-size: 56px;
+  display: none;
+}
+
 .al_txt > h2 {
   font-weight: bold;
   font-size: 17px;
@@ -662,20 +759,35 @@ input {
   gap: 58px;
 }
 .good > a {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
   width: 79px;
   height: 33px;
   border-radius: 5px;
-  background-color: #d9d9d9;
+  /* background-color: #d9d9d9; */
   text-align: center;
   line-height: 33px;
-  color: #ffffff;
+  color: #727272;
 }
 .good > a:hover {
-  color: #000000;
-  background-color: #717171;
+  color: #1286ff;
+  background-color: #efefef;
 }
-/* 페이지 번호 */
+
+#a_hide {
+  display: none;
+}
+.good > a:hover #a_hide {
+  display: block;
+}
+.good > a:hover img {
+  display: none;
+}
+/* 댓글 */
+.com {
+}
 .page {
   width: fit-content;
   height: fit-content;
@@ -686,6 +798,7 @@ input {
   display: flex;
   gap: 31px;
   align-items: center;
+  margin-bottom: 50px;
 }
 .page > a {
   display: block;
@@ -702,3 +815,19 @@ input {
 .page > a:hover {
   color: #1286ff;
 }
+/* 스파ㅏㄴ */
+.goo > img {
+  display: block;
+  width: 15px;
+}
+.goo > span {
+  display: block;
+}
+/* 아이콘 */
+/* .good_icon {
+  background-image: url(../img/SUB3/icon-park-outline_good-two.png);
+  width: 40px;
+  height: 40px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+} */

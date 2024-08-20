@@ -1,0 +1,56 @@
+/* 미디어쿼리 */
+
+/* 노트북 */
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1300px) {
+  .flex_wrap {
+    font-size: 12px;
+  }
+}
+
+/* 시작 */
+@media screen and (max-width: 1190px) {
+  .public2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* 큰 태블릿 */
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 982px) {
+  /* 반응형 헤더 로그인 아이콘 색 */
+  header .mob_ {
+    filter: invert(0.5);
+  }
+
+  .public2 > div {
+    width: 148px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .wrapper {
+    width: 70%;
+  }
+  .input_box input {
+    width: 181%;
+  }
+}
+@media screen and (max-width: 552px) {
+  .input_box input {
+    width: 152%;
+  }
+  .fi_img {
+    width: 100%;
+    background-color: #ffff;
+  }
+  h2 {
+    font-size: 15px;
+  }
+}
+/* 모바일 */
+@media screen and (max-width: 480px) {
+}

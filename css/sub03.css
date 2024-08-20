@@ -207,15 +207,13 @@ a {
     right: 198px;
   }
 }
-.bar_wrap {
+/* .bar_wrap {
   display: flex;
   width: 353px;
-  height: 53px;
-  line-height: 53px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
+  height: 80px;
+  padding-top: 12px;
+  justify-content: center;
+} */
 
 .float2 > p {
   font-size: 35px;
@@ -252,7 +250,7 @@ a {
   font-weight: bold;
 }
 /*업버튼 */
-.f_btn2 {
+/* .f_btn2 {
   display: block;
   height: 60px;
   width: 60px;
@@ -265,7 +263,7 @@ a {
   position: fixed;
   border: none;
   border: 0.3px solid rgba(255, 255, 255, 0.5);
-}
+} */
 .height {
   width: 30px;
   height: 30px;
@@ -403,16 +401,21 @@ section {
 .bar_wrap {
   display: flex;
   width: 353px;
-  height: 53px;
-  line-height: 53px;
+  height: 60px;
+  padding-top: 12px;
+  justify-content: center;
   margin: 0 auto;
 }
 .bar_wrap > div {
-  border-bottom: 1px solid rgb(1, 99, 198);
+  border-bottom: 1px solid #1b8bff;
   width: 117px;
   height: 100%;
   text-align: center;
-  color: rgb(1, 99, 198);
+  color: #1b8bff;
+}
+.bar_wrap > div:hover {
+  border-bottom: 3px solid #1b8bff;
+  transition: 0.3s;
 }
 /* 메뉴 색 */
 .bar_wrap > div > p {
@@ -420,9 +423,8 @@ section {
 }
 /* 메뉴 색 */
 .bar_wrap > div:hover > p {
-  border-bottom: 3px solid rgb(1, 99, 198);
   transition: 0.3s;
-  color: rgb(3, 0, 202);
+  color: #1b8bff;
 }
 /* 섹션4 */
 .se_4 {
@@ -583,6 +585,7 @@ section {
   border: 1px solid #3497ff;
   position: relative;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 /* div 액션 */
 .action {

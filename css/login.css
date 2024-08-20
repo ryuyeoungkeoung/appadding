@@ -6,6 +6,11 @@ body {
 ul li {
   list-style: none;
 }
+
+header > div {
+  width: 50%;
+  height: 80px;
+}
 /* 파란박스 */
 /* 서브용 박스 */
 .blu_box {
@@ -157,8 +162,7 @@ body {
   background: transparent;
   border: none;
   outline: none;
-  border: 2px solid rgb(186 186 186 / 78%);
-  /* border-radius: 40px; */
+  border: 1px solid rgb(227 227 227 / 78%);
   box-sizing: border-box;
   padding: 20px 45px 20px 20px;
 }
@@ -205,12 +209,15 @@ a {
   font-weight: 500;
   line-height: 35px;
   color: #111;
-  width: fit-content;
-  height: fit-content;
+  height: 56px;
+  height: 69px;
   display: flex;
   justify-content: center;
   background-color: rgb(255, 255, 255);
-  margin-left: 219px;
+  /* margin-left: 219px; */
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 0.5px solid #e5e5e5;
 }
 @media (max-width: 767px) {
   .tit_wrap .tit {
@@ -219,16 +226,6 @@ a {
   }
 }
 
-.tit_wrap .tit_area:after {
-  content: "";
-  position: absolute;
-  top: 14px;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 1px;
-  background-color: #dbdbdb;
-}
 /* 버튼 묶음 */
 .btn_wrap {
   display: flex;
@@ -312,5 +309,5 @@ a {
   height: 200px;
   margin: 0 auto;
   margin-bottom: 100px;
-  margin-top: 30px;
+  margin-top: 100px;
 }

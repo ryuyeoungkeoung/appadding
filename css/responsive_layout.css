@@ -1,0 +1,177 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media screen and (max-width: 1184px) {
+  .last_num {
+    display: none;
+  }
+  .btn_wrap1 {
+    box-sizing: border-box;
+    padding-right: 30px;
+  }
+  .la_log {
+    padding: 0px 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 1158px) {
+  .btn_wrap1 {
+    gap: 5px;
+  }
+  .logo_last {
+    padding-left: 0px;
+  }
+  .dangerous {
+    width: 110%;
+  }
+}
+@media screen and (max-width: 1086px) {
+  .logo_txt {
+    width: 368px;
+  }
+}
+@media screen and (max-width: 982px) {
+  /* 헤더모바일형 */
+  .mob_ {
+    display: block;
+  }
+  main {
+    position: relative;
+    top: 44px;
+  }
+  .mob_ {
+    width: 50px;
+    height: 40px;
+    display: block;
+    filter: invert(1);
+    background-size: 40px;
+    margin: 5px 15px;
+    display: block;
+    background-size: 30px;
+  }
+  /* 메인용 필터 */
+  header:hover .mob_ {
+    filter: none;
+  }
+  /* 서브들 전용 서브 할때 주석 복붙넣기 */
+  /* header .mob_ {
+    filter: invert(0.5);
+  } */
+
+  header > div {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+  }
+  h1 {
+    margin: -20px auto;
+    padding-right: 108px;
+  }
+  header {
+    display: block;
+    padding: 20px 0px;
+  }
+
+  .gnb {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 55px;
+    align-items: center;
+    gap: 16px;
+    background-color: rgb(255, 255, 255);
+  }
+  .gnb > li > a {
+    color: #3ea7fdda;
+  }
+  .gnb5 {
+    display: none;
+  }
+  .submenu1 {
+    display: none;
+  }
+  .submenu2 {
+    display: none;
+  }
+  .submenu3 {
+    display: none;
+  }
+
+  /* 풋터 */
+  .last_num {
+    display: none;
+  }
+  /* 풋터 모바일형 */
+  .logo_txt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .logo_last {
+    width: 229px;
+    padding-left: 0px;
+    margin: 0 auto;
+  }
+  .dangerous {
+    display: flex;
+
+    height: 100px;
+    margin-top: 0px;
+    width: 500px;
+  }
+
+  .log {
+    margin-top: 100px;
+  }
+  .la_log {
+    display: block;
+    height: 274px;
+    display: flex;
+    align-items: center;
+  }
+  .btn_wrap1 {
+    margin: 0px;
+    padding-right: 0px;
+  }
+
+  /* 풋터 모바일형 */
+  /* 풋터2차 */
+  .la_log {
+    display: block;
+  }
+  .logo_txt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .logo_last {
+    width: 229px;
+    padding-left: 0px;
+    margin: 0 auto;
+  }
+  .dangerous {
+    display: flex;
+
+    height: 100px;
+    margin-top: 0px;
+    width: 500px;
+  }
+
+  .log {
+    margin-top: 100px;
+  }
+  .la_log {
+    display: block;
+    height: 250px;
+  }
+  .btn_wrap1 {
+    margin: 0px;
+  }
+  .logo_txt {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 524px) {
+  .dangerous {
+    width: 408px;
+  }
+}
