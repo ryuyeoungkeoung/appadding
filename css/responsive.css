@@ -218,6 +218,7 @@
 
   .info_wrap > p {
     font-size: 18px;
+    height: 300px;
   }
   .round1 {
     position: static;
@@ -294,7 +295,7 @@
     height: 58vw;
   }
   .sec_fo {
-    height: 159vh;
+    height: 149vw;
   }
 
   .right_con {
@@ -302,7 +303,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 30px;
-    padding-top: 337px;
+    margin-top: 40vw;
   }
   .right_con > div:hover {
     box-sizing: border-box;
@@ -394,6 +395,15 @@
 }
 
 /* 모바일 디자인 시작 */
+@media screen and (max-width: 982px) {
+  /* 메인용 필터 */
+  header:hover .mob_ {
+    filter: none;
+  }
+  header .mob_ {
+    filter: invert(1.5);
+  }
+}
 @media screen and (max-width: 950px) {
   .mid_box {
     width: 800px;
@@ -499,7 +509,10 @@
   .right_con {
     display: block;
     width: 100%;
-    padding-top: 250px;
+    position: static;
+  }
+  .sec_fo {
+    height: 189vw;
   }
   .stay {
     background-size: 100%;
@@ -608,7 +621,7 @@
     width: 80%;
   }
   .sec_fo {
-    height: 140vh;
+    height: 219vw;
   }
 }
 @media screen and (max-width: 572px) {
@@ -624,6 +637,12 @@
 
   .stay_wrap {
     height: 116%;
+  }
+  .sec_fo {
+    height: 230vw;
+  }
+  .right_con {
+    margin-top: 55vw;
   }
 }
 
@@ -656,14 +675,15 @@
   .right_con > div > a > h2 {
     padding-top: 36px;
   }
-  .sec_fo {
-    height: 117vh;
-  }
+
   .stay_wrap {
     height: 132%;
   }
   .stay {
     height: 250px;
+  }
+  .right_con {
+    margin-top: 65vw;
   }
 
   .container > h2 {
@@ -680,6 +700,12 @@
   .boxs > div:hover > h3::after {
     left: 17vw;
   }
+  .sec_fo {
+    height: 250vw;
+  }
+  .right_con {
+    margin-top: 70vw;
+  }
 }
 @media screen and (max-width: 418px) {
   .container > p {
@@ -688,8 +714,12 @@
   .container > p:nth-child(3) {
     font-size: 18px;
   }
+
+  .sec_fo {
+    height: 280vw;
+  }
   .right_con {
-    padding-top: 430px;
+    margin-top: 90vw;
   }
   .round1 > p {
     font-size: 13px;

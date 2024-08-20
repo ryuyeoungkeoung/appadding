@@ -4,20 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>애기생애주기</title>
+    <!-- css초기화 -->
     <link rel="stylesheet" href="./css/reset.css" />
+    <!-- css -->
     <link rel="stylesheet" href="./css/sub1.css" />
+    <!-- 헤더 풋터 고정 css -->
+    <link rel="stylesheet" href="./css/layout.css" />
+    <!-- 반응형 css -->
+    <link rel="stylesheet" href="./css/responsive_sub1.css" />
+
+    <!-- 슬릭css -->
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/slick-theme.css" />
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
   </head>
   <body>
+    <header>
+      <div>
+        <a href="./login.html"><div class="mob_"></div></a>
+        <h1>
+          <a href="index.html"
+            ><img src="./img/SUB/logo_grey.png" alt="로고"
+          /></a>
+        </h1>
+      </div>
+      <nav>
+        <ul class="gnb">
+          <li class="gnb1">
+            <a href="sub_cal.html">캘린더</a>
+            <ul class="submenu1">
+              <li><a href="#">엄마는</a></li>
+              <li><a href="#">애기는</a></li>
+            </ul>
+          </li>
+
+          <li class="gnb2">
+            <a href="sub02.html" class="point">자료 & 상담</a>
+            <ul class="submenu2">
+              <li><a href="#">전체</a></li>
+              <li><a href="#">육아</a></li>
+              <li><a href="#">부모</a></li>
+            </ul>
+          </li>
+          <li class="gnb3">
+            <a href="sub03.html">헬프닥터</a>
+            <ul class="submenu3">
+              <li><a href="#">닥터추천</a></li>
+              <li><a href="#">헬프</a></li>
+            </ul>
+          </li>
+          <li class="gnb4">
+            <a href="sub04.html">커뮤니티</a>
+          </li>
+          <li><a href="login.html">로그인</a></li>
+        </ul>
+      </nav>
+    </header>
     <!--처음이자 마지막 섹션 -->
     <section class="baby">
       <div class="date">
-        <h1>JUL <span>00</span> </h1>
+        <h1>JUL <span>00</span></h1>
       </div>
       <div class="baby_wrap">
-        <div class="baby1"></div>
-        <div class="baby2"></div>
-        <div class="baby3"></div>
-        <div class="baby4"></div>
+        <div class="baby1">
+          <img src="./img/SUB2/baby1.png" alt="baby" />
+        </div>
+        <div class="baby2">
+          <img src="./img/SUB2/baby2.png" alt="baby" />
+        </div>
+        <div class="baby3">
+          <img src="./img/SUB2/baby3.png" alt="baby" />
+        </div>
       </div>
       <div class="te_xt">
         <a href="index.html" class="x">x</a>
@@ -34,8 +92,22 @@
           >VIEW
           <div class="action">MORE</div>
         </a>
-        </a>
       </div>
     </section>
+
+    <script>
+      $(document).ready(function () {
+        $(".baby_wrap").slick({
+          autoplay: true,
+          autoplaySpeed: 5000,
+          infinite: true,
+          slidesToScroll: 1,
+          arrows: false,
+          speed: 1500,
+          draggable: true,
+          slidesToShow: 1, // 한 번에 보여줄 슬라이드 갯수
+        });
+      });
+    </script>
   </body>
 </html>

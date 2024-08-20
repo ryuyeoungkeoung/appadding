@@ -49,13 +49,13 @@
     background-size: 30px;
   }
   /* 메인용 필터 */
-  header:hover .mob_ {
+  /* header:hover .mob_ {
     filter: none;
-  }
-  /* 서브들 전용 서브 할때 주석 복붙넣기 */
-  /* header .mob_ {
-    filter: invert(0.5);
   } */
+  /* 서브들 전용 서브 할때 주석 복붙넣기 */
+  header .mob_ {
+    filter: invert(0.5);
+  }
 
   header > div {
     display: flex;
