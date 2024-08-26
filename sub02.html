@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>자료&상담</title>
-    <!-- 초기화 링크 -->
-    <!-- css초기화 -->
-    <link rel="stylesheet" href="./css/reset.css" />
-    <!-- 헤더 풋터 고정 css -->
-    <link rel="stylesheet" href="./css/layout.css" />
     <!-- css -->
     <link rel="stylesheet" href="./css/sub02.css" />
-    <!-- 헤더 풋터 반응형 css -->
-    <link rel="stylesheet" href="./css/responsive_layout.css" />
+    <!-- 반응형 헤더 풋터 css 고정  나중에 반응형 할떄 먼저 넣기-->
+    <link rel="stylesheet" href="./css/responsive/re_sub02.css" />
+    <!-- 스크롤 라이브러리 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   </head>
   <body>
+    <!-- 스크롤 초기화 -->
+    <script>
+      AOS.init();
+    </script>
     <!-- 헤더 -->
     <header>
       <div>
@@ -53,7 +56,7 @@
           <li class="gnb4">
             <a href="sub04.html">커뮤니티</a>
           </li>
-          <li><a href="login.html">로그인</a></li>
+          <li class="gnb5"><a href="login.html">로그인</a></li>
         </ul>
       </nav>
     </header>
@@ -62,17 +65,29 @@
       <!-- 따라오는 박스 -->
       <div class="quickmenu">
         <ul>
-          <li><a href="#" class="a_fi">회원가입</a></li>
-          <li><a href="#" class="a_fi2">전화하기</a></li>
-          <li><a href="#" class="a_fi3">신청서</a></li>
-          <li><a href="#" class="a_fi4">육아</a></li>
-          <li><a href="#" class="a_la" id="a_la">회사소개</a></li>
+          <li>
+            <a href="#" class="a_fi">회원가입 </a>
+            <a href="#">마이페이지</a>
+          </li>
+          <li>
+            <a href="#" class="a_fi2">전화하기 </a>
+          </li>
+          <li>
+            <a href="#" class="a_fi3">신청서 </a>
+          </li>
+          <li>
+            <a href="#" class="a_fi4">육아</a>
+          </li>
+          <li>
+            <a href="#" class="a_la" id="a_la">회사소개</a>
+            <a href="#">병원상담</a>
+          </li>
         </ul>
       </div>
       <section1>
         <!-- 파란박스 -->
         <div class="blu_box_noting">
-          <img src="./img/sub_card/card.png" alt="doctor" />
+          <!-- <img src="./img/sub_card/card.png" alt="doctor" /> -->
         </div>
         <div class="float2">
           <p>당신이 우리 아이에게 준 사랑</p>
@@ -87,7 +102,9 @@
           </ul>
         </div>
         <!-- 플로팅 버튼2  업버튼-->
-        <a href="#" class="f_btn2"><div class="height"></div></a>
+        <a href="#" class="f_btn2" id="top">
+          <div class="height"></div>
+        </a>
         <!-- <div class="bar_wrap">
           <div><p>전체</p></div>
           <div><p>육아</p></div>
@@ -100,7 +117,7 @@
         <input type="text" placeholder="내용을 입력해주세요." />
         <div class="search"></div>
       </div> -->
-      <section class="sec_2">
+      <section class="sec_2" data-aos="fade-up" data-aos-duration="1000">
         <div class="bar_wrap">
           <div><p>전체</p></div>
           <div><p>육아</p></div>
@@ -222,10 +239,10 @@
           </div>
         </div>
         <!-- 마무리 버튼 -->
-        <a href="moo.html" class="btn_sub"
-          >MORE
+        <div class="btn_sub">
+          <h2>MORE</h2>
           <div class="action"></div>
-        </a>
+        </div>
       </section>
     </main>
     <!-- 풋터 -->
@@ -299,7 +316,9 @@
       </div>
       <!-- 마지막로고 -->
       <div class="la_log">
-        <div class="logo_last"></div>
+        <div class="logo_last">
+          <img src="./img/index/logo_white2.png" alt="footer_logo" />
+        </div>
         <div class="logo_txt">
           <ul class="dangerous">
             <li><a href="#">이용약관</a></li>
@@ -315,10 +334,18 @@
           </div> -->
         </div>
         <div class="btn_wrap1">
-          <a href="#"><img src="./img/google_play.svg" alt="paly store" /></a>
-          <a href="#"><img src="./img/app_store.svg" alt="app store" /></a>
+          <a href="#"
+            ><img src="./img/index/google_play.svg" alt="paly store"
+          /></a>
+          <a href="#"
+            ><img src="./img/index/app_store.svg" alt="app store"
+          /></a>
         </div>
       </div>
     </footer>
   </body>
+  <!-- 초기화 -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- 자바스크립트, 제이쿼리 -->
+  <script src="./js/sub02.js"></script>
 </html>

@@ -1,0 +1,148 @@
+/* 반응형 고정 헤더 풋터 css */
+@import url(./responsive_layout.css);
+/* 미디어쿼리 */
+@media screen and (max-width: 1630px) {
+  .te_xt > .more {
+    margin-top: 20px;
+  }
+  .exit {
+    color: #ffffff;
+    font-size: 34px;
+  }
+  .date {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    right: 1%;
+    top: 10%;
+    z-index: 3;
+  }
+}
+
+/* 노트북 */
+
+@media screen and (max-width: 1440px) {
+  .slick-slide img {
+    margin: 5% auto;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .slick-slide img {
+    margin: 10% auto;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .slick-slide img {
+    margin: 15% auto;
+  }
+}
+/* 큰 태블릿 */
+@media screen and (max-width: 1024px) {
+  .te_xt > p {
+    font-size: 17px;
+  }
+  .slick-slide img {
+    margin: 18% auto;
+  }
+  .te_xt > .more {
+    width: 135px;
+    height: 50px;
+  }
+  .more:hover .action {
+    width: 135px;
+    height: 50px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 982px) {
+  .gnb5 {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .te_xt > p {
+    font-size: 15px;
+  }
+  .te_xt {
+    height: 55vh;
+  }
+}
+@media screen and (max-width: 828px) {
+  .te_xt > p {
+    font-size: 15px;
+  }
+  .slick-slide img {
+    margin: 30% auto;
+  }
+}
+@media screen and (max-width: 758px) {
+  .te_xt > h3 {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .slick-slide img {
+    margin: 35% auto;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 632px) {
+  .te_xt > p {
+    margin-top: 20px;
+  }
+  .slick-slide img {
+    margin: 40% auto;
+  }
+  strong {
+    display: none;
+  }
+  .te_xt {
+    padding: 0px 50px;
+  }
+  .te_xt > .more {
+    margin-top: 55px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .te_xt > p {
+    font-size: 13px;
+  }
+  .slick-slide img {
+    margin: 45% auto;
+  }
+  .te_xt {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 526px) {
+  .slick-slide img {
+    margin: 63% auto;
+  }
+}
+@media screen and (max-width: 454px) {
+  .slick-slide img {
+    margin: 68% auto;
+  }
+}
+@media screen and (max-width: 443px) {
+  .te_xt > .more {
+    margin-top: 30px;
+  }
+  .slick-slide img {
+    margin: 73% auto;
+  }
+  .te_xt > h3 {
+    font-size: 24px;
+  }
+}
+/* 반응형 핸드폰 사이즈 */
+
+@media screen and (max-width: 380px) {
+  .slick-slide img {
+    margin: 90% auto;
+  }
+}

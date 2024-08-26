@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+/* 헤더 풋터 고정 css */
+@import url(./layout.css);
+
 body {
   scroll-behavior: smooth;
 }

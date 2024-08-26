@@ -1,6 +1,16 @@
 @charset "utf-8";
+/* 초기화 , 헤더 풋터 고정css */
+@import url(./layout.css);
+
 body {
   scroll-behavior: smooth;
+}
+/* 따라오는 박스 메뉴 글씨 숨기기 */
+.quickmenu > ul > li:nth-child(1) > a:nth-child(2) {
+  display: none;
+}
+.quickmenu > ul > li:nth-child(5) > a:nth-child(2) {
+  display: none;
 }
 .section1 {
   height: 226px;
@@ -20,8 +30,12 @@ body {
   width: 100%;
   width: 100%;
   height: 800px;
-  background-color: #1b8bff;
+
   overflow: hidden;
+  position: relative;
+  /* 이미지 사이즈가 줄어들면서 가운데를 유지하게 만듦 */
+  background-position: center;
+  background-image: url(../img/sub_card/card.png);
 }
 /*메인  */
 /* 떠다니는 메뉴 */
@@ -42,13 +56,13 @@ a {
   width: 130px;
   top: 45%;
   margin-top: -50px;
-  left: 1729px;
+  right: 5vw;
   position: absolute;
   /* position: sticky; */
   position: fixed;
   border-radius: 15px;
   background-color: rgba(78, 78, 78, 0.8);
-  z-index: 2;
+  z-index: 999;
 }
 .quickmenu ul {
   position: relative;
@@ -143,7 +157,7 @@ a {
 .a_la::before {
   width: 40px;
   height: 40px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   content: "fk";
   background-repeat: no-repeat;
   background-image: url(../img/menu_2/nu5.png);
@@ -158,14 +172,14 @@ a {
 }
 /* 플로팅 사진 */
 .float2 {
-  width: fit-content;
+  width: 73%;
   height: fit-content;
   position: absolute;
-  z-index: 999;
+  z-index: 4;
   background-size: 487px;
   background-repeat: no-repeat;
-  left: 310px;
-  top: 670px;
+  left: 5%;
+  top: 25%;
   animation: slinder 1s ease;
   animation-duration: 3s;
 }
@@ -173,12 +187,12 @@ a {
 @keyframes slinder {
   0% {
     opacity: 0;
-    left: 0px;
+    left: 0vw;
   }
 
   100% {
     opacity: 1;
-    right: 198px;
+    right: 10vw;
   }
 }
 .bar_wrap {
@@ -193,7 +207,7 @@ a {
 
 .float2 > p {
   font-size: 35px;
-  color: #9a9a9a;
+  color: #ffffff;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -244,21 +258,22 @@ a {
   margin-left: 18px;
   margin-top: 14px;
 }
-/* 메뉴바 */
+/* 메뉴바 (수정하기)*/
 .ddi {
   width: 100%;
   height: 80px;
   background-color: #007adb;
-  box-sizing: border-box;
-  padding: 0px 400px 0px 400px;
   gap: 10px;
   position: sticky;
   top: 0;
   z-index: 1;
 }
+/* 파란박스 1 (수정하기)*/
 .ddi > ul {
   display: flex;
   justify-content: end;
+  box-sizing: border-box;
+  padding-right: 150px;
 }
 .ddi > ul > li {
   width: fit-content;
@@ -355,6 +370,8 @@ input {
   display: flex;
   align-items: center;
   width: 40%;
+  box-sizing: border-box;
+  padding-left: 30px;
 }
 /* 오른쪽 */
 .right > h4 {
@@ -410,8 +427,12 @@ input {
 }
 .right_txt {
   width: 67.4%;
-  height: 328px;
+  height: 338px;
   /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
 }
 /* 해시태그 */
 .sm {

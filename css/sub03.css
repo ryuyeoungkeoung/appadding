@@ -1,4 +1,7 @@
 @charset "utf-8";
+/* 초기화 , 헤더 풋터 고정css */
+@import url(./layout.css);
+
 body {
   height: 100%;
   margin: 0;
@@ -28,13 +31,13 @@ a {
   width: 130px;
   top: 45%;
   margin-top: -50px;
-  left: 1729px;
+  right: 5vw;
   position: absolute;
   /* position: sticky; */
   position: fixed;
   border-radius: 15px;
   background-color: rgba(78, 78, 78, 0.8);
-  z-index: 3;
+  z-index: 999;
 }
 .quickmenu ul {
   position: relative;
@@ -139,26 +142,29 @@ a {
 }
 .blu_box_noting {
   width: 100%;
-  width: 100%;
   height: 800px;
   background-color: #1b8bff;
   overflow: hidden;
+  position: relative;
+
+  background-position: center;
+  background-image: url(../img/SUB/help_doctor.png);
 }
 /* 메뉴바 */
 .ddi {
   width: 100%;
   height: 80px;
   background-color: #007adb;
-  box-sizing: border-box;
-  padding: 0px 400px 0px 400px;
   gap: 10px;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 }
 .ddi > ul {
   display: flex;
   justify-content: end;
+  box-sizing: border-box;
+  padding-right: 150px;
 }
 .ddi > ul > li {
   width: fit-content;
@@ -184,14 +190,14 @@ a {
 }
 /* 플로팅 사진 */
 .float2 {
-  width: fit-content;
+  width: 73%;
   height: fit-content;
   position: absolute;
-  z-index: 999;
+  z-index: 4;
   background-size: 487px;
   background-repeat: no-repeat;
-  left: 310px;
-  top: 670px;
+  left: 5%;
+  top: 25%;
   animation: slinder 1s ease;
   animation-duration: 3s;
 }
@@ -217,7 +223,7 @@ a {
 
 .float2 > p {
   font-size: 35px;
-  color: #9a9a9a;
+  color: #ffffff;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -313,21 +319,17 @@ section {
   /* background-color: #2d2d2d; */
 }
 .con_2 {
-  width: 1400px;
-  height: 450px;
-  /* background-color: #1b8bff; */
-  box-sizing: border-box;
-
-  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  padding-top: 30px;
 }
 /* 산후조리원 */
 .con_2 > h4 {
   color: #898989;
   text-align: start;
-
-  margin: 0 216px;
-  padding-top: 30px;
-  margin-bottom: 15px;
+  position: absolute;
+  top: 11px;
+  right: 73%;
 }
 /* 묶어주는 div */
 .back_wrap {
@@ -341,6 +343,13 @@ section {
   height: 326px;
   background-repeat: no-repeat;
   background-image: url(../img/SUB/picture.png);
+}
+.back_txt {
+  height: 320px;
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 /* 이미지 텍스트 영역 */
 .back_txt > h3 {
@@ -435,6 +444,8 @@ section {
   gap: 51px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px;
 }
 
 /* 닥터1 */

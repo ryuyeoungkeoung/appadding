@@ -1,26 +1,30 @@
 @charset "utf-8";
+/* 초기화 , 헤더 풋터 고정css */
+@import url(./layout.css);
+
 main {
   height: fit-content;
 }
 .blu_box_noting {
   width: 100%;
-  width: 100%;
   height: 800px;
   background-color: #1b8bff;
   overflow: hidden;
-  scroll-behavior: smooth;
+  position: relative;
+  background-position: center;
+  background-image: url(../img/SUB3/husband.png);
 }
 /*  섹션1 */
 /* 플로팅 사진 */
 .float2 {
-  width: fit-content;
+  width: 73%;
   height: fit-content;
   position: absolute;
-  z-index: 999;
+  z-index: 4;
   background-size: 487px;
   background-repeat: no-repeat;
-  left: 310px;
-  top: 670px;
+  left: 5%;
+  top: 25%;
   animation: slinder 1s ease;
   animation-duration: 3s;
 }
@@ -54,7 +58,7 @@ a {
   width: 130px;
   top: 45%;
   margin-top: -50px;
-  left: 1729px;
+  right: 5vw;
   position: absolute;
   /* position: sticky; */
   position: fixed;
@@ -168,16 +172,16 @@ a {
   width: 100%;
   height: 80px;
   background-color: #007adb;
-  box-sizing: border-box;
-  padding: 0px 400px 0px 400px;
   gap: 10px;
   position: sticky;
   top: 0;
-  z-index: 5;
+  z-index: 1;
 }
 .ddi > ul {
   display: flex;
   justify-content: end;
+  box-sizing: border-box;
+  padding-right: 150px;
 }
 .ddi > ul > li {
   width: fit-content;
@@ -209,7 +213,7 @@ a {
 
 .float2 > p {
   font-size: 35px;
-  color: #9a9a9a;
+  color: #ffffff;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -346,8 +350,10 @@ input {
 .hum_warp {
   display: flex;
   gap: 20px;
-  width: fit-content;
-  height: fit-content;
+  width: 100%;
+  height: 300px;
+  /* background-color: aqua; */
+  margin: 0 auto;
 }
 /* 휴먼 상단 왼쪽*/
 /*  박스 */
@@ -424,7 +430,7 @@ input {
 .man {
   width: 116px;
   height: 116px;
-  background-color: #2d2d2d;
+  /* background-color: #2d2d2d; */
   border-radius: 100%;
   background-image: url(../img/SUB3/human1.png);
   background-repeat: no-repeat;
@@ -433,7 +439,7 @@ input {
 .man2 {
   width: 116px;
   height: 116px;
-  background-color: #2d2d2d;
+  /* background-color: #2d2d2d; */
   border-radius: 100%;
   background-image: url(../img/SUB3/human2.png);
   background-repeat: no-repeat;
@@ -442,7 +448,7 @@ input {
 .man3 {
   width: 116px;
   height: 116px;
-  background-color: #2d2d2d;
+  /* background-color: #2d2d2d; */
   border-radius: 100%;
   background-image: url(../img/SUB3/human3.png);
   background-repeat: no-repeat;
@@ -582,10 +588,12 @@ input {
 .co_wrap {
   width: 100%;
   height: 300px;
-
   box-sizing: border-box;
   padding-top: 35px;
   display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  gap: 20px;
   justify-content: space-between;
   border-bottom: 1px solid #efefef;
 }
@@ -601,6 +609,7 @@ input {
   height: 216px;
   background-repeat: no-repeat;
   border-radius: 10px;
+  min-width: 204px;
 }
 
 .al2 {
@@ -609,6 +618,7 @@ input {
   background-image: url(../img/SUB3/daily.jpg);
   background-position: center;
   border-radius: 10px;
+  min-width: 204px;
 }
 /* 사진3 */
 .al_1 {
@@ -620,9 +630,22 @@ input {
   background-repeat: no-repeat;
   border-radius: 10px;
   background-color: #000;
+  min-width: 204px;
+  display: none;
 }
 .al2_1 {
   width: 204px;
+  height: 216px;
+  background-color: #000;
+  background-size: 400px;
+  height: 216px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  min-width: 204px;
+  display: none;
+}
+.al2_1_1 {
+  width: 100px;
   height: 216px;
   background-color: #000;
   background-size: 400px;
@@ -638,6 +661,7 @@ input {
   height: 216px;
   background-repeat: no-repeat;
   border-radius: 10px;
+  min-width: 204px;
 }
 /* 텍스트 영역 */
 .al_txt {

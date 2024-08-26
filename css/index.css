@@ -1,5 +1,10 @@
 @charset "utf-8";
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* 초기화 링크 */
+@import url(./reset.css);
+/* 풋터 헤더 고정 css */
+@import url(./layout.css);
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -23,7 +28,7 @@ body {
 /* 메인페이지 전체 */
 /* 모바일 아이콘 숨기기*/
 .mob_{
-  background-image: url(../img/mob.png);
+  background-image: url(../img/index/mob.png);
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
@@ -61,6 +66,7 @@ h1 {
   height: 80px;
   margin-top: -23px;
 }
+
 
 /*h1호버 */
 header:hover h1 {
@@ -235,7 +241,7 @@ video {
 }
 
 .main_poto2 {
-  background-image: url(../img/mom.png);
+  background-image: url(../img/index/mom.png);
   background-repeat: no-repeat;
   height: 800px;
   width: 100%;
@@ -275,12 +281,12 @@ video {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 /* 플로팅 사진 */
-.float2 {
+.float2_1 {
   width: 27vw;
   height: 39%;
   position: absolute;
   z-index: 999;
-  background-image: url(../img/hand.jpg);
+  background-image: url(../img/index/hand.jpg);
   background-size: 80%;
   background-repeat: no-repeat;
   right: 12vw;
@@ -302,7 +308,7 @@ video {
     top: 38%;
   }
 }
-.amo {
+.amo1 {
   position: absolute;
   top: 18vw;
   color: #68b1ff;
@@ -320,7 +326,7 @@ video {
   right: -2vw;
   z-index: 999;
   position: fixed;
-  top: 80vh;
+  top: 75vh;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -505,7 +511,7 @@ video {
 .spc {
   width: 50px;
   height: 50px;
-  background-image: url(../img/“.png);
+  background-image: url(../img/index/“.png);
   background-repeat: no-repeat;
   background-position: top;
   margin: 0 auto;
@@ -531,7 +537,7 @@ video {
 .img_2 {
   width: 50%;
   height: 390px;
-  background-image: url(../img/main1.png);
+  background-image: url(../img/index/main1.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -548,7 +554,7 @@ video {
 .img_3 {
   width: 50%;
   height: 390px;
-  background-image: url(../img/main2.png);
+  background-image: url(../img/index/main2.png);
   background-repeat: no-repeat;
 
 }
@@ -562,7 +568,7 @@ video {
 .spc2 {
   width: 50px;
   height: 50px;
-  background-image: url(../img/+.png);
+  background-image: url(../img/index/+.png);
   background-repeat: no-repeat;
   margin-top: 150px;
   margin-left: 250px;
@@ -690,21 +696,21 @@ video {
   margin-left: 40px;
 }
 .pic_1 {
-  background-image: url(../img/hueman1.png);
+  background-image: url(../img/index/hueman1.png);
   width: 145px;
   height: 200px;
   position: absolute;
   right: 5px;
 }
 .pic_2 {
-  background-image: url(../img/hueman2.png);
+  background-image: url(../img/index/hueman2.png);
   width: 145px;
   height: 200px;
   position: absolute;
   right: 5px;
 }
 .pic_3 {
-  background-image: url(../img/hueman3.png);
+  background-image: url(../img/index/hueman3.png);
   width: 145px;
   height: 200px;
   position: absolute;
@@ -732,7 +738,7 @@ video {
   font-weight: 500;
 }
 .sp {
-  background-image: url(../img/css_sprites.png);
+  background-image: url(../img/index/css_sprites.png);
   background-repeat: no-repeat;
   width: 17px;
   height: 32px;
@@ -743,7 +749,7 @@ video {
   background-position: -145px -68px;
 }
 .pic_2 {
-  background-image: url(../img/hueman2.png);
+  background-image: url(../img/index/hueman2.png);
   width: 145px;
   height: 200px;
   position: absolute;
@@ -751,7 +757,7 @@ video {
   background-repeat: no-repeat;
 }
 .pic_3 {
-  background-image: url(../img/hueman3.png);
+  background-image: url(../img/index/hueman3.png);
   width: 145px;
   height: 200px;
   position: absolute;
@@ -843,7 +849,7 @@ video {
 .infomation {
   width: 148px;
   height: 148px;
-  background-image: url(../img/icons8-정보-48\ 1.png);
+  background-image: url(../img/index/icons8-정보-48\ 1.png);
   position: absolute;
   top: 4%;
   right: 35%;
@@ -1014,7 +1020,7 @@ video {
 .face1 {
   width: 54px;
   height: 54px;
-  background-image: url(../img/main_human1.png);
+  background-image: url(../img/index/main_human1.png);
   z-index: 999;
   margin-left: 27px;
   box-sizing: border-box;
@@ -1044,7 +1050,7 @@ video {
 .face2 {
   width: 54px;
   height: 54px;
-  background-image: url(../img/main_human2.png);
+  background-image: url(../img/index/main_human2.png);
   z-index: 999;
   margin-left: 27px;
   box-sizing: border-box;
@@ -1087,7 +1093,7 @@ video {
 .face3 {
   width: 54px;
   height: 54px;
-  background-image: url(../img/main_human3.png);
+  background-image: url(../img/index/main_human3.png);
   z-index: 999;
   margin-left: 27px;
   box-sizing: border-box;
@@ -1117,7 +1123,7 @@ video {
 .face4 {
   width: 54px;
   height: 54px;
-  background-image: url(../img/main_human4.png);
+  background-image: url(../img/index/main_human4.png);
   z-index: 999;
   margin-left: 27px;
   box-sizing: border-box;
@@ -1201,5 +1207,6 @@ video {
   border: 0.5px solid #555555;
   transition: 0.3s;
 }
+
 
 

@@ -1,0 +1,39 @@
+/* 반응형 고정 헤더 풋터 css */
+@import url(./responsive_layout.css);
+/* 반응형 */
+/* 노트북 */
+@media screen and (max-width: 1020px) {
+  .content-right table tr td {
+    height: 90px;
+  }
+}
+@media screen and (max-width: 990px) {
+  main {
+    position: relative;
+    top: 125px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .content-right table tr td {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .content-left {
+    width: 100vw;
+    height: 600px;
+  }
+  .content-right {
+    width: 100vw;
+    padding: 126px 0px 20px 0px;
+  }
+  .todo-wrap {
+    padding: 0 0 0 120px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .todo-wrap {
+    padding: 0 0 0 100px;
+  }
+}
