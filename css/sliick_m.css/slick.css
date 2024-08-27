@@ -26,6 +26,7 @@
   margin: 0;
   padding: 0;
 }
+
 .slick-list:focus {
   outline: none;
 }
@@ -90,6 +91,9 @@
 }
 .slick-initialized .slick-slide {
   display: block;
+}
+.slick-initialized .slick-slide {
+  display: flex;
 }
 .slick-loading .slick-slide {
   visibility: hidden;

@@ -279,6 +279,9 @@
   .ddi > ul {
     padding-right: 50px;
   }
+  footer {
+    height: 320px;
+  }
 
   /* 따라오는 박스 글자 보이기 */
   /* .quickmenu > ul > li:nth-child(1) > a:nth-child(2) {

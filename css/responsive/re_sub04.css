@@ -1,6 +1,9 @@
 /* 미디어쿼리 */
 @import url(../responsive/responsive_layout.css);
 @media screen and (max-width: 1340px) {
+  .co_wrap:hover {
+    background-color: #ffffff;
+  }
   .hUm_Hum {
     flex-direction: column;
     justify-content: center;
@@ -107,37 +110,44 @@
 @media screen and (max-width: 1150px) {
   /* 커뮤니티 메인 */
   .la_hu {
-    /* display: block; */
+    display: block;
     width: 40px;
     height: 40px;
+    min-width: 46px;
     background-size: 39px;
   }
   .la_hu2 {
-    /* display: block; */
+    display: block;
     width: 40px;
     height: 40px;
     background-size: 39px;
   }
   .la_hu3 {
-    /* display: block; */
+    display: block;
     width: 40px;
     height: 40px;
     background-size: 39px;
   }
   .la_hu4 {
-    /* display: block; */
+    display: block;
     width: 40px;
     height: 40px;
     background-size: 39px;
   }
   .la_hu5 {
-    /* display: block; */
+    display: block;
     width: 40px;
     height: 40px;
     background-size: 39px;
   }
   .al_txt > p {
     line-height: 20px;
+  }
+  .co_wrap:nth-last-child(1) {
+    border-bottom: 2px solid #b5b5b5;
+  }
+  .se_4 {
+    border-bottom: none;
   }
 }
 
@@ -233,7 +243,7 @@
     border-bottom: 1px solid #efefef;
   }
   .se_4 {
-    height: 2307px;
+    height: 2170px;
   }
   .al_txt {
     width: 100%;
@@ -258,6 +268,9 @@
     height: fit-content;
     gap: 20px;
   }
+  .al_txt > p {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 674px) {
@@ -273,6 +286,19 @@
     margin-top: 119px;
     width: 100%;
     justify-content: center;
+  }
+}
+@media screen and (max-width: 665px) {
+  .top_wrap {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+  }
+  .who_wrap {
+    width: 100%;
   }
 }
 @media screen and (max-width: 642px) {
@@ -323,6 +349,11 @@
   }
   .div_wr > h3::after {
     left: 121px;
+  }
+  .good {
+    gap: 72px;
+
+    justify-content: center;
   }
 }
 @media screen and (max-width: 459px) {

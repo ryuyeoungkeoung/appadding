@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="./css/sub04.css" />
     <!-- 반응형 -->
     <link rel="stylesheet" href="./css/responsive/re_sub04.css" />
+    <!-- 스크롤 라이브러리 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   </head>
-
   <body>
-    <!-- 헤더부분 -->
-
+    <!-- 스크롤 초기화 -->
+    <script>
+      AOS.init();
+    </script>
     <!-- 헤더 -->
     <header>
       <div>
@@ -103,7 +108,7 @@
         </div>
       </section>
       <!-- 섹션2 -->
-      <section class="se_2">
+      <section class="se_2" data-aos="fade-up" data-aos-duration="1000">
         <h4 class="top">TOP 10.</h4>
         <!-- 여기부터 -->
         <div class="hUm_Hum">
@@ -205,23 +210,26 @@
         <a href="moo.html" class="wr_1">글쓰기</a>
       </div>
       <!-- 섹션4 -->
-      <section class="se_4">
+      <section class="se_4" data-aos="fade-up" data-aos-duration="1000">
         <!-- 안 div -->
         <div class="co_wrap">
-          <!-- 앨범 -->
-          <div class="al"></div>
-          <!-- 옆 텍스트 영역 -->
-          <div class="al_txt">
+          <!-- 시간 묶기 -->
+          <div class="top_wrap1">
             <div class="hit_box">
               <div class="la_hu"></div>
               <div class="hit mi"><img src="./img/SUB3/HIT.png" alt="" /></div>
             </div>
-            <h2>다들 오늘 저녁 뭐 드시나요?</h2>
-            <!-- 시간 묶기 -->
-            <div class="who_wrap">
+            <div class="top_name">
               <h3>누구세요?</h3>
               <h4>3분 전</h4>
             </div>
+          </div>
+          <!-- 앨범 -->
+          <div class="al"></div>
+          <!-- 옆 텍스트 영역 -->
+          <div class="al_txt">
+            <h2>다들 오늘 저녁 뭐 드시나요?</h2>
+
             <p>
               힘들어하는 아내 대신에 차려봤어요. 임산부는 먹는 것도 조심해햐
               한다는데 아내에게 좋은 음식 추천해주십쇼 ! 임신 4개월차입니다. !
@@ -251,30 +259,33 @@
           </div>
         </div>
         <div class="co_wrap">
-          <div class="alb">
-            <!-- 앨범 -->
-            <div class="al2"></div>
-
-            <!-- 2만 하나 더  -->
-            <div class="al2 al2_1"></div>
-          </div>
-          <!-- 옆 텍스트 영역 -->
-          <div class="al_txt">
-            <div class="la_hu2"></div>
-            <h2>유아동반 알아보시는 분 보세요</h2>
-            <!-- 시간 묶기 -->
-            <div class="who_wrap">
+          <!-- 시간 묶기 -->
+          <div class="who_wrap">
+            <div class="top_wrap">
+              <div class="la_hu2"></div>
               <h3>박땡땡씨유</h3>
               <h4>50분 전</h4>
             </div>
-            <p>
-              집근처 카페에 유아깟페 있씁니다. 와이프랑 왔는데 다들. 한 번
-              가보세요. 전 좋았음요 ㅋㅋ 사장님이 애기 귀.엽다고, 이것저것
-              주셨네요..ㅋㅋ
-              <br />
-              수원근처 사시는 분 연락주시면 위치알려드릴게요 여기 사장님 애기도
-              무척 좋아하고 커피맛도 좋네요 ㅋㅋㅋ..
-            </p>
+            <div class="alb">
+              <!-- 앨범 -->
+              <div class="al2"></div>
+
+              <!-- 2만 하나 더  -->
+              <div class="al2 al2_1"></div>
+            </div>
+            <!-- 옆 텍스트 영역 -->
+            <div class="al_txt">
+              <h2>유아동반 알아보시는 분 보세요</h2>
+              <p>
+                집근처 카페에 유아깟페 있씁니다. 와이프랑 왔는데 다들. 한 번
+                가보세요. 전 좋았음요 ㅋㅋ 사장님이 애기 귀.엽다고, 이것저것
+                주셨네요..ㅋㅋ
+                <br />
+                수원근처 사시는 분 연락주시면 위치알려드릴게요 여기 사장님
+                애기도 무척 좋아하고 커피맛도 좋네요 ㅋㅋㅋ..
+              </p>
+            </div>
+
             <!-- 추천버튼 -->
             <!-- 추천버튼 -->
             <div class="good">
@@ -304,17 +315,18 @@
           </div>
         </div>
         <div class="co_wrap">
+          <div class="top_wrap">
+            <div class="la_hu3"></div>
+            <h3>홀리카몰리</h3>
+            <h4>1시간 전</h4>
+          </div>
           <!-- 앨범 -->
           <div class="al_1"></div>
           <!-- 옆 텍스트 영역 -->
           <div class="al_txt">
-            <div class="la_hu3"></div>
             <h2>와이프 임신 중 술</h2>
             <!-- 시간 묶기 -->
-            <div class="who_wrap">
-              <h3>홀리카몰리</h3>
-              <h4>1시간 전</h4>
-            </div>
+
             <p>
               와이프 임신 중 술 너무 먹고싶어해요. 이럴때 남편분들은
               어떠신가요?<br />
@@ -350,17 +362,18 @@
           </div>
         </div>
         <div class="co_wrap">
+          <!-- 시간 묶기 -->
+          <div class="top_wrap">
+            <div class="la_hu4"></div>
+            <h3>압니다모릅니다</h3>
+            <h4>1시간 전</h4>
+          </div>
           <!-- 앨범 -->
           <div class="al2_1"></div>
           <!-- 옆 텍스트 영역 -->
           <div class="al_txt">
-            <div class="la_hu4"></div>
             <h2>고민입니다?</h2>
-            <!-- 시간 묶기 -->
-            <div class="who_wrap">
-              <h3>압니다모릅니다</h3>
-              <h4>1시간 전</h4>
-            </div>
+
             <p>
               아내의 출산 임박 상갓집에 다녀와야할 것 같은데 다들 가시나요?
               중요한 친구네 일이라서 안 갈수도 없고, 그렇다고 와이프 혼자 두고
@@ -395,18 +408,19 @@
           </div>
         </div>
         <div class="co_wrap">
+          <!-- 시간 묶기 -->
+          <div class="top_wrap">
+            <div class="la_hu5"></div>
+            <h3>바라기</h3>
+            <h4>2시간 전</h4>
+          </div>
           <!-- 앨범 -->
           <div class="al_122"></div>
           <!-- 옆 텍스트 영역 -->
 
           <div class="al_txt">
-            <div class="la_hu5"></div>
             <h2>임산부와의 여름류가</h2>
-            <!-- 시간 묶기 -->
-            <div class="who_wrap">
-              <h3>바라기</h3>
-              <h4>2시간 전</h4>
-            </div>
+
             <p>
               이제 곧 여름휴가 시즌이잖아요 ㅠ 와이프가 임신 중이라서 바람 좀<br />
               쐴겸 나가려고 하는 중입니다. 임신 중 아내와 신혼여행지 국내로 좋은
@@ -551,5 +565,7 @@
         </div>
       </div>
     </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/sub04.js"></script>
   </body>
 </html>

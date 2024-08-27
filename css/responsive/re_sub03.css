@@ -2,13 +2,13 @@
 @import url(../responsive/responsive_layout.css);
 
 @media screen and (max-width: 1400px) {
-  .con_2 {
+  /* .con_2 {
     width: 100%;
     padding: 20px;
     padding-top: 30px;
     display: flex;
     justify-content: center;
-  }
+  } */
 }
 
 @media screen and (max-width: 1340px) {

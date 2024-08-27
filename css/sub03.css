@@ -319,9 +319,13 @@ section {
   /* background-color: #2d2d2d; */
 }
 .con_2 {
-  width: 100%;
+  margin: 0 auto;
+  width: 52vw;
+  height: 500px;
   position: relative;
   padding-top: 30px;
+  /* background-color: aqua; */
+  margin: 0 auto;
 }
 /* 산후조리원 */
 .con_2 > h4 {
@@ -332,17 +336,35 @@ section {
   right: 73%;
 }
 /* 묶어주는 div */
+
 .back_wrap {
   display: flex;
   gap: 50px;
   align-items: center;
   justify-content: center;
+  width: 52vw;
+  display: flex;
+}
+.back_baby::before {
+  content: "#용산점";
+  width: 54px;
+  height: 50px;
+  color: #969696;
+  position: relative;
+  top: -19px;
 }
 .back_baby {
   width: 620px;
   height: 326px;
+  background-size: 50vw;
   background-repeat: no-repeat;
   background-image: url(../img/SUB/picture.png);
+}
+.back_baby2 {
+  width: 620px;
+  height: 326px;
+  background-repeat: no-repeat;
+  background-image: url(../img/SUB/picture2.png);
 }
 .back_txt {
   height: 320px;
