@@ -42,7 +42,13 @@
     margin-top: 0px;
   }
 }
+@media screen and (max-width: 1340px) {
+  .div_wr > h3::after {
+    left: 266px;
+  }
+}
 /* 풋터 어긋나는 부분1 */
+
 @media screen and (max-width: 1300px) {
   .flex_wrap {
     font-size: 12px;
@@ -71,6 +77,11 @@
     height: fit-content;
   } */
 }
+@media screen and (max-width: 1200px) {
+  .div_wr > h3::after {
+    left: 296px;
+  }
+}
 /* 풋터 어긋나는 부분 2 */
 @media screen and (max-width: 1180px) {
   .last_num {
@@ -92,6 +103,7 @@
     width: 95%;
   } */
 }
+
 @media screen and (max-width: 1150px) {
   /* 커뮤니티 메인 */
   .la_hu {
@@ -147,6 +159,9 @@
   .se_1 {
     width: 100%;
   }
+  .div_wr > h3::after {
+    left: 306px;
+  }
 }
 @media screen and (max-width: 1064px) {
   .input_wrapper {
@@ -200,6 +215,9 @@
   .boxs > .div_wr {
     width: 50%;
   }
+  .div_wr > h3::after {
+    left: 201px;
+  }
   /* 커뮤 모바일형 */
   .co_wrap {
     width: 100%;
@@ -215,7 +233,7 @@
     border-bottom: 1px solid #efefef;
   }
   .se_4 {
-    height: 1933px;
+    height: 2307px;
   }
   .al_txt {
     width: 100%;
@@ -238,7 +256,7 @@
   .al_txt {
     width: 100%;
     height: fit-content;
-    gap: 13px;
+    gap: 20px;
   }
 }
 
@@ -286,6 +304,9 @@
   .input_tag {
     width: 70%;
   }
+  .div_wr > h3::after {
+    left: 168px;
+  }
 }
 @media screen and (max-width: 514px) {
   .input_wrapper {
@@ -299,6 +320,9 @@
   }
   .boxs > .div_wr {
     width: 35%;
+  }
+  .div_wr > h3::after {
+    left: 121px;
   }
 }
 @media screen and (max-width: 459px) {
@@ -314,6 +338,9 @@
 @media screen and (max-width: 425px) {
   .boxs > .div_wr {
     width: 30%;
+  }
+  .div_wr > h3::after {
+    left: 94px;
   }
   .search {
     width: 13%;
