@@ -344,6 +344,8 @@ section {
   justify-content: center;
   width: 52vw;
   display: flex;
+  position: relative;
+  left: 1px;
 }
 .back_baby::before {
   content: "#용산점";
@@ -353,73 +355,45 @@ section {
   position: relative;
   top: -19px;
 }
+.back_baby2::before {
+  content: "#마포점";
+  width: 54px;
+  height: 50px;
+  color: #969696;
+  position: relative;
+  top: -19px;
+}
 .back_baby {
   width: 620px;
-  height: 326px;
+  height: 280px;
+  background-position: center;
+  min-width: 300px;
   background-size: 50vw;
   background-repeat: no-repeat;
   background-image: url(../img/SUB/picture.png);
 }
 .back_baby2 {
   width: 620px;
-  height: 326px;
+  height: 280px;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url(../img/SUB/picture2.png);
 }
 .back_txt {
   height: 320px;
-  /* background-color: antiquewhite; */
-  display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+  display: flex;
 }
 /* 이미지 텍스트 영역 */
 .back_txt > h3 {
   font-size: 30px;
-
-  margin-bottom: 50px;
 }
 .back_txt > p {
   font-size: 16px;
   color: #999999;
   line-height: 25px;
 }
-.back_txt > p:nth-last-child(1) {
-  margin-top: 30px;
-}
-/* 동그라미 */
-/* #app {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  left: 0;
-  width: 180px;
-  height: 20px;
-  margin: 0 auto;
-  transform: translateY(-50%);
-  overflow: hidden;
-  z-index: 1;
-}
-
-.button {
-  width: 20px;
-  height: 20px;
-  float: left;
-  margin-right: 20px;
-  background-color: #fff;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.3s ease width;
-}
-
-.button:last-child {
-  margin-right: 0;
-}
-
-.button.active {
-  width: 60px;
-  cursor: auto;
-} */
 
 /* 섹션3 */
 .sc_3 {
@@ -650,3 +624,6 @@ section {
 .btn_sub:hover {
   color: #f9f9f9;
 }
+/* .btn_sub:hover .action {
+  cursor: pointer;
+} */

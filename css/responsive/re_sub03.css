@@ -1,14 +1,10 @@
 /* 미디어쿼리 */
 @import url(../responsive/responsive_layout.css);
 
-@media screen and (max-width: 1400px) {
-  /* .con_2 {
-    width: 100%;
-    padding: 20px;
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-  } */
+@media screen and (max-width: 1700px) {
+  .back_wrap {
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 1340px) {
@@ -29,11 +25,19 @@
     width: 54%;
   }
 }
-
+@media screen and (max-width: 1250px) {
+  .back_baby {
+    height: auto;
+    aspect-ratio: 5 / 3;
+  }
+}
 /* 풋터 어긋나는 부분 2 */
 @media screen and (max-width: 1180px) {
   .last_num {
     display: none;
+  }
+  .back_txt > h3 {
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 1118px) {
@@ -53,10 +57,19 @@
   }
 }
 @media screen and (max-width: 1040px) {
+  .back_txt {
+    width: 100%;
+  }
+  /* .back_baby {
+    height: 288px;
+  } */
 }
 @media screen and (max-width: 980px) {
   .float2 {
     top: 684px;
+  }
+  .back_txt > p {
+    font-size: 14px;
   }
 }
 /* 모바일형 */
@@ -82,8 +95,12 @@
   .input_tag {
     width: 70%;
   }
-  .back_txt {
-    justify-content: flex-start;
+  .slick-slider {
+    width: 70%;
+  }
+  .slick-initialized .slick-slide {
+    display: flex;
+    width: 27%;
   }
 }
 @media screen and (max-width: 928px) {
@@ -144,11 +161,49 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 749px) {
+  .slick-initialized .slick-slide {
+    width: 525px;
+  }
+}
 @media screen and (max-width: 700px) {
   input {
     width: 80%;
     height: 100%;
     font-size: 14px;
+  }
+
+  .slick-initialized .slick-slide {
+    display: block !important;
+  }
+  .back_baby {
+    aspect-ratio: 10 / 3 !important;
+  }
+  .back_txt {
+    text-align: center;
+  }
+  .back_baby {
+    background-size: 100vw;
+    height: 240px;
+  }
+  .back_baby2 {
+    background-size: 90vw;
+    height: 240px;
+  }
+  .sc_3 {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .slick-initialized .slick-slide {
+    display: block;
+  }
+  .back_baby {
+    aspect-ratio: 5 / 3;
+  }
+  .back_baby2 {
+    aspect-ratio: 5 / 3;
   }
 }
 @media screen and (max-width: 650px) {
@@ -209,6 +264,12 @@
     font-size: 16px;
 
     line-height: 20px;
+  }
+  main {
+    height: 3500px;
+  }
+  .btn_sub {
+    margin-top: 0px;
   }
 }
 @media screen and (max-width: 388px) {

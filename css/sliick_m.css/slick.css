@@ -1,4 +1,19 @@
 /* Slider */
+.con_2 slick-initialized slick-slider {
+  position: relative;
+  display: block;
+  width: 70%;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
 .slick-slider {
   position: relative;
 
@@ -69,7 +84,8 @@
 .slick-slide {
   display: none;
   float: left;
-
+  /* 서브 헬프닥터 메인 스크롤 높이 따로 지정해줘야함 */
+  /* height: 415px; */
   height: 100%;
   min-height: 1px;
 }
@@ -91,6 +107,7 @@
 }
 .slick-initialized .slick-slide {
   display: block;
+  /* height: 420px; */
 }
 .slick-initialized .slick-slide {
   display: flex;

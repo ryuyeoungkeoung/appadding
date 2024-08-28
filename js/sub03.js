@@ -9,7 +9,7 @@ $(function () {
     $("html").animate({ scrollTop: 0 }, 0);
   });
 });
-// 드래곤시키
+// 드래곤시키 슬라이더
 
 $(document).ready(function () {
   $(".con_2").slick({});

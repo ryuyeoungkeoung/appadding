@@ -8,4 +8,9 @@ $(function () {
     //html태그를 선택하여 움직임을 준다. 이때 scrolltop의 위치를 0px위치로 1초 동안 옮긴다.
     $("html").animate({ scrollTop: 0 }, 0);
   });
+  $(document).ready(function () {
+    $("body").smoothScroll({
+      delegateSelector: "#nav ul li a, footer .up",
+    });
+  });
 });

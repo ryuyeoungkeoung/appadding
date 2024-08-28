@@ -9,11 +9,10 @@
     <!-- 슬릭css -->
     <link rel="stylesheet" href="./css/sliick_m.css/slick.css" />
     <!-- 반응형 -->
-    <link rel="stylesheet" href="./css/responsive/re_sub1.css">
+    <link rel="stylesheet" href="./css/responsive/re_sub1.css" />
     <!-- 슬랙슬라이더 -->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
-
   </head>
   <body>
     <header>
@@ -77,31 +76,22 @@
         <a href="index.html" class="exit">x</a>
         <h3>이 시기의 아이는요?</h3>
         <p>
-          홈페이지에서는 주수별로 어떤 변화가 일어나는지,
-          태아의 크기와 기능이 어떻게 변화하는지, 주수별로 주요 발달 단계와
-          함께, 태아의 이미지를 통해 시각적으로 이해하기 쉽게 설명하곤 합니다.
-          <strong>이를 통해
-          임신 중의 부모들이 태아의 성장 과정을 더 잘 이해하고, 로그인을 통해
-          그에 따른 준비와 관심을 더욱 효과적으로 할 수 있도록 돕습니다.</strong>
+          홈페이지에서는 주수별로 어떤 변화가 일어나는지, 태아의 크기와 기능이
+          어떻게 변화하는지, 주수별로 주요 발달 단계와 함께, 태아의 이미지를
+          통해 시각적으로 이해하기 쉽게 설명하곤 합니다.
+          <strong
+            >이를 통해 임신 중의 부모들이 태아의 성장 과정을 더 잘 이해하고,
+            로그인을 통해 그에 따른 준비와 관심을 더욱 효과적으로 할 수 있도록
+            돕습니다.</strong
+          >
         </p>
-        <div class="more"><h2>VIEW</h2>
+
+        <div class="more">
+          <h2>VIEW</h2>
           <div class="action"><h2>MORE</h2></div>
+        </div>
       </div>
     </section>
-
-    <script>
-      $(document).ready(function () {
-        $(".baby_wrap").slick({
-          autoplay: true,
-          autoplaySpeed: 5000,
-          infinite: true,
-          slidesToScroll: 1,
-          arrows: false,
-          speed: 1500,
-          draggable: true,
-          slidesToShow: 1, // 한 번에 보여줄 슬라이드 갯수
-        });
-      });
-    </script>
+    <script src="./js/sub1.js"></script>
   </body>
 </html>

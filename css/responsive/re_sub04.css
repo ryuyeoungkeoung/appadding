@@ -70,7 +70,7 @@
   .hue {
     width: 330px;
     height: 270px;
-    flex-shrink: 0;
+    /* display: block !important; */
   }
 
   /* 커뮤 메인 */
@@ -172,6 +172,9 @@
   .div_wr > h3::after {
     left: 306px;
   }
+  .hUm_Hum {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 1064px) {
   .input_wrapper {
@@ -182,6 +185,10 @@
   .input_tag {
     width: 40%;
     padding-left: 0px;
+  }
+  .sm_div > div > span {
+    font-size: 12px;
+    font-weight: 500;
   }
 }
 /* 모바일형 */
@@ -221,10 +228,22 @@
     padding: 25px;
   }
 }
-@media screen and (max-width: 748px) {
-  .boxs > .div_wr {
+
+@media screen and (max-width: 768px) {
+  .hum_warp {
+    display: contents;
+  }
+  .hUm_Hum {
     width: 50%;
   }
+  .boxs > .div_wr {
+    width: 100%;
+  }
+  .boxs {
+    width: 130%;
+  }
+}
+@media screen and (max-width: 748px) {
   .div_wr > h3::after {
     left: 201px;
   }
@@ -313,6 +332,8 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+}
 @media screen and (max-width: 544px) {
   input {
     min-width: 175px;
