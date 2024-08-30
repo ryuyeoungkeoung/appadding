@@ -342,6 +342,7 @@ table {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  vertical-align: middle;
 }
 .active {
   background: #0c81fb;

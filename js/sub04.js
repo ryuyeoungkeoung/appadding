@@ -1,42 +1,11 @@
-// $(document).ready(function () {
-//   $(".").slick({
-//     dots: false,
-//     pauseOnHover: true,
-//     infinite: true,
-//     slidesToScroll: 1,
-//     arrows: false,
-//     speed: 1500,
-//     draggable: true,
-//     slidesToShow: 3, // 한 번에 보여줄 슬라이드 갯수
-//   });
-// });
-// 슬라이더 제이쿼리
+// 공통 up버튼 제이쿼리
+$(function () {
+  $("#top").on("click", function (event) {
+    // 먼저 기본 a태그의 이벤트 제거하기
+    event.preventDefault();
 
-// $(".hum_warp ").slick({
-//   centerMode: true,
-//   centerPadding: "60px",
-//   slidesToShow: 3,
-//   responsive: [
-//     {
-//       breakpoint: 768,
-
-//       settings: {
-//         arrows: false,
-//         centerMode: true,
-//         centerPadding: "40px",
-//         slidesToShow: 1,
-//       },
-//     },
-//     {
-//       breakpoint: 480,
-//       settings: {
-//         arrows: false,
-//         centerMode: true,
-//         centerPadding: "40px",
-//         slidesToShow: 1,
-//       },
-//     },
-//   ],
-// });
-
-// 제이쿼리 커뮤 글 2개 이상
+    //부드러운 화면 스크롤
+    //html태그를 선택하여 움직임을 준다. 이때 scrolltop의 위치를 0px위치로 1초 동안 옮긴다.
+    $("html").animate({ scrollTop: 0 }, 1000);
+  });
+});

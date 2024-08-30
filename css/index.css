@@ -932,6 +932,33 @@ video {
   top: 0px;
   background-size: 71%;
 }
+.stay1{ width: 100%;
+  height: 80%;
+  background-image: url(../img/index/phone_1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  background-size: 71%;
+
+} 
+.stay2{ width: 100%;
+  height: 80%;
+  background-image: url(../img/index/phone_2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  background-size: 71%;
+}
+.stay3{ width: 100%;
+  height: 80%;
+  background-image: url(../img/index/phone_3.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  background-size: 71%;
+}
+
+
 /* 섹션 파란 호버하면 나오는 거 3 */
 
 .box:hover .local3 {

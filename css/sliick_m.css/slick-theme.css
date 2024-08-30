@@ -135,15 +135,11 @@
 .slick-dots li button {
   font-size: 0;
   line-height: 0;
-
   display: block;
-
   width: 20px;
   height: 20px;
   padding: 5px;
-
   cursor: pointer;
-
   color: transparent;
   border: 0;
   outline: none;
@@ -181,4 +177,21 @@
 .slick-dots li.slick-active button:before {
   opacity: 0.75;
   color: black;
+}
+/* 커스텀03 닷 */
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 32px;
+  line-height: 20px;
+  position: absolute;
+  top: -96px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

@@ -43,7 +43,7 @@
     font-size: 13px;
   }
   .date2 {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 /* 풋터 어긋나는 부분1 */
@@ -74,25 +74,7 @@
     display: none;
   }
 }
-/* 노트북 */
 
-@media screen and (max-width: 1010px) {
-  .right > p {
-    font-size: 16px;
-  }
-  .right_txt {
-    height: 330px;
-  }
-  .sm {
-    margin-top: 22px;
-  }
-  .right_txt > p {
-    margin-top: 50px;
-  }
-  .sm {
-    line-height: 33px;
-  }
-}
 @media screen and (max-width: 1060px) {
   .right_txt > p {
     margin-top: 50px;
@@ -101,18 +83,35 @@
     text-overflow: ellipsis;
   }
   .right_txt {
-    height: 330px;
     width: 500px;
   }
-}
-/* 나중에 한 줄 ...만들고 싶을때 사용하기 */
-/* p > br {
-    display: none;
-  }
- */
-@media screen and (max-width: 1060px) {
   .right_txt {
     width: 400px;
+  }
+}
+/* 노트북 */
+
+@media screen and (max-width: 1010px) {
+  .right > p {
+    font-size: 16px;
+  }
+  .right_txt {
+    height: 100%;
+  }
+  .sm {
+    margin-top: 22px;
+  }
+  .right_txt > p {
+    margin-top: 50px;
+  }
+  .sm {
+    line-height: 45px;
+  }
+  .con_wrap:hover {
+    background-color: #fff;
+    padding: 0px;
+    transition: 0s;
+    height: 328px;
   }
 }
 @media screen and (max-width: 982px) {
@@ -143,9 +142,7 @@
   .date2 {
     font-size: 12px;
   }
-  .sm {
-    line-height: 25px;
-  }
+
   .right_txt {
     width: 350px;
   }
@@ -178,7 +175,7 @@
   }
   .right_txt {
     width: 100%;
-    height: 300px;
+    gap: 45px;
   }
   .right_txt > p {
     font-size: 18px;
@@ -199,7 +196,7 @@
     font-size: 14px;
   }
   .sm {
-    line-height: 40px;
+    line-height: 50px;
     margin-top: 0px;
     box-sizing: border-box;
     padding: 0px 40px 0px 37px;
@@ -256,7 +253,7 @@
     padding: 0px 20px 0px 20px;
   }
   .sm {
-    line-height: 30px;
+    line-height: 45px;
   }
 }
 
@@ -268,7 +265,7 @@
     font-size: 12px;
   }
   .sm {
-    line-height: 25px;
+    line-height: 40px;
   }
   .right_txt > p {
     padding: 0px;

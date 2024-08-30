@@ -30,6 +30,15 @@
     height: auto;
     aspect-ratio: 5 / 3;
   }
+  .back_txt {
+    height: 275px;
+  }
+  .back_txt > h3 {
+    font-size: 25px;
+  }
+  .back_txt > p {
+    font-size: 14px;
+  }
 }
 /* 풋터 어긋나는 부분 2 */
 @media screen and (max-width: 1180px) {
@@ -47,6 +56,9 @@
     flex-direction: column;
     justify-content: space-between;
   }
+  .back_txt {
+    height: 259px;
+  }
 }
 @media screen and (max-width: 1080px) {
   .con_wrap {
@@ -60,9 +72,9 @@
   .back_txt {
     width: 100%;
   }
-  /* .back_baby {
-    height: 288px;
-  } */
+  .back_baby {
+    height: 224px;
+  }
 }
 @media screen and (max-width: 980px) {
   .float2 {
@@ -161,9 +173,12 @@
     align-items: center;
   }
 }
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 750px) {
   .slick-initialized .slick-slide {
     width: 525px;
+  }
+  .quickmenu ul li a {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -193,9 +208,6 @@
   .sc_3 {
     margin-top: 100px;
   }
-}
-
-@media screen and (max-width: 760px) {
   .slick-initialized .slick-slide {
     display: block;
   }
@@ -205,7 +217,12 @@
   .back_baby2 {
     aspect-ratio: 5 / 3;
   }
+  .prev,
+  .next {
+    display: block;
+  }
 }
+
 @media screen and (max-width: 650px) {
   .back_baby {
     min-width: 500px;
@@ -240,6 +257,10 @@
   input {
     font-size: 12px;
   }
+  /* .prev,
+  .next {
+    display: block;
+  } */
   .con_2 > h4 {
     font-size: 13px;
   }
@@ -270,6 +291,9 @@
   }
   .btn_sub {
     margin-top: 0px;
+  }
+  .back_txt > p {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 388px) {

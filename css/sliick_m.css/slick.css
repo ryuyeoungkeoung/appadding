@@ -16,10 +16,8 @@
 }
 .slick-slider {
   position: relative;
-
   display: block;
   box-sizing: border-box;
-
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -71,7 +69,6 @@
 .slick-track:before,
 .slick-track:after {
   display: table;
-
   content: "";
 }
 .slick-track:after {

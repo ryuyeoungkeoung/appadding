@@ -53,14 +53,7 @@
     width: 368px;
   }
 }
-@media screen and (max-width: 1024px) {
-  /* 서브메뉴 큰 제목 위치 변경1 */
 
-  /* .float2 {
-    left: 10vw;
-    top: 65vw;
-  } */
-}
 @media screen and (max-width: 982px) {
   /* 서브메뉴 큰 제목 위치 변경1 */
   .float2 > p {
@@ -69,10 +62,6 @@
   .float2 > span {
     font-size: 40px;
   }
-  /* .float2 {
-    left: 10vw;
-    top: 70vw;
-  } */
 
   /* 헤더모바일형 */
   .mob_ {
@@ -92,10 +81,7 @@
     display: block;
     background-size: 30px;
   }
-  /* 메인용 필터 */
-  /* header:hover .mob_ {
-    filter: none;
-  } */
+
   /* 서브들 전용 서브 할때 주석 복붙넣기 */
   header .mob_ {
     filter: invert(0.5);
@@ -248,7 +234,7 @@
     width: 100%;
     height: 100px;
     left: 0px;
-    top: 97%;
+    top: 91%;
   }
   .quickmenu ul {
     display: flex;
