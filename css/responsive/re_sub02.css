@@ -107,12 +107,12 @@
   .sm {
     line-height: 45px;
   }
-  .con_wrap:hover {
+  /* .con_wrap:hover {
     background-color: #fff;
     padding: 0px;
     transition: 0s;
     height: 328px;
-  }
+  } */
 }
 @media screen and (max-width: 982px) {
   /* 헤더 li지우기 */
@@ -200,6 +200,11 @@
     margin-top: 0px;
     box-sizing: border-box;
     padding: 0px 40px 0px 37px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .quickmenu ul li a {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 730px) {

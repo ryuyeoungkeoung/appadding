@@ -4,7 +4,6 @@
 /* 풋터 헤더 고정 css */
 @import url(./layout.css);
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -27,16 +26,16 @@ body {
 
 /* 메인페이지 전체 */
 /* 모바일 아이콘 숨기기*/
-.mob_{
+.mob_ {
   background-image: url(../img/index/mob.png);
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
- 
+
   margin-top: 10px;
   display: none;
 }
-header>div{
+header > div {
   width: 50%;
   height: 80px;
 }
@@ -66,7 +65,6 @@ h1 {
   height: 80px;
   margin-top: -23px;
 }
-
 
 /*h1호버 */
 header:hover h1 {
@@ -216,7 +214,6 @@ section {
 }
 /* 메인섹션 그림 */
 .main_poto {
-  
   width: 100%;
   /* height: 900px; */
   height: 100vh;
@@ -326,7 +323,7 @@ video {
   right: -2vw;
   z-index: 999;
   position: fixed;
-  top: 75vh;
+  top: 71vh;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -376,13 +373,7 @@ video {
   background-color: #f9f9f9;
   overflow: hidden;
   box-sizing: border-box;
- /
 }
-/* .wrap {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-} */
 
 .txt_box {
   width: 100%;
@@ -481,7 +472,6 @@ video {
 .thr_sec {
   height: 900px;
   width: 100%;
-  /* background-color: #333333; */
   margin-top: 150px;
   box-sizing: border-box;
 }
@@ -489,7 +479,6 @@ video {
 .sec_wrap {
   width: 1193px;
   height: 752px;
-  /* background-color: #ff6060; */
   margin: 0 auto;
   position: relative;
 }
@@ -497,7 +486,6 @@ video {
 .img_box1 {
   width: 11100%97px;
   height: 390px;
-  /* background-color: #555555; */
   margin: 0 auto;
   display: flex;
 }
@@ -505,7 +493,6 @@ video {
 .one {
   width: 50%;
   height: 390px;
-  /* background-color: aqua; */
   position: relative;
 }
 .spc {
@@ -556,13 +543,11 @@ video {
   height: 390px;
   background-image: url(../img/index/main2.png);
   background-repeat: no-repeat;
-
 }
 
 .two_div {
   width: 50%;
   height: 372px;
- 
 }
 /* 따옴표 */
 .spc2 {
@@ -635,13 +620,10 @@ video {
 /* 일러스트 */
 .hov_h {
   width: fit-content;
-
   display: flex;
   align-items: center;
   gap: 88px;
   position: relative;
-
-  /* background-color: #75c2eb; */
 }
 /* 파란박스1 */
 .grey_b {
@@ -720,7 +702,6 @@ video {
   width: fit-content;
   height: fit-content;
   margin-top: 20px;
-  /* background-color: #004789; */
 }
 .hh_wrap > div {
   width: 71px;
@@ -745,7 +726,7 @@ video {
   position: absolute;
   right: 60px;
   bottom: 27px;
-  /* background-color: #bce7ff; */
+
   background-position: -145px -68px;
 }
 .pic_2 {
@@ -806,7 +787,6 @@ video {
 .right_con {
   width: 50%;
   box-sizing: border-box;
-  
 }
 .right_con > div {
   width: 516px;
@@ -857,7 +837,6 @@ video {
 }
 /* 오른쪽 div */
 .info_wrap {
- 
   width: 50%;
   order: 1;
   height: 100%;
@@ -903,7 +882,7 @@ video {
 .local2 {
   width: 339px;
   height: 311px;
-  /* background-image: url(../img/main1.png); */
+
   background-repeat: no-repeat;
   position: absolute;
   right: 324px;
@@ -917,7 +896,7 @@ video {
   transition: 0.3s;
   opacity: 1;
 }
-.stay_wrap{
+.stay_wrap {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
@@ -932,32 +911,36 @@ video {
   top: 0px;
   background-size: 71%;
 }
-.stay1{ width: 100%;
+.stay1 {
+  width: 100%;
   height: 80%;
   background-image: url(../img/index/phone_1.png);
   background-repeat: no-repeat;
   position: absolute;
   top: 0px;
   background-size: 71%;
-
-} 
-.stay2{ width: 100%;
+  display: none;
+}
+.stay2 {
+  width: 100%;
   height: 80%;
   background-image: url(../img/index/phone_2.png);
   background-repeat: no-repeat;
   position: absolute;
   top: 0px;
   background-size: 71%;
+  display: none;
 }
-.stay3{ width: 100%;
+.stay3 {
+  width: 100%;
   height: 80%;
   background-image: url(../img/index/phone_3.png);
   background-repeat: no-repeat;
   position: absolute;
   top: 0px;
   background-size: 71%;
+  display: none;
 }
-
 
 /* 섹션 파란 호버하면 나오는 거 3 */
 
@@ -968,7 +951,7 @@ video {
   transition: 0.3s;
   opacity: 1;
 }
-/* */
+
 .ho_div {
   width: 73%;
   height: 62%;
@@ -1180,7 +1163,6 @@ video {
   padding-top: 108px;
 }
 
-
 .mid_box {
   width: 948px;
   height: 87px;
@@ -1234,6 +1216,3 @@ video {
   border: 0.5px solid #555555;
   transition: 0.3s;
 }
-
-
-

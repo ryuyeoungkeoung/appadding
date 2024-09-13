@@ -22,8 +22,15 @@
   main {
     overflow: hidden;
   }
+  .logo_txt {
+    margin-left: 20px;
+  }
 }
-
+/* @media screen and (max-width: 1230px) {
+  .logo_txt {
+    margin-left: 20px;
+  }
+} */
 /* 반응형 고정 헤더 풋터 css */
 @media screen and (max-width: 1184px) {
   .last_num {
@@ -45,7 +52,7 @@
     padding-left: 0px;
   }
   .dangerous {
-    width: 110%;
+    gap: 5px;
   }
 }
 @media screen and (max-width: 1086px) {
@@ -93,7 +100,7 @@
     height: fit-content;
   }
   h1 {
-    margin: -20px auto;
+    margin: -25px auto;
     padding-right: 108px;
   }
   header {
@@ -184,7 +191,10 @@
 
     height: 100px;
     margin-top: 0px;
-    width: 500px;
+    width: 92%;
+  }
+  .dangerous > li {
+    width: 100%;
   }
 
   .log {
@@ -216,17 +226,8 @@
     font-size: 25px;
   }
 }
-@media screen and (max-width: 796px) {
-  /* 서브메뉴 큰 제목 위치 변경 */
-  /* .float2 {
-    top: 85vw;
-  } */
-}
+
 @media screen and (max-width: 750px) {
-  /* 메인 텍스트 크기 조절 */
-  /* .float2 {
-    top: 80vw;
-  } */
   /* 따라오는 메뉴 하단 조절 */
   .quickmenu {
     display: block;
@@ -269,16 +270,6 @@
     height: 320px;
   }
 
-  /* 따라오는 박스 글자 보이기 */
-  /* .quickmenu > ul > li:nth-child(1) > a:nth-child(2) {
-    display: none;
-  }
-  .quickmenu ul li a:hover {
-    display: none;
-  }
-  .quickmenu > ul > li:nth-child(1) > a:nth-child(2) {
-    display: block;
-  } */
   li:nth-child(3) {
     font-size: 20px;
     font-weight: 900;
@@ -310,9 +301,6 @@
 }
 
 @media screen and (max-width: 524px) {
-  .dangerous {
-    width: 408px;
-  }
   .gnb > li > a {
     font-size: 15px;
   }
@@ -325,9 +313,10 @@
     font-size: 25px;
     text-align: center;
   }
+
   .float2 {
     top: 684px;
-    /* margin: 0 auto; */
+
     text-align: center;
   }
   .float2 > span {
@@ -337,20 +326,13 @@
   .float2 {
     width: 90%;
   }
-}
-@media screen and (max-width: 488px) {
-  /* .float2 {
-    top: 140vw;
-  } */
-}
-@media screen and (max-width: 488px) {
-  /* .float2 {
-    top: 150vw;
-  } */
+  .logo_txt {
+    width: 101%;
+  }
 }
 
-@media screen and (max-width: 410px) {
-  /* .float2 {
-    top: 175vw;
-  } */
+@media screen and (max-width: 480px) {
+  .dangerous {
+    width: 100%;
+  }
 }

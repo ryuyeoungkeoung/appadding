@@ -217,6 +217,9 @@
   .card_wrapper {
     width: 88%;
   }
+  .stay_wrap {
+    top: -21%;
+  }
 
   .info_wrap > p {
     font-size: 18px;
@@ -297,7 +300,7 @@
     height: 58vw;
   }
   .sec_fo {
-    height: 149vw;
+    height: 100vw;
   }
 
   .right_con {
@@ -305,7 +308,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 30px;
-    margin-top: 40vw;
+    margin-top: 15vw;
   }
   .right_con > div:hover {
     box-sizing: border-box;
@@ -326,10 +329,12 @@
 
 @media screen and (max-width: 1050px) {
   .logo_txt {
-    width: 40%;
+    width: 35%;
   }
   .logo_last {
-    padding-left: 22px;
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 27%;
   }
 }
 /* 큰 태블릿 */
@@ -512,13 +517,26 @@
     display: block;
     width: 100%;
     position: static;
+    margin-top: 22vw;
   }
+
   .sec_fo {
-    height: 189vw;
+    height: 175vw;
   }
   .stay {
     background-size: 100%;
   }
+  /* 핸드폰 */
+  .stay1 {
+    background-size: 100%;
+  }
+  .stay2 {
+    background-size: 100%;
+  }
+  .stay3 {
+    background-size: 100%;
+  }
+
   /* 플로팅 */
   .f_btn {
     width: 117px;
@@ -622,8 +640,12 @@
   .right_con > div {
     width: 80%;
   }
+
+  .right_con {
+    margin-top: 35vw;
+  }
   .sec_fo {
-    height: 219vw;
+    height: 195vw;
   }
 }
 @media screen and (max-width: 572px) {
@@ -659,14 +681,17 @@
     width: 80%;
   }
   .dangerous {
-    width: 408px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
+  .sce_1 {
+    height: 65vh;
+  }
   .main_poto {
     width: 100vw;
-    height: 60vh;
+    height: 65vh;
   }
   .container > p:nth-child(3) {
     margin-top: 15vh;
