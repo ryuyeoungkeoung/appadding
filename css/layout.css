@@ -51,7 +51,6 @@ h1 {
   margin-top: -23px;
   position: relative;
   top: 15px;
-  /* background-color: aqua; */
 }
 /* 네비 */
 
@@ -160,7 +159,7 @@ footer {
   width: 100%;
   /* display: flex; */
   background-color: #f9f9f9;
-  overflow: hidden;
+
   margin-top: 50px;
 }
 .last_num {
@@ -293,7 +292,7 @@ footer {
   width: 126px;
 }
 .dangerous > li > a {
-  font-size: 13px;
+  font-size: 11px;
   color: #aaaa;
   line-height: 102px;
 }

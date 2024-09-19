@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/pabecon.png" />
     <title>appadding</title>
     <!-- css연결(고정 풋터 헤더, 초기화파일)-->
     <link rel="stylesheet" href="./css/index.css" />
@@ -12,6 +13,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- //cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
   </head>
   <body>
     <!-- 스크롤 라이브러리 초기화 -->
@@ -63,29 +68,27 @@
     <!-- 메인 -->
     <main>
       <!-- 첫번쨰 섹션 메인부분부터 -->
-      <section class="sce_1">
-        <div class="main_poto">
-          <video muted loop autoplay>
-            이 비디오는 해당 브라우저를 지원하지 않습니다.
-            <source src="./img/index/movie.mp4" type="video/mp4" />
-          </video>
-          <!-- <video src="./img/movie.mp4" autoplay loop></video> -->
-        </div>
-        <div class="float2_1">
-          <p class="amo1">
-            Your journey through pregnancy embodies the ultimate beauty of
-            creation and love.
-          </p>
-        </div>
-        <div class="main_potp2"></div>
-        <div class="container">
-          <h2>APPADDING</h2>
-          <p>당신의 여정을 함께하겠습니다.</p>
-          <p class="main_txt2">
-            <span class="n1">Sweetheart</span> <br />
-            you are glowing with the beauty <br />
-            of <span class="n1">motherhood.</span>
-          </p>
+      <section class="slider">
+        <div class="inner-container">
+          <div class="slider__wrraper flex-column">
+            <div class="flex-column slider__content"></div>
+            <div class="slider__footer">
+              <div class="slider__btns justify-between">
+                <button class="slider__btn-buy">Look Now</button>
+                <div class="flex-center">
+                  <button
+                    data-type="prev"
+                    class="slider__btn-switch slider__btn-switch--dark flex-center"
+                  ></button>
+                  <button
+                    data-type="next"
+                    class="slider__btn-switch slider__btn-switch--light flex-center"
+                  ></button>
+                </div>
+              </div>
+              <div class="slider__index"></div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- 두번째 섹션 -->

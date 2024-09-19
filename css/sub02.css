@@ -15,7 +15,6 @@ body {
 .section1 {
   height: 226px;
   width: 100%;
-  /* background-color: aqua; */
 }
 /* 헤더 굵기 */
 .point {
@@ -127,7 +126,7 @@ a {
   background-size: 487px;
   background-repeat: no-repeat;
   left: 5%;
-  top: 25%;
+  top: 14%;
   animation: slinder 1s ease;
   animation-duration: 3s;
 }

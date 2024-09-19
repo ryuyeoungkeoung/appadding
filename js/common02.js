@@ -1,5 +1,5 @@
 "use strict";
-// 스케줄서브 페이지 달력 자바스크립트
+// 스케줄 서브1 페이지 달력 자바스크립트
 var currentTitle = document.getElementById("current-year-month");
 var calendarBody = document.getElementById("calendar-body");
 let mainTodayDay = document.querySelector("#main-day");
