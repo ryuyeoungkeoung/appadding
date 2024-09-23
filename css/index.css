@@ -266,7 +266,7 @@ button {
 }
 
 .slider {
-  height: 600px;
+  height: 700px;
   background-color: var(--color-secondary);
 }
 .slider__wrraper {
@@ -406,7 +406,7 @@ button {
 
 @media (min-width: 830px) {
   .slider__img {
-    width: 37rem;
+    width: 50rem;
     margin-bottom: -11.5rem;
   }
   .slider__context {
