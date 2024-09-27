@@ -784,26 +784,21 @@ button {
   padding-top: 70px;
   margin-left: 40px;
 }
-.pic_1 {
-  background-image: url(../img/main/hueman1.png);
+/* 엄마 상태 일러스트 공통영역 */
+.mother_status {
   width: 145px;
   height: 200px;
   position: absolute;
   right: 5px;
+}
+.pic_1 {
+  background-image: url(../img/main/hueman1.png);
 }
 .pic_2 {
   background-image: url(../img/main/hueman2.png);
-  width: 145px;
-  height: 200px;
-  position: absolute;
-  right: 5px;
 }
 .pic_3 {
   background-image: url(../img/main/hueman3.png);
-  width: 145px;
-  height: 200px;
-  position: absolute;
-  right: 5px;
 }
 .hh_wrap {
   width: fit-content;
@@ -1176,12 +1171,12 @@ button {
 }
 
 /* 여섯번째섹션 */
-.blk {
+.se_six {
   width: 100%;
   height: 703px;
   background-color: #000000;
 }
-.blk > h3 {
+.se_six > h3 {
   width: 100%;
   height: 202px;
   color: #ffff;
