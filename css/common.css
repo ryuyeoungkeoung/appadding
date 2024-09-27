@@ -60,22 +60,15 @@ header > div {
   height: 80px;
 }
 
-/* 헤더 */
+/* 메인 페이지 헤더 색  */
 header {
-  width: 100%;
-  height: 80px;
   background-color: rgb(0 123 252);
-  display: flex;
-  box-sizing: border-box;
-  padding: 20px 50px;
-  justify-content: space-between;
-  position: absolute;
-  z-index: 999;
-  transition: 0.3s;
 }
+/* 메인 헤더 호버시 색 변환 */
 header:hover {
   background-color: #ffffff;
 }
+
 header nav:hover > .gnb > li {
   color: #004997;
 }
@@ -92,12 +85,18 @@ h1 {
 header:hover h1 {
   width: fit-content;
   height: fit-content;
-  filter: brightness(0.1);
+  filter: brightness(0.1) !important;
 }
 h1 > a {
   display: block;
   width: fit-content;
   height: fit-content;
+}
+.login_box {
+  filter: brightness(1) !important;
+}
+header h1 {
+  filter: brightness(1) !important;
 }
 .gnb {
   width: 100%;
@@ -270,6 +269,8 @@ button {
 }
 
 .slider {
+  width: 100%;
+  overflow: hidden;
   height: 700px;
   background-color: var(--color-secondary);
 }
@@ -440,7 +441,7 @@ button {
   font-size: 20px;
   color: #ffff;
   text-align: center;
-  line-height: 53px;
+  line-height: 50px;
   margin-left: 30px;
 }
 /* 플로팅버튼2 */
@@ -943,7 +944,7 @@ button {
 .infomation {
   width: 148px;
   height: 148px;
-  background-image: url(../img/main/icons8-정보-48\ 1.png);
+  background-image: url(../img/main/info_icon.png);
   position: absolute;
   top: 4%;
   right: 35%;

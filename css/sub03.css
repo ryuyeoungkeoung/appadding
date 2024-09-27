@@ -95,7 +95,6 @@ a {
   background-color: #1b8bff;
   overflow: hidden;
   position: relative;
-
   background-position: center;
   background-image: url(../img/sub1/help_doctor.png);
 }
@@ -132,12 +131,12 @@ a {
 
   font-weight: 900;
 }
-/*  */
+
 .section_1 {
   width: 100%;
   height: fit-content;
 }
-/* 플로팅 사진 */
+/* 플로팅 메인 텍스트 */
 .float2 {
   width: 73%;
   height: fit-content;
@@ -162,13 +161,6 @@ a {
     right: 198px;
   }
 }
-/* .bar_wrap {
-  display: flex;
-  width: 353px;
-  height: 80px;
-  padding-top: 12px;
-  justify-content: center;
-} */
 
 .float2 > p {
   font-size: 35px;
@@ -204,21 +196,7 @@ a {
   color: #1b8bff;
   font-weight: bold;
 }
-/*업버튼 */
-/* .f_btn2 {
-  display: block;
-  height: 60px;
-  width: 60px;
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 100%;
-  position: absolute;
-  top: 888px;
-  right: 81px;
-  z-index: 999;
-  position: fixed;
-  border: none;
-  border: 0.3px solid rgba(255, 255, 255, 0.5);
-} */
+
 .height {
   width: 30px;
   height: 30px;
@@ -246,9 +224,7 @@ input {
   font-size: 17px;
   border: 0;
   outline: none;
-
   background-color: #f9f9f9;
-
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -265,7 +241,6 @@ input {
 /* 섹션2 */
 section {
   width: 100%;
-  /* background-color: #2d2d2d; */
 }
 .slideBox {
   box-sizing: border-box;
@@ -295,7 +270,6 @@ section {
   height: 500px;
   position: relative;
   padding-top: 30px;
-  /* background-color: aqua; */
   margin: 0 auto;
 }
 /* 산후조리원 */

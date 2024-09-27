@@ -50,7 +50,7 @@ li {
 a {
   text-decoration: none;
 }
-.quickmenu {
+/* .quickmenu {
   width: 130px;
   bottom: 150px;
   right: 5vw;
@@ -71,6 +71,7 @@ a {
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   transition: 0.3s;
+  font-size: 14px;
 }
 .quickmenu > ul > li > a {
   display: flex;
@@ -88,6 +89,7 @@ a {
   display: block;
   width: 40px;
   height: 40px;
+  scale: 85%;
   margin: 0 auto;
   margin-bottom: 10px;
   background-position: center;
@@ -111,7 +113,7 @@ a {
 
 .quickmenu > ul > li:hover {
   background-color: #949494;
-}
+} */
 
 .content {
   position: relative;

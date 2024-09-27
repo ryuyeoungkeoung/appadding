@@ -179,9 +179,9 @@ a {
   font-weight: bold;
 }
 .se_1 {
-  width: 1256px;
+  width: 100%;
   height: fit-content;
-  /* background-color: #afcae7; */
+
   margin: 0 auto;
 }
 .par {
@@ -215,7 +215,7 @@ a {
 /* 감싸주는 */
 .input_wrapper {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   gap: 20px;
 }
 /* 인풋2 */

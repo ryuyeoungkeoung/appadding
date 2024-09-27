@@ -51,17 +51,12 @@
   }
 }
 /* 풋터 어긋나는 부분1 */
-
 @media screen and (max-width: 1300px) {
   .flex_wrap {
     font-size: 12px;
   }
 }
-@media screen and (max-width: 1240px) {
-  /* .se_2 {
-    padding-left: 30px;
-  } */
-}
+
 @media screen and (max-width: 1215px) {
   /*탑10슈링크 1*/
   .hum_warp {
@@ -84,7 +79,6 @@
   .div_wr > h3::after {
     left: 295px;
   }
-
   .wr_1 {
     position: relative;
     top: 5%;
@@ -93,9 +87,6 @@
   .se_4 {
     width: 95%;
   }
-  /* .se4 > .co_wrap {
-    width: 95%;
-  } */
 }
 
 @media screen and (max-width: 1150px) {
@@ -217,9 +208,7 @@
 }
 
 @media screen and (max-width: 980px) {
-  .float2 {
-    top: 684px;
-  }
+  /* 커뮤니티 서브 사람들 top 1 2 3명 */
   .hue {
     height: 112%;
     box-sizing: border-box;
@@ -269,18 +258,19 @@
     flex-direction: column;
     border-bottom: 1px solid #efefef;
   }
+  /* 앨범 */
   .alb {
     width: 100%;
     overflow: auto;
     border-radius: 0px 10px 10px 0px;
   }
-
   .se_4 {
     height: 2425px;
   }
   .al_txt {
     width: 100%;
   }
+  /* 커뮤 게시물 사람들 프로필 영역 la_hu */
   .la_hu {
     display: block;
   }
@@ -296,6 +286,7 @@
   .la_hu5 {
     display: block;
   }
+  /* 게시물 텍스트 영역 묶는 박스 */
   .al_txt {
     width: 100%;
     height: fit-content;
@@ -305,13 +296,10 @@
     font-size: 13px;
   }
   .div_wr > h3::after {
-    left: 26%;
+    left: 30%;
   }
   .page {
     margin-top: 180px;
-  }
-  .quickmenu ul li a {
-    font-size: 13px;
   }
 }
 
@@ -325,7 +313,6 @@
   }
   .page {
     margin-top: 50vw;
-
     width: 100%;
     justify-content: center;
   }
@@ -346,12 +333,8 @@
 @media screen and (max-width: 642px) {
   input {
     width: 80%;
-  }
-  input {
-    padding-left: 20px;
-  }
-  input {
     min-width: 182px;
+    padding-left: 20px;
   }
 }
 
@@ -381,13 +364,10 @@
 @media screen and (max-width: 544px) {
   input {
     min-width: 175px;
+    padding-left: 7px;
   }
-
   .best {
     width: 55px;
-  }
-  input {
-    padding-left: 7px;
   }
   .input_tag {
     width: 70%;
@@ -409,10 +389,8 @@
     background-color: #f9f9f9;
     width: 65px;
   }
-
   .good {
     gap: 72px;
-
     justify-content: center;
   }
 }

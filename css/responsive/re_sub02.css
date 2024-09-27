@@ -2,7 +2,7 @@
 @import url(../responsive/responsive_layout.css);
 
 @media screen and (max-width: 1340px) {
-  /* 메인 픽스드 떔에 오버플로히든 */
+  /* 메인 */
   main {
     overflow: hidden;
   }
@@ -90,7 +90,6 @@
   }
 }
 /* 노트북 */
-
 @media screen and (max-width: 1010px) {
   .right > p {
     font-size: 16px;
@@ -99,19 +98,10 @@
     height: 100%;
   }
   .sm {
-    margin-top: 22px;
+    line-height: 45px;
   }
   .right_txt > p {
     margin-top: 50px;
-  }
-  .sm {
-    line-height: 45px;
-  }
-  .con_wrap:hover {
-    background-color: #fff;
-    padding: 0px;
-    transition: 0s;
-    height: 328px;
   }
 }
 @media screen and (max-width: 982px) {
@@ -123,11 +113,7 @@
     padding-bottom: 50px;
   }
 }
-@media screen and (max-width: 980px) {
-  .float2 {
-    top: 684px;
-  }
-}
+
 /* 태블릿형 */
 @media screen and (max-width: 950px) {
   .right_txt > p {
@@ -136,6 +122,7 @@
   .right_txt > h3 {
     font-size: 18px;
   }
+  /* 공지 날짜 년도 달 일  */
   .date1 {
     font-size: 12px;
   }
@@ -185,21 +172,19 @@
     padding: 0px 40px 0px 40px;
     text-align: justify;
   }
+  /* 작은 텍스트 묶음 */
   .sm {
     line-height: 40px;
     margin-top: 0px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding: 0px 40px 0px 37px;
   }
   .date1 {
     font-size: 14px;
   }
   .date2 {
     font-size: 14px;
-  }
-  .sm {
-    line-height: 50px;
-    margin-top: 0px;
-    box-sizing: border-box;
-    padding: 0px 40px 0px 37px;
   }
 }
 @media screen and (max-width: 730px) {
@@ -252,6 +237,7 @@
   .right > p {
     padding: 0px 20px 0px 20px;
   }
+  /* 작은 텍스트 영역 게시물 */
   .sm {
     line-height: 45px;
   }

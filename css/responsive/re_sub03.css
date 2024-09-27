@@ -69,6 +69,7 @@
   }
 }
 @media screen and (max-width: 1040px) {
+  /* 슬릭 슬라이더  */
   .back_txt {
     width: 100%;
   }
@@ -77,9 +78,6 @@
   }
 }
 @media screen and (max-width: 980px) {
-  .float2 {
-    top: 684px;
-  }
   .back_txt > p {
     font-size: 14px;
   }
@@ -91,6 +89,7 @@
   .gnb5 {
     display: none;
   }
+  /* 섹션2 */
   .sec_2 {
     padding-bottom: 50px;
   }
@@ -104,9 +103,11 @@
   .back_txt {
     box-sizing: border-box;
   }
+  /* 서브03 인풋  */
   .input_tag {
     width: 70%;
   }
+  /* 슬릭슬라이더  */
   .slick-slider {
     width: 70%;
   }
@@ -177,9 +178,6 @@
   .slick-initialized .slick-slide {
     width: 525px;
   }
-  .quickmenu ul li a {
-    font-size: 13px;
-  }
 }
 @media screen and (max-width: 700px) {
   input {
@@ -220,6 +218,7 @@
   .prev,
   .next {
     display: block;
+    scale: 50%;
   }
 }
 
