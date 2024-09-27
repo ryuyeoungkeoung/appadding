@@ -237,7 +237,7 @@
     width: 100%;
     height: 100px;
     left: 0px;
-    top: 90%;
+    bottom: 0px;
   }
   .quickmenu ul {
     display: flex;
