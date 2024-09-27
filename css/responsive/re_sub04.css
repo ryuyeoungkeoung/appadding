@@ -4,11 +4,13 @@
   .co_wrap:hover {
     background-color: #ffffff;
   }
-  .hUm_Hum {
+  /* 사람박스 */
+  .top_list {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+  /* 섹션 2 */
   .se_2 {
     width: 100%;
     height: fit-content;
@@ -41,6 +43,7 @@
   .div_wr > h3::after {
     left: 265px;
   }
+  /* 섹션3 */
   .sc_3 {
     margin-top: 0px;
   }
@@ -154,7 +157,7 @@
   .div_wr > h3::after {
     left: 209px;
   }
-  .hUm_Hum {
+  .top_list {
     width: 100%;
   }
   .hue {
@@ -224,7 +227,7 @@
   .div_wr > h3::after {
     left: 37%;
   }
-  .hUm_Hum {
+  .top_list {
     width: 112%;
   }
 }
@@ -233,7 +236,7 @@
   .hum_warp {
     display: contents;
   }
-  .hUm_Hum {
+  .top_list {
     width: 50%;
   }
   .boxs > .div_wr {

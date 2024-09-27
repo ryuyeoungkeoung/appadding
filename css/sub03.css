@@ -232,7 +232,6 @@ input {
   width: 40px;
   height: 100%;
   background-image: url(../img/sub4/Result.png);
-  /* background-color: antiquewhite; */
   background-position: -548px 13px;
   margin: 0px 63px;
   cursor: pointer;
@@ -407,7 +406,6 @@ section {
   display: flex;
   width: 100%;
   height: fit-content;
-  /* background-color: #1b8bff; */
   gap: 20px;
 }
 /* 이미지 1 */
@@ -420,7 +418,6 @@ section {
 .right_txt {
   width: 67.4%;
   height: 328px;
-  /* background-color: aqua; */
 }
 /* 해시태그 */
 .sm {
@@ -431,20 +428,17 @@ section {
 .right_txt > h3 {
   font-size: 25px;
   font-weight: 600;
-  /* background-color: #1b8bff; */
 }
 .right_txt > p {
   font-size: 16px;
   color: #999999;
   line-height: 30px;
   margin-top: 80px;
-  /* background-color: #000b69; */
 }
 /* 해시태그 영역 */
 .sm {
   color: #898989;
   line-height: 52px;
-  /* background-color: #1b8bff; */
   display: flex;
   justify-content: space-between;
 
@@ -453,13 +447,10 @@ section {
 }
 .date1 {
   font-size: 15px;
-  /* background-color: #003369; */
-
   text-align: center;
 }
 .date2 {
   font-size: 15px;
-  /* background-color: #ab0fc0; */
   text-align: center;
 }
 /* 버튼1 */
@@ -570,6 +561,3 @@ section {
 .btn_sub:hover {
   color: #f9f9f9;
 }
-/* .btn_sub:hover .action {
-  cursor: pointer;
-} */

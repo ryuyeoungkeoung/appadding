@@ -107,7 +107,6 @@ header > div {
   display: block;
   width: fit-content;
   height: fit-content;
-  /* background-color: aqua; */
   text-align: center;
   margin: 10px auto;
 }
@@ -124,12 +123,8 @@ header > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: rgb(0, 0, 0); */
 }
 body {
-  /* display: flex;
-  justify-content: center; */
-  /* align-items: center; */
   position: relative;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -147,18 +142,13 @@ body {
 .wrapper {
   width: fit-content;
   height: 405px;
-  /* background: #3d3d3d; */
-  /* border-radius: 30px; */
   padding: 30px 40px;
-  /* backdrop-filter: blur(20px); */
-  /* margin-top: 100px; */
   margin-bottom: 34px;
 }
 
 .wrapper .input_box {
   width: fit-content;
   height: 50px;
-  /* background-color: brown; */
   margin: 30px 0;
 }
 .input_box input {
@@ -176,12 +166,7 @@ body {
   color: rgb(73, 73, 73);
 }
 .remember_forget {
-  /* display: flex;
-  justify-content: space-between; */
-
-  /* background-color: rgb(187, 30, 255); */
   font-size: 15px;
-  /* margin: -15px 0 15px; */
 }
 .remember_forget a {
   float: right;
@@ -194,7 +179,6 @@ a {
   text-decoration: underline;
   color: aliceblue;
 }
-/* dlwek */
 .for {
   color: rgb(102, 102, 102);
   margin-top: 3px;
@@ -219,7 +203,6 @@ a {
   display: flex;
   justify-content: center;
   background-color: rgb(255, 255, 255);
-  /* margin-left: 219px; */
   text-align: center;
   margin: 0 auto;
   border-bottom: 0.5px solid #e5e5e5;
@@ -295,7 +278,7 @@ button:active {
   margin-top: 20px;
   margin: 0 auto;
 }
-/* 왜 p태그 안 바뀜?*/
+/* 왜 p태그 변경*/
 .register-link p,
 a {
   color: rgb(154 154 154);
@@ -308,7 +291,6 @@ a {
 }
 /* 사진 */
 .fi_img {
-  /* background-color: #03c75a; */
   width: 585px;
   height: fit-content;
   margin: 0 auto;

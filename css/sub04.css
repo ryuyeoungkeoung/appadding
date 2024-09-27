@@ -239,7 +239,6 @@ input {
   overflow: hidden;
   display: flex;
   box-sizing: border-box;
-
   margin-bottom: 59px;
   border: none;
 }
@@ -248,9 +247,7 @@ input {
   width: 40px;
   height: 100%;
   background-image: url(../img/sub4/Result.png);
-  /* background-color: antiquewhite; */
   background-position: -548px 13px;
-  /* margin: 0px 63px; */
   cursor: pointer;
 }
 /* 셀렉 */
@@ -283,7 +280,7 @@ input {
   text-align: center;
 }
 /* 사람만 묶어주는 */
-.hUm_Hum {
+.top_list {
   display: flex;
 
   gap: 35px;
@@ -311,7 +308,6 @@ input {
 .sc_3 {
   width: 100%;
   height: 100px;
-  /* background-color: #8ec4ff; */
   margin-top: 50px;
 }
 /* 메뉴바 */
@@ -359,7 +355,7 @@ input {
 .star {
   width: 40px;
   height: 40px;
-  /* background-color: #1b8bff; */
+
   background-image: url(../img/split.png);
   background-repeat: no-repeat;
   background-position: -26px -189px;
@@ -373,7 +369,7 @@ input {
 .man {
   width: 116px;
   height: 116px;
-  /* background-color: #2d2d2d; */
+
   border-radius: 100%;
   background-image: url(../img/sub3/human1.png);
   background-repeat: no-repeat;
@@ -382,7 +378,7 @@ input {
 .man2 {
   width: 116px;
   height: 116px;
-  /* background-color: #2d2d2d; */
+
   border-radius: 100%;
   background-image: url(../img/sub3/human2.png);
   background-repeat: no-repeat;
@@ -391,7 +387,7 @@ input {
 .man3 {
   width: 116px;
   height: 116px;
-  /* background-color: #2d2d2d; */
+
   border-radius: 100%;
   background-image: url(../img/sub3/human3.png);
   background-repeat: no-repeat;
@@ -519,13 +515,13 @@ input {
 .wr_1:active {
   color: #2d2d2d;
 }
-/*섹샨 */
+/*섹션4 */
 .se_4 {
   margin: 0 auto;
   width: 1200px;
   height: 2453px;
   border-top: 2px solid #b5b5b5;
-  border-bottom: 2px solid #b5b5b5;
+  border-bottom: 0px;
 }
 /* 안 div */
 .co_wrap {
@@ -555,7 +551,6 @@ input {
   min-width: 330px;
 }
 /* 앨범 */
-
 .alb {
   width: 36%;
   height: fit-content;
@@ -574,7 +569,6 @@ input {
 .al_1 {
   width: 204px;
   height: 216px;
-  /* background-image: url(../img/sub3/trip.jpg); */
   background-size: 400px;
   height: 216px;
   background-repeat: no-repeat;
@@ -622,7 +616,7 @@ input {
   justify-content: space-between;
 }
 
-/* 사람1 */
+/* 사람1 안 히트 박스 */
 .hit_box {
   width: fit-content;
   height: fit-content;
@@ -664,8 +658,7 @@ input {
     opacity: 15;
   }
 }
-/* 사람 디스플ㄹ레이 논 반응형에서 풀기*/
-
+/* 사람 디스플레이 논*/
 .la_hu {
   width: 56px;
   height: 56px;
@@ -673,7 +666,6 @@ input {
   background-repeat: no-repeat;
   background-size: 56px;
   display: none;
-  /* display: block; */
   min-width: 46px;
 }
 .la_hu2 {
@@ -682,7 +674,6 @@ input {
   background-image: url(../img/sub3/human2.png);
   background-repeat: no-repeat;
   background-size: 56px;
-  /* display: none; */
   min-width: 46px;
 }
 .la_hu3 {
@@ -691,7 +682,6 @@ input {
   background-image: url(../img/sub3/human3.png);
   background-repeat: no-repeat;
   background-size: 56px;
-  /* display: none; */
   min-width: 46px;
 }
 .la_hu4 {
@@ -700,7 +690,6 @@ input {
   background-image: url(../img/sub3/human2.png);
   background-repeat: no-repeat;
   background-size: 56px;
-  /* display: none; */
   min-width: 46px;
 }
 .la_hu5 {
@@ -709,7 +698,6 @@ input {
   background-image: url(../img/sub3/human2.png);
   background-repeat: no-repeat;
   background-size: 56px;
-  /* display: none; */
   min-width: 46px;
 }
 
@@ -750,7 +738,7 @@ input {
 .top_name {
   width: 50%;
   display: flex;
-  /* justify-content: space-between; */
+
   gap: 20px;
 }
 
@@ -780,7 +768,7 @@ input {
   width: 79px;
   height: 33px;
   border-radius: 5px;
-  /* background-color: #d9d9d9; */
+
   text-align: center;
   line-height: 33px;
   color: #727272;
@@ -800,12 +788,9 @@ input {
   display: none;
 }
 /* 댓글 */
-.com {
-}
 .page {
   width: fit-content;
-  height: fit-content;
-  /* background-color: #006399; */
+  height: 200px;
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;
@@ -824,13 +809,13 @@ input {
   height: 15px;
   background-image: url(../img/split.png);
   background-repeat: no-repeat;
-  /* background-color: #006399; */
+
   background-position: -71px -258px;
 }
 .page > a:hover {
   color: #1286ff;
 }
-/* 스파ㅏㄴ */
+/* 좋아요 이미지 */
 .goo > img {
   display: block;
   width: 15px;
@@ -838,11 +823,3 @@ input {
 .goo > span {
   display: block;
 }
-/* 아이콘 */
-/* .good_icon {
-  background-image: url(../img/sub3/icon-park-outline_good-two.png);
-  width: 40px;
-  height: 40px;
-  background-size: 20px;
-  background-repeat: no-repeat;
-} */

@@ -305,17 +305,23 @@ footer {
   margin-top: 100px;
   margin-right: 224px;
 }
-
+/* 풋터 메뉴2 큰 타이틀 */
 .ma {
   font-size: 20px;
   font-weight: 900;
   line-height: 50px;
-}
-.la_sub {
-  line-height: 40px;
+  color: #949494;
 }
 .ma:hover {
   color: #999999;
+}
+/* 라스트 풋터 메뉴 작은 li */
+.la_sub {
+  line-height: 40px;
+}
+/* li안에 a */
+.la_sub a {
+  color: #979797;
 }
 .la_sub li:hover a {
   color: #5a5a5a;
@@ -384,21 +390,11 @@ footer {
   width: 100%;
   height: 40px;
   margin: 53px 0;
-  /* box-sizing: border-box; */
-  /* padding-top: 120px; */
-  /* padding-right: 3px; */
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-/* margin-right: 216px;
-}
 
-/* 정렬 이거 아님 플롯 사용해도 됨 !  */
-
-/* a태그는 블록속성이여야지만 마진 패딩을 가질 수 있음
-근데 블록만 넣게 되면 구조가 무너지니 두개 다 갖고 있는 
-인라인 블록 사용 */
 .btn_wrap a {
   float: right;
   display: inline-block;
@@ -406,7 +402,6 @@ footer {
   height: 40px;
   margin-left: 10px;
 }
-/* 위에 플롯 써서 뒤에껄 갖고와서 마진 레프트 사용해줌 */
 .btn_wrap a:last-child {
   margin-left: 0;
 }
@@ -431,7 +426,6 @@ footer {
   margin-top: 35px;
   margin-left: 33px;
   color: #aaaa;
-  /* background-color: #004789; */
 }
 /*업버튼 */
 .f_btn2 {

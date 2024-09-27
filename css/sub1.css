@@ -33,7 +33,6 @@ h1 {
   height: 1100px;
   background-color: #a1dce2;
   position: relative;
-  /* z-index: -2; */
 }
 /* 디데이 */
 .date {
@@ -48,7 +47,6 @@ h4 {
   font-size: 70px;
   color: #fff;
   font-weight: 800;
-  /* text-shadow: 0.3px 0.3px rgba(0, 0, 0, 0.8); */
 }
 span {
   font-size: 100px;
@@ -88,7 +86,7 @@ span {
   font-size: 25px;
   display: flex;
   justify-content: end;
-  margin-right: 33px;
+  width: 100%;
 }
 .te_xt > h3 {
   font-size: 30px;
@@ -122,10 +120,7 @@ span {
   opacity: 1;
   overflow: hidden;
 }
-/* .te_xt > .more:hover {
-  color: #00448d;
-  background-color: #b9b9b9;
-} */
+
 /* div 액션 */
 .action {
   width: 218px;
@@ -162,23 +157,4 @@ span {
 }
 .btn_sub:hover {
   color: #f9f9f9;
-}
-
-/* 미디어쿼리 */
-@media screen and (max-width: 1630px) {
-  .te_xt > .more {
-    margin-top: 20px;
-  }
-  .exit {
-    color: #ffffff;
-    font-size: 34px;
-  }
-  .date {
-    position: absolute;
-    width: fit-content;
-    height: fit-content;
-    right: 1%;
-    top: 10%;
-    z-index: 3;
-  }
 }

@@ -156,7 +156,7 @@
     margin-top: 0px;
     width: 500px;
   }
-  .log {
+  .join_us_btn {
     margin-top: 100px;
   }
   .la_log {
@@ -193,7 +193,7 @@
     margin-top: 0px;
     width: 500px;
   }
-  .log {
+  .join_us_btn {
     margin-top: 100px;
   }
   .la_log {
@@ -237,7 +237,7 @@
     width: 100%;
     height: 100px;
     left: 0px;
-    bottom: 0px;
+    bottom: -6px;
   }
   .quickmenu ul {
     display: flex;
@@ -245,7 +245,7 @@
   /* 메인페이지 클릭미 버튼 위치조정 */
   .f_btn2 {
     top: auto;
-    bottom: 100px;
+    bottom: 130px;
   }
   /* 따라다니는 메뉴 이미지  */
   .a_fi::before {

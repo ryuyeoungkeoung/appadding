@@ -20,9 +20,7 @@
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
-
   --gutter: 2.5rem;
-
   --color-primary: #252525;
   --color-secondary: #fff;
   --color-secondary-rgb: 255, 255, 255;
@@ -31,6 +29,7 @@ html *,
 html *::before,
 html *::after {
   box-sizing: inherit;
+  font-family: "Noto Sans KR", "Poppins", sans-serif;
 }
 body {
   font-family: "Noto Sans KR", "Poppins", sans-serif;
@@ -186,27 +185,23 @@ nav > .gnb > .gnb1 > .submenu1 a:hover {
   color: #000000;
   font-weight: bold;
   text-decoration: underline;
-  /* background-color: #000; */
 }
 nav > .gnb > .gnb1 > .submenu1 a:hover {
   color: #000000;
   font-weight: bold;
   text-decoration: underline;
-  /* background-color: #000; */
 }
 /* 2차메뉴 호버 2*/
 nav > .gnb > .gnb2 > .submenu2 a:hover {
   color: #000000;
   font-weight: bold;
   text-decoration: underline;
-  /* background-color: #000; */
 }
 /* 2차메뉴 호버 3*/
 nav > .gnb > .gnb3 > .submenu3 a:hover {
   color: #000000;
   font-weight: bold;
   text-decoration: underline;
-  /* background-color: #000; */
 }
 main {
   width: 100%;
@@ -220,7 +215,6 @@ section {
 .container {
   width: fit-content;
   height: fit-content;
-  /* background-color: aqua; */
   text-align: center;
   position: absolute;
   top: 28%;
@@ -433,7 +427,7 @@ button {
   right: -2vw;
   z-index: 999;
   position: fixed;
-  top: 74vh;
+  bottom: 200px;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -444,7 +438,7 @@ button {
   line-height: 50px;
   margin-left: 30px;
 }
-/* 플로팅버튼2 */
+/*  클릭미버튼 */
 .f_btn:hover {
   background-color: #004789;
   transition: 0.3s;
@@ -488,7 +482,6 @@ button {
 .txt_box {
   width: 100%;
   height: 228px;
-  /* background-color: #007bfc; */
   text-align: center;
   box-sizing: border-box;
   padding-top: 80px;
@@ -566,7 +559,7 @@ button {
   content: "";
   position: absolute;
   top: 5vh;
-  left: 4vw;
+  left: 5vw;
   opacity: 0;
 }
 .boxs > div:hover > h3::after {
@@ -654,7 +647,6 @@ button {
   background-image: url(../img/main/main2.png);
   background-repeat: no-repeat;
 }
-
 .two_div {
   width: 50%;
   height: 372px;
@@ -880,7 +872,6 @@ button {
   line-height: 22px;
   font-weight: 200;
 }
-/* 여기까지 */
 /* 뒷면 두번째 항목 */
 .help2 {
   margin-top: 30px;
@@ -979,7 +970,6 @@ button {
 .local {
   width: 339px;
   height: 311px;
-  /* background-image: url(../img/main/phone.png); */
   background-repeat: no-repeat;
   position: absolute;
   right: 324px;
@@ -1011,54 +1001,41 @@ button {
   transition: 0.3s;
   opacity: 1;
 }
+/* 핸드폰 호버 영역 */
 .stay_wrap {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
   position: relative;
 }
-.stay {
+.medical_info {
   width: 100%;
   height: 80%;
-  background-image: url(../img/main/phone.png);
   background-repeat: no-repeat;
   position: absolute;
   top: 0px;
   background-size: 71%;
 }
+.stay {
+  background-image: url(../img/main/phone.png);
+}
 .stay1 {
-  width: 100%;
-  height: 80%;
   background-image: url(../img/main/phone_1.png);
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0px;
-  background-size: 71%;
+
   display: none;
 }
 .stay2 {
-  width: 100%;
-  height: 80%;
   background-image: url(../img/main/phone_2.png);
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0px;
-  background-size: 71%;
+
   display: none;
 }
 .stay3 {
-  width: 100%;
-  height: 80%;
   background-image: url(../img/main/phone_3.png);
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0px;
-  background-size: 71%;
+
   display: none;
 }
 
-/* 섹션 파란 호버하면 나오는 거 3 */
-
+/* 섹션 파란 호버하면 나오는 영역 */
 .box:hover .local3 {
   display: block;
   right: 324px;
@@ -1127,139 +1104,77 @@ button {
   width: 50%;
   height: 100%;
 }
-
-/* 동그라미1 */
-.round1 {
+/* 미니 프포필 감싸는 박스공통속성 */
+.mini_profill_wrap {
   width: 716px;
   height: 87px;
   border-radius: 50px;
-  background-color: #bbdcff;
   margin: 163px auto;
   box-sizing: border-box;
   padding: 15px;
   position: absolute;
-  right: 85px;
   display: flex;
 }
-/* 대가리1 */
-.face1 {
-  width: 54px;
-  height: 54px;
-  background-image: url(../img/main/main_human1.png);
-  z-index: 999;
-  margin-left: 27px;
-  box-sizing: border-box;
-}
-.round1 > p {
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
-  line-height: 52px;
-  margin-left: 53px;
+/* 동그라미1 */
+.round1 {
+  background-color: #bbdcff;
+  position: absolute;
+  right: 85px;
 }
 /* 동그라미2 */
 .round2 {
-  width: 716px;
-  height: 87px;
-  border-radius: 50px;
   background-color: #61aeff;
-  margin: 163px auto;
-  box-sizing: border-box;
-  padding: 15px;
-  position: absolute;
   right: 127px;
   top: 118px;
-  display: flex;
 }
-/* 대가리2 */
-.face2 {
-  width: 54px;
-  height: 54px;
-  background-image: url(../img/main/main_human2.png);
-  z-index: 999;
-  margin-left: 27px;
-  box-sizing: border-box;
-}
-.round2 > p {
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
-  line-height: 52px;
-  margin-left: 53px;
-}
-/* 동그라미3 */
-.round1 {
-  width: 716px;
-  height: 87px;
-  border-radius: 50px;
-  background-color: #bbdcff;
-  margin: 163px auto;
-  box-sizing: border-box;
-  padding: 15px;
-  position: absolute;
-  right: 85px;
-  display: flex;
-}
+
 /* 동그라미3 */
 .round3 {
-  width: 716px;
-  height: 87px;
-  border-radius: 50px;
   background-color: #bbdcff;
-  margin: 163px auto;
-  box-sizing: border-box;
-  padding: 15px;
-  position: absolute;
   right: 173px;
-  display: flex;
   top: 236px;
-}
-/* 대가리3 */
-.face3 {
-  width: 54px;
-  height: 54px;
-  background-image: url(../img/main/main_human3.png);
-  z-index: 999;
-  margin-left: 27px;
-  box-sizing: border-box;
-}
-.round3 > p {
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
-  line-height: 52px;
-  margin-left: 53px;
 }
 /* 동그라미4 */
 .round4 {
-  width: 716px;
-  height: 87px;
-  border-radius: 50px;
   background-color: #61aeff;
-  margin: 163px auto;
-  box-sizing: border-box;
-  padding: 15px;
-  position: absolute;
   right: 215px;
   top: 354px;
-  display: flex;
 }
-/* 대가리4 */
-.face4 {
+/* 이너 프로필 */
+.inner_profill {
   width: 54px;
   height: 54px;
-  background-image: url(../img/main/main_human4.png);
   z-index: 999;
   margin-left: 27px;
   box-sizing: border-box;
 }
-.round4 > p {
+
+/* 작은 프로필1 */
+.face1 {
+  background-image: url(../img/main/main_human1.png);
+}
+/* 작은 프로필2 */
+.face2 {
+  background-image: url(../img/main/main_human2.png);
+}
+/* 작은 프로필3 */
+.face3 {
+  background-image: url(../img/main/main_human3.png);
+}
+
+/* 작은 프로필4 */
+.face4 {
+  background-image: url(../img/main/main_human4.png);
+}
+/* 안에 있는 p */
+.mini_profill_wrap > p {
   font-size: 18px;
   font-weight: 500;
   text-align: center;
   line-height: 52px;
   margin-left: 53px;
 }
+
 /* 여섯번째섹션 */
 .blk {
   width: 100%;
@@ -1310,8 +1225,8 @@ button {
   border-bottom: 2px solid #6f6f6f;
   transition: 0.3s;
 }
-/* 로그인 버튼*/
-.log {
+/* 조인 버튼*/
+.join_us_btn {
   display: block;
   width: 208px;
   height: 51px;

@@ -200,7 +200,7 @@
 
 @media screen and (max-width: 1200px) {
   .boxs > div:hover > h3::after {
-    left: 6vw;
+    left: 7vw;
   }
   .thr_sec {
     width: 100%;
@@ -451,7 +451,7 @@
     width: 500px;
   }
 
-  .log {
+  .join_us_btn {
     margin-top: 100px;
   }
   .la_log {
