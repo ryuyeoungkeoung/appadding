@@ -382,6 +382,7 @@
   }
   .one > p {
     font-size: 15px;
+    white-space: inherit;
   }
   .one > h3 {
     font-size: 40px;
@@ -525,10 +526,15 @@
     width: 100%;
     position: static;
   }
+  /* 섹션 4 */
   .sec_fo {
     height: 189vw;
   }
-  .stay {
+  /* 호버 정보섹션 이미지 크기 변경 */
+  .stay,
+  .stay1,
+  .stay2,
+  .stay3 {
     background-size: 100%;
   }
   /* 플로팅 */
