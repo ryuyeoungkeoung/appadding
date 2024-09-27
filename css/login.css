@@ -18,11 +18,13 @@ header > div {
 /* 서브용 박스 */
 .blu_box {
   width: 100%;
-  height: 123px;
-  background-image: url(../img/sub1/background.png);
+  height: 150px;
+  background-image: url(../img/sub4/background.png);
   background-repeat: no-repeat;
   box-sizing: border-box;
   overflow: hidden;
+  background-position-y: 80px;
+  padding: 52px 0;
 }
 .public {
   width: 80%;
