@@ -19,7 +19,7 @@ main {
   overflow: hidden;
   position: relative;
   background-position: center;
-  background-image: url(../img/SUB3/husband.png);
+  background-image: url(../img/sub3/husband.png);
 }
 /*  섹션1 */
 /* 플로팅 사진 */
@@ -221,7 +221,7 @@ a {
 .height {
   width: 30px;
   height: 30px;
-  background-image: url(../img/SUB/arrow.png);
+  background-image: url(../img/sub1/arrow.png);
   background-repeat: no-repeat;
   margin-left: 18px;
   margin-top: 14px;
@@ -262,7 +262,7 @@ input {
 .search {
   width: 40px;
   height: 100%;
-  background-image: url(../img/SUB/Result.png);
+  background-image: url(../img/sub1/Result.png);
   /* background-color: antiquewhite; */
   background-position: -548px 13px;
   /* margin: 0px 63px; */
@@ -390,7 +390,7 @@ input {
   height: 116px;
   /* background-color: #2d2d2d; */
   border-radius: 100%;
-  background-image: url(../img/SUB3/human1.png);
+  background-image: url(../img/sub3/human1.png);
   background-repeat: no-repeat;
   margin: 0 auto;
 }
@@ -399,7 +399,7 @@ input {
   height: 116px;
   /* background-color: #2d2d2d; */
   border-radius: 100%;
-  background-image: url(../img/SUB3/human2.png);
+  background-image: url(../img/sub3/human2.png);
   background-repeat: no-repeat;
   margin: 0 auto;
 }
@@ -408,7 +408,7 @@ input {
   height: 116px;
   /* background-color: #2d2d2d; */
   border-radius: 100%;
-  background-image: url(../img/SUB3/human3.png);
+  background-image: url(../img/sub3/human3.png);
   background-repeat: no-repeat;
   margin: 0 auto;
 }
@@ -563,7 +563,7 @@ input {
 .al {
   width: 204px;
   height: 216px;
-  background-image: url(../img/SUB3/food.png);
+  background-image: url(../img/sub3/food.png);
   background-size: 204px;
   height: 216px;
   background-repeat: no-repeat;
@@ -581,7 +581,7 @@ input {
 .al2 {
   width: 204px;
   height: 216px;
-  background-image: url(../img/SUB3/daily.jpg);
+  background-image: url(../img/sub3/daily.jpg);
   background-position: center;
   border-radius: 10px;
   min-width: 330px;
@@ -590,7 +590,7 @@ input {
 .al_1 {
   width: 204px;
   height: 216px;
-  /* background-image: url(../img/SUB3/trip.jpg); */
+  /* background-image: url(../img/sub3/trip.jpg); */
   background-size: 400px;
   height: 216px;
   background-repeat: no-repeat;
@@ -621,7 +621,7 @@ input {
 .al_122 {
   width: 204px;
   height: 216px;
-  background-image: url(../img/SUB3/trip.jpg);
+  background-image: url(../img/sub3/trip.jpg);
   background-size: 400px;
   height: 216px;
   background-repeat: no-repeat;
@@ -685,7 +685,7 @@ input {
 .la_hu {
   width: 56px;
   height: 56px;
-  background-image: url(../img/SUB3/human1.png);
+  background-image: url(../img/sub3/human1.png);
   background-repeat: no-repeat;
   background-size: 56px;
   display: none;
@@ -695,7 +695,7 @@ input {
 .la_hu2 {
   width: 56px;
   height: 56px;
-  background-image: url(../img/SUB3/human2.png);
+  background-image: url(../img/sub3/human2.png);
   background-repeat: no-repeat;
   background-size: 56px;
   /* display: none; */
@@ -704,7 +704,7 @@ input {
 .la_hu3 {
   width: 56px;
   height: 56px;
-  background-image: url(../img/SUB3/human3.png);
+  background-image: url(../img/sub3/human3.png);
   background-repeat: no-repeat;
   background-size: 56px;
   /* display: none; */
@@ -713,7 +713,7 @@ input {
 .la_hu4 {
   width: 56px;
   height: 56px;
-  background-image: url(../img/SUB3/human2.png);
+  background-image: url(../img/sub3/human2.png);
   background-repeat: no-repeat;
   background-size: 56px;
   /* display: none; */
@@ -722,7 +722,7 @@ input {
 .la_hu5 {
   width: 56px;
   height: 56px;
-  background-image: url(../img/SUB3/human2.png);
+  background-image: url(../img/sub3/human2.png);
   background-repeat: no-repeat;
   background-size: 56px;
   /* display: none; */
@@ -856,7 +856,7 @@ input {
 }
 /* 아이콘 */
 /* .good_icon {
-  background-image: url(../img/SUB3/icon-park-outline_good-two.png);
+  background-image: url(../img/sub3/icon-park-outline_good-two.png);
   width: 40px;
   height: 40px;
   background-size: 20px;

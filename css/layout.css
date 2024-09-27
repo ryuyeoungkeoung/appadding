@@ -36,7 +36,7 @@ header > div {
 
 /* 모바일 아이콘 숨기기*/
 .mob_ {
-  background-image: url(../img/index/mob.png);
+  background-image: url(../img/main/mob.png);
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;

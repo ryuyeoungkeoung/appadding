@@ -3,14 +3,14 @@
 
 const items = [
   {
-    img: "../img/index/main_top1.png",
+    img: "../img/main/main_top1.png",
     category: "Say Daddy",
     title: "Dad’s Little Star",
     price: "Happy",
     bgColor: " #f0f0f0",
   },
   {
-    img: "../img/index/main_top2.png",
+    img: "../img/main/main_top2.png",
     category: "for my family",
     title: "Hello, Future Star",
     price: "Enjoy",

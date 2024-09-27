@@ -201,7 +201,7 @@ a {
 .height {
   width: 30px;
   height: 30px;
-  background-image: url(../img/SUB/arrow.png);
+  background-image: url(../img/sub1/arrow.png);
   background-repeat: no-repeat;
   margin-left: 18px;
   margin-top: 14px;
@@ -270,7 +270,7 @@ input {
 .search {
   width: 40px;
   height: 100%;
-  background-image: url(../img/SUB/Result.png);
+  background-image: url(../img/sub1/Result.png);
   /* background-color: antiquewhite; */
   background-position: -548px 13px;
   margin: 0px 63px;
@@ -372,7 +372,7 @@ input {
   height: 100%;
   background-color: #ffdddd;
   position: relative;
-  background: url(../img/SUB/list2.png) no-repeat;
+  background: url(../img/sub1/list2.png) no-repeat;
 }
 .right_txt {
   width: 67.4%;
@@ -392,7 +392,7 @@ input {
   height: 100%;
   background-color: #ffdddd;
   position: relative;
-  background: url(../img/SUB/list3.png) no-repeat;
+  background: url(../img/sub1/list3.png) no-repeat;
 }
 /* 이미지3 */
 .left__img3 {
@@ -400,7 +400,7 @@ input {
   height: 100%;
   background-color: #ffdddd;
   position: relative;
-  background: url(../img/SUB/list.png) no-repeat;
+  background: url(../img/sub1/list.png) no-repeat;
 }
 /* 이미지4 */
 .left__img4 {
@@ -408,7 +408,7 @@ input {
   height: 100%;
   background-color: #ffdddd;
   position: relative;
-  background: url(../img/SUB/list4.png) no-repeat;
+  background: url(../img/sub1/list4.png) no-repeat;
 }
 /* 꾸미기 */
 .right_txt > h3 {
