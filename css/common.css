@@ -603,7 +603,7 @@ button {
 .quotes {
   width: 50px;
   height: 50px;
-  background-image: url(../img/main/“.png);
+  background-image: url(../img/main/quotes.png);
   background-repeat: no-repeat;
   background-position: top;
   margin: 0 auto;
@@ -658,7 +658,7 @@ button {
 .quotes2 {
   width: 50px;
   height: 50px;
-  background-image: url(../img/main/+.png);
+  background-image: url(../img/main/plus.png);
   background-repeat: no-repeat;
   margin-top: 150px;
   margin-left: 250px;
