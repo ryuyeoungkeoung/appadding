@@ -84,10 +84,14 @@ h1 {
   width: 200px;
   height: 80px;
   margin-top: -23px;
+  width: fit-content;
+  height: fit-content;
 }
 
 /*h1호버 */
 header:hover h1 {
+  width: fit-content;
+  height: fit-content;
   filter: brightness(0.1);
 }
 h1 > a {
@@ -671,7 +675,6 @@ button {
   text-align: center;
   line-height: 30px;
   margin-left: 19px;
-  padding-top: 130px;
 }
 
 /* 세번쨰 섹션 */
@@ -685,7 +688,14 @@ button {
 }
 .sec_3_title {
   height: 100%;
-  width: 40%;
+  width: 50%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .sec_3_title > h4 {
   font-size: 18px;
@@ -694,7 +704,6 @@ button {
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
-  padding-top: 32vh;
 }
 .wife {
   font-size: 22px;

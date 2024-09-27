@@ -1,0 +1,281 @@
+/* 미디어쿼리 */
+@import url(../responsive/responsive_layout.css);
+
+@media screen and (max-width: 1340px) {
+  /* 메인 픽스드 떔에 오버플로히든 */
+  main {
+    overflow: hidden;
+  }
+  .sec_2 {
+    width: 100vw;
+  }
+  .con_mo_wrap {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .con_wraper {
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .left__img {
+    min-width: 400px;
+  }
+  .left__img2 {
+    min-width: 400px;
+  }
+  .left__img3 {
+    min-width: 400px;
+  }
+  .left__img4 {
+    min-width: 400px;
+  }
+  .right > h4 {
+    text-align: center;
+    padding-right: 80px;
+  }
+  .right > p {
+    font-size: 16px;
+  }
+  .right_txt > h3 {
+    font-size: 20px;
+  }
+  .date1 {
+    font-size: 13px;
+  }
+  .date2 {
+    font-size: 14px;
+  }
+}
+/* 풋터 어긋나는 부분1 */
+@media screen and (max-width: 1300px) {
+  .flex_wrap {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .left {
+    padding-left: 45px;
+  }
+  .right {
+    padding-right: 60px;
+  }
+  .right > p {
+    text-align: end;
+  }
+  .right > h4 {
+    text-align: end;
+    padding-right: 0px;
+  }
+}
+/* 풋터 어긋나는 부분 2 */
+@media screen and (max-width: 1180px) {
+  .last_num {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .right_txt > p {
+    margin-top: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .right_txt {
+    width: 500px;
+  }
+  .right_txt {
+    width: 400px;
+  }
+}
+/* 노트북 */
+
+@media screen and (max-width: 1010px) {
+  .right > p {
+    font-size: 16px;
+  }
+  .right_txt {
+    height: 100%;
+  }
+  .sm {
+    margin-top: 22px;
+  }
+  .right_txt > p {
+    margin-top: 50px;
+  }
+  .sm {
+    line-height: 45px;
+  }
+  .con_wrap:hover {
+    background-color: #fff;
+    padding: 0px;
+    transition: 0s;
+    height: 328px;
+  }
+}
+@media screen and (max-width: 982px) {
+  /* 헤더 li지우기 */
+  .gnb5 {
+    display: none;
+  }
+  .sec_2 {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .float2 {
+    top: 684px;
+  }
+}
+/* 태블릿형 */
+@media screen and (max-width: 950px) {
+  .right_txt > p {
+    font-size: 15px;
+  }
+  .right_txt > h3 {
+    font-size: 18px;
+  }
+  .date1 {
+    font-size: 12px;
+  }
+  .date2 {
+    font-size: 12px;
+  }
+
+  .right_txt {
+    width: 350px;
+  }
+}
+
+/* 큰태블릿 */
+@media screen and (max-width: 921px) {
+  .con_wrap {
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left__img {
+    min-height: 329px;
+  }
+  .left__img2 {
+    min-height: 329px;
+  }
+  .left__img3 {
+    min-height: 329px;
+  }
+  .left__img4 {
+    min-height: 329px;
+  }
+  .right_txt > h3 {
+    font-size: 25px;
+  }
+  .right_txt {
+    text-align: center;
+  }
+  .right_txt {
+    width: 100%;
+    gap: 45px;
+  }
+  .right_txt > p {
+    font-size: 18px;
+    margin-top: 0px;
+    line-height: 37px;
+    box-sizing: border-box;
+    padding: 0px 40px 0px 40px;
+    text-align: justify;
+  }
+  .sm {
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  .date1 {
+    font-size: 14px;
+  }
+  .date2 {
+    font-size: 14px;
+  }
+  .sm {
+    line-height: 50px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    padding: 0px 40px 0px 37px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .right_txt > p {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .con_wraper {
+    display: flex;
+    flex-direction: column;
+  }
+  .right {
+    padding-right: 0px;
+    width: fit-content;
+    height: 200px;
+  }
+  .left {
+    padding-left: 0px;
+    width: fit-content;
+    height: 200px;
+  }
+  .con_wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left > h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .right > p {
+    font-size: 15px;
+  }
+
+  .right > h4 {
+    padding-top: 0px;
+    text-align: center;
+  }
+  .right > p {
+    line-height: 32px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .bar_wrap {
+    margin-bottom: 50px;
+  }
+  .right > p {
+    padding: 0px 20px 0px 20px;
+  }
+  .sm {
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .date1 {
+    font-size: 12px;
+  }
+  .date2 {
+    font-size: 12px;
+  }
+  .sm {
+    line-height: 40px;
+  }
+  .right_txt > p {
+    padding: 0px;
+  }
+  .right_txt > p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .right_txt {
+    width: 115%;
+  }
+}
