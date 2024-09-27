@@ -600,7 +600,7 @@ button {
   height: 390px;
   position: relative;
 }
-.spc {
+.quotes {
   width: 50px;
   height: 50px;
   background-image: url(../img/main/“.png);
@@ -655,7 +655,7 @@ button {
   height: 372px;
 }
 /* 따옴표 */
-.spc2 {
+.quotes2 {
   width: 50px;
   height: 50px;
   background-image: url(../img/main/+.png);
@@ -683,11 +683,11 @@ button {
   z-index: 0;
   height: 80vh;
 }
-.w_M {
+.sec_3_title {
   height: 100%;
   width: 40%;
 }
-.w_M > h4 {
+.sec_3_title > h4 {
   font-size: 18px;
   font-weight: 700;
   color: #ffff;
@@ -696,15 +696,15 @@ button {
   box-sizing: border-box;
   padding-top: 32vh;
 }
-.wo {
+.wife {
   font-size: 22px;
   color: #ffdddf;
 }
-.me {
+.husband {
   font-size: 22px;
   color: #ffa133;
 }
-.w_M > p {
+.sec_3_title > p {
   font-size: 18px;
   font-weight: 300;
   color: #ffff;
