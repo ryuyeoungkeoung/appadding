@@ -25,14 +25,8 @@ body {
   box-sizing: border-box;
   padding-top: 20px;
 }
+/* 메인영역 */
 .blu_box_noting {
-  width: 100%;
-  width: 100%;
-  height: 800px;
-
-  overflow: hidden;
-  position: relative;
-  background-position: center;
   background-image: url(../img/sub_card/card.png);
 }
 /*메인  */
@@ -128,40 +122,6 @@ a {
   background-repeat: no-repeat;
   margin-left: 18px;
   margin-top: 14px;
-}
-/* 메뉴바 (수정하기)*/
-.ddi {
-  width: 100%;
-  height: 80px;
-  background-color: #007adb;
-  gap: 10px;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-/* 파란박스 1 (수정하기)*/
-.ddi > ul {
-  display: flex;
-  justify-content: end;
-  box-sizing: border-box;
-  padding-right: 150px;
-}
-.ddi > ul > li {
-  width: fit-content;
-  line-height: 80px;
-  margin-left: 10px;
-  color: #f8f8f8;
-}
-.ddi > ul > li > a {
-  color: #f8f8f8;
-}
-.ddi > ul > li:nth-child(1) {
-  font-size: 15px;
-}
-.ddi > ul > li:nth-child(3) {
-  font-size: 25px;
-
-  font-weight: 900;
 }
 
 /* 인풋 */

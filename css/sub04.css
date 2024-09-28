@@ -12,13 +12,8 @@ body {
 main {
   height: fit-content;
 }
+/* 메인영역 */
 .blu_box_noting {
-  width: 100%;
-  height: 800px;
-  background-color: #1b8bff;
-  overflow: hidden;
-  position: relative;
-  background-position: center;
   background-image: url(../img/sub3/husband.png);
 }
 /*  섹션1 */
@@ -61,102 +56,6 @@ a {
   text-decoration: none;
 }
 
-.quickmenu {
-  width: 130px;
-  bottom: 150px;
-  right: 5vw;
-  position: fixed;
-  border-radius: 15px;
-  background-color: rgba(78, 78, 78, 0.8);
-  z-index: 999;
-  height: 500px;
-  overflow: hidden;
-}
-.quickmenu > ul {
-  width: 100%;
-  height: 100%;
-}
-.quickmenu > ul > li {
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  transition: 0.3s;
-}
-.quickmenu > ul > li > a {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-  color: #fff;
-  font-weight: 600;
-}
-.quickmenu > ul > li > a::before {
-  content: "";
-  display: block;
-  width: 40px;
-  height: 40px;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.quickmenu > ul > li > a.a_fi1::before {
-  background-image: url(../img/menu_2/user.png);
-}
-.quickmenu > ul > li > a.a_fi2::before {
-  background-image: url(../img/menu_2/tel.png);
-}
-.quickmenu > ul > li > a.a_fi3:before {
-  background-image: url(../img/menu_2/book.png);
-}
-.quickmenu > ul > li > a.a_fi4::before {
-  background-image: url(../img/menu_2/baby.png);
-}
-.quickmenu > ul > li > a.a_fi5::before {
-  background-image: url(../img/menu_2/company.png);
-}
-
-.quickmenu > ul > li:hover {
-  background-color: #949494;
-}
-/* 메뉴바 */
-.ddi {
-  width: 100%;
-  height: 80px;
-  background-color: #007adb;
-  gap: 10px;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-.ddi > ul {
-  display: flex;
-  justify-content: end;
-  box-sizing: border-box;
-  padding-right: 150px;
-}
-.ddi > ul > li {
-  width: fit-content;
-  line-height: 80px;
-  margin-left: 10px;
-  color: #f8f8f8;
-}
-.ddi > ul > li > a {
-  color: #f8f8f8;
-}
-.ddi > ul > li:nth-child(1) {
-  font-size: 15px;
-}
-.ddi > ul > li:nth-child(3) {
-  font-size: 25px;
-
-  font-weight: 900;
-}
-/*  */
 .bar_wrap {
   display: flex;
   width: 353px;
