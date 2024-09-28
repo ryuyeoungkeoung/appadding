@@ -14,7 +14,7 @@ main {
 }
 /* 메인영역 */
 .blu_box_noting {
-  background-image: url(../img/sub3/husband.png);
+  background-image: url(./../img/sub3/husband.png);
 }
 /*  섹션1 */
 /* 플로팅 사진 */
