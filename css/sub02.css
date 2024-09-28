@@ -258,7 +258,7 @@ input {
   justify-content: space-between;
 }
 /* 해시태그 */
-.sm {
+.post_date {
   display: flex;
 }
 /* 이미지2 */
@@ -297,7 +297,7 @@ input {
   margin-top: 80px;
 }
 /* 해시태그 영역 */
-.sm {
+.post_date {
   color: #898989;
   line-height: 52px;
   display: flex;

@@ -319,7 +319,7 @@ section {
   height: 328px;
 }
 /* 해시태그 */
-.sm {
+.post_date {
   display: flex;
 }
 /* 닥터 텍스트 꾸미기1 */
@@ -335,7 +335,7 @@ section {
   margin-top: 80px;
 }
 /* 해시태그 영역 */
-.sm {
+.post_date {
   color: #898989;
   line-height: 52px;
   display: flex;

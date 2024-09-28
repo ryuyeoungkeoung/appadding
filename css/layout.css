@@ -69,19 +69,19 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.quickmenu > ul > li > a.a_fi1::before {
+.quickmenu > ul > li > a.changes_btn1::before {
   background-image: url(../img/menu_2/user.png);
 }
-.quickmenu > ul > li > a.a_fi2::before {
+.quickmenu > ul > li > a.changes_btn2::before {
   background-image: url(../img/menu_2/tel.png);
 }
-.quickmenu > ul > li > a.a_fi3:before {
+.quickmenu > ul > li > a.changes_btn3:before {
   background-image: url(../img/menu_2/book.png);
 }
-.quickmenu > ul > li > a.a_fi4::before {
+.quickmenu > ul > li > a.changes_btn4::before {
   background-image: url(../img/menu_2/baby.png);
 }
-.quickmenu > ul > li > a.a_fi5::before {
+.quickmenu > ul > li > a.changes_btn5::before {
   background-image: url(../img/menu_2/company.png);
 }
 
@@ -89,7 +89,7 @@
   background-color: #949494;
 }
 /* 메뉴바 공통영역*/
-.ddi {
+.fix_top_menu {
   width: 100%;
   height: 80px;
   background-color: #007adb;
@@ -99,25 +99,25 @@
   z-index: 1;
 }
 /* 파란박스 공통영역 */
-.ddi > ul {
+.fix_top_menu > ul {
   display: flex;
   justify-content: end;
   box-sizing: border-box;
   padding-right: 150px;
 }
-.ddi > ul > li {
+.fix_top_menu > ul > li {
   width: fit-content;
   line-height: 80px;
   margin-left: 10px;
   color: #f8f8f8;
 }
-.ddi > ul > li > a {
+.fix_top_menu > ul > li > a {
   color: #f8f8f8;
 }
-.ddi > ul > li:nth-child(1) {
+.fix_top_menu > ul > li:nth-child(1) {
   font-size: 15px;
 }
-.ddi > ul > li:nth-child(3) {
+.fix_top_menu > ul > li:nth-child(3) {
   font-size: 25px;
 
   font-weight: 900;
@@ -281,7 +281,7 @@ footer {
   display: flex;
   border-bottom: 0.3px dotted #979797;
 }
-.how {
+.footer_conditions {
   box-sizing: border-box;
 
   width: 50%;
@@ -291,13 +291,13 @@ footer {
   margin-top: 60px;
   color: #c2c2c2;
 }
-.how > p {
+.footer_conditions > p {
   font-size: 15px;
   color: #000000;
   font-weight: 600;
   margin-bottom: 20px;
 }
-.how > h2 {
+.footer_conditions > h2 {
   margin-bottom: 20px;
   font-size: 35px;
   color: #000000;
@@ -312,11 +312,11 @@ footer {
   flex-direction: column;
   gap: 30px;
 }
-.faq_wrap {
+.counsel {
   display: flex;
   gap: 20px;
 }
-.a_faq {
+.counsel_faq {
   margin-top: 30px;
   display: block;
   width: 110px;
@@ -326,7 +326,7 @@ footer {
   text-align: center;
   line-height: 39px;
 }
-.a_faq:hover {
+.counsel_faq:hover {
   background-color: #999999;
   color: #ffffff;
 }

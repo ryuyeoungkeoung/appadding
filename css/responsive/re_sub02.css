@@ -97,7 +97,7 @@
   .right_txt {
     height: 100%;
   }
-  .sm {
+  .post_date {
     line-height: 45px;
   }
   .right_txt > p {
@@ -173,7 +173,7 @@
     text-align: justify;
   }
   /* 작은 텍스트 묶음 */
-  .sm {
+  .post_date {
     line-height: 40px;
     margin-top: 0px;
     line-height: 50px;
@@ -238,7 +238,7 @@
     padding: 0px 20px 0px 20px;
   }
   /* 작은 텍스트 영역 게시물 */
-  .sm {
+  .post_date {
     line-height: 45px;
   }
 }
@@ -250,7 +250,7 @@
   .date2 {
     font-size: 12px;
   }
-  .sm {
+  .post_date {
     line-height: 40px;
   }
   .right_txt > p {

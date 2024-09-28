@@ -268,7 +268,7 @@
     margin-top: 0px;
   }
   /* 서브 메인 텍스트 아래 파란 띠 ul  */
-  .ddi > ul {
+  .fix_top_menu > ul {
     padding-right: 50px;
   }
   footer {
@@ -282,7 +282,7 @@
 }
 
 @media screen and (max-width: 700px) {
-  .ddi > ul > li:nth-child(3) {
+  .fix_top_menu > ul > li:nth-child(3) {
     font-size: 18px;
     font-weight: 900;
   }
