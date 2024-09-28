@@ -289,13 +289,13 @@ footer {
   background-color: #999999;
   color: #ffffff;
 }
-.la_ri {
+.footer_menu {
   width: 50%;
   height: 300px;
 
   text-align: center;
 }
-.la_ri > nav {
+.footer_menu > nav {
   display: flex;
   justify-content: flex-end;
   color: #5a5a5a;
@@ -306,7 +306,7 @@ footer {
   margin-right: 224px;
 }
 /* 풋터 메뉴2 큰 타이틀 */
-.ma {
+.footer_sub_title {
   font-size: 20px;
   font-weight: 900;
   line-height: 50px;
@@ -316,14 +316,14 @@ footer {
   color: #999999;
 }
 /* 라스트 풋터 메뉴 작은 li */
-.la_sub {
+.footer_submenu {
   line-height: 40px;
 }
 /* li안에 a */
-.la_sub a {
+.footer_submenu a {
   color: #979797;
 }
-.la_sub li:hover a {
+.footer_submenu li:hover a {
   color: #5a5a5a;
 }
 /* 풋터 */
