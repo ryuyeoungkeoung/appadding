@@ -439,7 +439,7 @@ input {
   background-color: #f8f8f8;
 }
 /* 앨범 */
-.al {
+.post_bg {
   width: 204px;
   height: 216px;
   background-image: url(../img/sub3/food.png);
@@ -558,7 +558,7 @@ input {
   }
 }
 /* 사람 디스플레이 논*/
-.la_hu {
+.post_user {
   width: 56px;
   height: 56px;
   background-image: url(../img/sub3/human1.png);
@@ -567,7 +567,7 @@ input {
   display: none;
   min-width: 46px;
 }
-.la_hu2 {
+.post_user2 {
   width: 56px;
   height: 56px;
   background-image: url(../img/sub3/human2.png);
@@ -575,7 +575,7 @@ input {
   background-size: 56px;
   min-width: 46px;
 }
-.la_hu3 {
+.post_user3 {
   width: 56px;
   height: 56px;
   background-image: url(../img/sub3/human3.png);
@@ -583,7 +583,7 @@ input {
   background-size: 56px;
   min-width: 46px;
 }
-.la_hu4 {
+.post_user4 {
   width: 56px;
   height: 56px;
   background-image: url(../img/sub3/human2.png);
@@ -591,7 +591,7 @@ input {
   background-size: 56px;
   min-width: 46px;
 }
-.la_hu5 {
+.post_user5 {
   width: 56px;
   height: 56px;
   background-image: url(../img/sub3/human2.png);

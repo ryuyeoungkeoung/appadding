@@ -94,32 +94,32 @@
 
 @media screen and (max-width: 1150px) {
   /* 커뮤니티 메인 */
-  .la_hu {
+  .post_user {
     display: block;
     width: 40px;
     height: 40px;
     min-width: 46px;
     background-size: 39px;
   }
-  .la_hu2 {
+  .post_user2 {
     display: block;
     width: 40px;
     height: 40px;
     background-size: 39px;
   }
-  .la_hu3 {
+  .post_user3 {
     display: block;
     width: 40px;
     height: 40px;
     background-size: 39px;
   }
-  .la_hu4 {
+  .post_user4 {
     display: block;
     width: 40px;
     height: 40px;
     background-size: 39px;
   }
-  .la_hu5 {
+  .post_user5 {
     display: block;
     width: 40px;
     height: 40px;
@@ -273,20 +273,20 @@
   .al_txt {
     width: 100%;
   }
-  /* 커뮤 게시물 사람들 프로필 영역 la_hu */
-  .la_hu {
+  /* 커뮤 게시물 사람들 프로필 영역 post_user */
+  .post_user {
     display: block;
   }
-  .la_hu2 {
+  .post_user2 {
     display: block;
   }
-  .la_hu3 {
+  .post_user3 {
     display: block;
   }
-  .la_hu4 {
+  .post_user4 {
     display: block;
   }
-  .la_hu5 {
+  .post_user5 {
     display: block;
   }
   /* 게시물 텍스트 영역 묶는 박스 */
@@ -415,7 +415,7 @@
   .page {
     margin-top: 110vw;
   }
-  .al {
+  .post_bg {
     min-width: 312px;
     background-position: center;
     background-size: cover;
