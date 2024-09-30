@@ -255,12 +255,12 @@ input {
   width: 40px;
   height: 40px;
 
-  background-image: url(../img/split.png);
+  background-image: url(../img/sub4/split.png);
   background-repeat: no-repeat;
   background-position: -26px -189px;
 }
 .star:active {
-  background-image: url(../img/split.png);
+  background-image: url(../img/sub4/split.png);
   background-repeat: no-repeat;
   background-position: -170px -189px;
 }
